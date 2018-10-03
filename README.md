@@ -5,3 +5,18 @@
 [![Build Status](https://img.shields.io/appveyor/ci/mcraveiro/csharp-ref-impl.svg?label=windows)](https://ci.appveyor.com/project/mcraveiro/csharp-ref-impl)
 
 # MASD C# Reference Implementation
+
+This project contains the MASD C# Reference Implementation, generated
+using [Dogen
+v1.0.08](https://github.com/MASD-Project/dogen/releases/tag/v1.0.08). The
+objective of a MASD reference implementation is to exercise all of the
+available functionality within Dogen and to unit test it to ensure it
+works as specified. The models used to generate the reference
+implementation are available under
+[Src/Models](https://github.com/MASD-Project/csharp_ref_impl/tree/master/Src/Models). As
+the objective of the reference implementation is to exercise Dogen as
+much as possible, the models are available in both Dia and JSON
+formats.
+
+Please note that C# support in MASD still lags behind C++, so some
+functionality is not yet available.
