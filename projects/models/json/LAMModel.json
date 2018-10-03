@@ -5,7 +5,6 @@
     "yarn.external_modules": "dogen::test_models",
     "yarn.input_language": "language_agnostic",
     "yarn.output_language": "csharp",
-    "yarn.output_language": "cpp",
     "quilt.cpp.enabled": "true",
     "quilt.cpp.msbuild.enabled": "false",
     "quilt.cpp.visual_studio.project.enabled": "false",
@@ -15,15 +14,15 @@
   },
   "elements": [
     {
-      "name": "package1",
+      "name": "Package1",
       "fallback_element_type": "dogen::module"
     },
     {
-      "name": "package1::class_in_package",
+      "name": "Package1::ClassInPackage",
       "fallback_element_type": "dogen::object",
       "attributes": [
         {
-          "name": "prop_0",
+          "name": "Prop0",
           "type": "lam::integer"
         }
       ]
@@ -33,43 +32,43 @@
       "fallback_element_type": "dogen::object",
       "attributes": [
         {
-          "name": "prop_0",
+          "name": "Prop0",
           "type": "lam::character"
         },
         {
-          "name": "prop_1",
+          "name": "Prop1",
           "type": "lam::byte"
         },
         {
-          "name": "prop_2",
+          "name": "Prop2",
           "type": "lam::integer8"
         },
         {
-          "name": "prop_3",
+          "name": "Prop3",
           "type": "lam::integer16"
         },
         {
-          "name": "prop_4",
+          "name": "Prop4",
           "type": "lam::integer32"
         },
         {
-          "name": "prop_5",
+          "name": "Prop5",
           "type": "lam::integer64"
         },
         {
-          "name": "prop_6",
+          "name": "Prop6",
           "type": "lam::integer"
         },
         {
-          "name": "prop_7",
+          "name": "Prop7",
           "type": "lam::single_floating"
         },
         {
-          "name": "prop_8",
+          "name": "Prop8",
           "type": "lam::double_floating"
         },
         {
-          "name": "prop_9",
+          "name": "Prop9",
           "type": "lam::boolean"
         }
       ]

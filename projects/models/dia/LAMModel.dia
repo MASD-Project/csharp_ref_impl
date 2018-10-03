@@ -65,16 +65,16 @@
   <dia:layer name="Background" visible="true" active="true">
     <dia:object type="UML - LargePackage" version="0" id="O0">
       <dia:attribute name="obj_pos">
-        <dia:point val="-28,-29"/>
+        <dia:point val="-28,-30"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-28.05,-30.05;1.7375,-12.45"/>
+        <dia:rectangle val="-28.05,-31.05;1.7375,-13.45"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-28,-29"/>
+        <dia:point val="-28,-30"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="29.6875"/>
@@ -98,18 +98,18 @@
         <dia:string>##</dia:string>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#package1#</dia:string>
+        <dia:string>#Package1#</dia:string>
       </dia:attribute>
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="-18.9663,-24.75"/>
+        <dia:point val="-18.9663,-25.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-19.0163,-24.8;-10.3313,-21.9"/>
+        <dia:rectangle val="-19.0163,-25.8;-10.3313,-22.9"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-18.9663,-24.75"/>
+        <dia:point val="-18.9663,-25.75"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="8.5849999999999991"/>
@@ -118,7 +118,7 @@
         <dia:real val="2.7999999999999998"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#class_in_package#</dia:string>
+        <dia:string>#ClassInPackage#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -207,7 +207,7 @@
       <dia:attribute name="attributes">
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_0#</dia:string>
+            <dia:string>#Prop_0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::integer#</dia:string>
@@ -238,22 +238,22 @@
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O2">
       <dia:attribute name="obj_pos">
-        <dia:point val="-28,-45"/>
+        <dia:point val="-28,-44"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-28.05,-45.05;-6.645,-34.45"/>
+        <dia:rectangle val="-28.05,-44.05;-6.645,-34.25"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-28,-45"/>
+        <dia:point val="-28,-44"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="21.305000000000003"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="10.500000000000002"/>
+        <dia:real val="9.7000000000000011"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -271,7 +271,6 @@
 #DOGEN yarn.model_modules=lam_model
 #DOGEN yarn.external_modules=dogen::test_models
 #DOGEN yarn.input_language=language_agnostic
-#DOGEN yarn.output_language=cpp
 #DOGEN yarn.output_language=csharp
 #DOGEN quilt.cpp.enabled=true
 #DOGEN quilt.cpp.msbuild.enabled=false
@@ -287,7 +286,7 @@
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-27.65,-43.755"/>
+            <dia:point val="-27.65,-42.755"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -303,19 +302,19 @@
         <dia:point val="9,-25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.95,-25.05;20.715,-14.95"/>
+        <dia:rectangle val="8.95,-25.05;20.33,-14.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="9,-25"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="11.665000000000001"/>
+        <dia:real val="11.279999999999999"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="10"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#builtins#</dia:string>
+        <dia:string>#Builtins#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>##</dia:string>
@@ -404,7 +403,7 @@
       <dia:attribute name="attributes">
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_0#</dia:string>
+            <dia:string>#Prop0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::character#</dia:string>
@@ -427,7 +426,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_1#</dia:string>
+            <dia:string>#Prop1#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::byte#</dia:string>
@@ -450,7 +449,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_2#</dia:string>
+            <dia:string>#Prop2#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::integer8#</dia:string>
@@ -473,7 +472,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_3#</dia:string>
+            <dia:string>#Prop3#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::integer16#</dia:string>
@@ -496,7 +495,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_4#</dia:string>
+            <dia:string>#Prop4#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::integer32#</dia:string>
@@ -519,7 +518,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_5#</dia:string>
+            <dia:string>#Prop5#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::integer64#</dia:string>
@@ -542,7 +541,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_6#</dia:string>
+            <dia:string>#Prop6#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::integer#</dia:string>
@@ -565,7 +564,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_7#</dia:string>
+            <dia:string>#Prop7#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::single_floating#</dia:string>
@@ -588,7 +587,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_8#</dia:string>
+            <dia:string>#Prop8#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::double_floating#</dia:string>
@@ -611,7 +610,7 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#prop_9#</dia:string>
+            <dia:string>#Prop9#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::boolean#</dia:string>
