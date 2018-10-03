@@ -2,6 +2,13 @@ language: csharp
 solution: Src/Dogen.TestModels.sln
 mono: alpha
 
+install:
+  - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./Src/Dogen.TestModels.sln
+
+script:
+  - xbuild ./Src/Dogen.TestModels.sln
+  - mono ./Src/packages/xunit.runner.console*/tools/xunit.console.exe ./Src/CSharpModel.Tests/bin/Debug/Dogen.TestModels.CSharpModel.Tests.dll
+
 notifications:
   email:
     recipients:
