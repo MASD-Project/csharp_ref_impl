@@ -28,7 +28,7 @@ please report it in order to make the code generator better. Examples
 of issues with the generated code:
 
 - it may be using non-idiomatic C#, or following old idioms;
-- works, but you know of a better way of doing it;
+- it may work, but you know of a better way of doing it;
 - it is just wrong, and we've missed it.
 
 Issues can be submitted using [github
