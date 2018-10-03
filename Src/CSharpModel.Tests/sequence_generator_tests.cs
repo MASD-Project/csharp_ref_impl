@@ -22,7 +22,7 @@ using NUnit.Framework;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
-namespace Dogen.TestModels.CSharpModel.Tests
+namespace CSharpRefImpl.CSharpModel.Tests
 {
     [TestFixture]
     // Analysis disable once InconsistentNaming

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogen.TestModels.CSharpModel", "CSharpModel\Dogen.TestModels.CSharpModel.csproj", "{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.CSharpModel", "CSharpModel\CSharpRefImpl.CSharpModel.csproj", "{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogen.TestModels.CSharpModel.Tests", "CSharpModel.Tests\Dogen.TestModels.CSharpModel.Tests.csproj", "{761188D6-E48E-4795-BE2F-28C020E5BE8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.CSharpModel.Tests", "CSharpModel.Tests\CSharpRefImpl.CSharpModel.Tests.csproj", "{761188D6-E48E-4795-BE2F-28C020E5BE8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dogen.test_models.LAMModel", "LAMModel\cs\dogen.test_models.LAMModel.csproj", "{00000000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.LAMModel", "LAMModel\cs\CSharpRefImpl.LAMModel.csproj", "{00000000-0000-0000-0000-000000000000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +51,6 @@ Global
 		$2.SpacingAfterMethodDeclarationName = True
 		$2.SpaceAfterMethodCallName = True
 		$2.SpaceBeforeOpenSquareBracket = True
-		StartupItem = CSharpModel\Dogen.TestModels.CSharpModel.csproj
+		StartupItem = CSharpModel\CSharpRefImpl.CSharpModel.csproj
 	EndGlobalSection
 EndGlobal

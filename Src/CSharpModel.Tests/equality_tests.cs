@@ -20,7 +20,7 @@
 using log4net;
 using NUnit.Framework;
 
-namespace Dogen.TestModels.CSharpModel.Tests
+namespace CSharpRefImpl.CSharpModel.Tests
 {
     [TestFixture]
     // Analysis disable once InconsistentNaming

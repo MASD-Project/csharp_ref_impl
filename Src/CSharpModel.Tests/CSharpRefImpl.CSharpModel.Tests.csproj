@@ -7,8 +7,8 @@
     <ProjectGuid>{761188D6-E48E-4795-BE2F-28C020E5BE8D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dogen.TestModels.CSharpModel.Tests</RootNamespace>
-    <AssemblyName>Dogen.TestModels.CSharpModel.Tests</AssemblyName>
+    <RootNamespace>CSharpRefImpl.CSharpModel.Tests</RootNamespace>
+    <AssemblyName>CSharpRefImpl.CSharpModel.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -64,9 +64,9 @@
     <Compile Include="sequence_generator_tests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSharpModel\Dogen.TestModels.CSharpModel.csproj">
+    <ProjectReference Include="..\CSharpModel\CSharpRefImpl.CSharpModel.csproj">
       <Project>{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}</Project>
-      <Name>Dogen.TestModels.CSharpModel</Name>
+      <Name>CSharpRefImpl.CSharpModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
