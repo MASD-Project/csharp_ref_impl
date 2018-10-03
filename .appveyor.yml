@@ -14,12 +14,11 @@ assembly_info:
   assembly_informational_version: '{version}'
 
 before_build:
-- cmd:
-    - cd Src
-    - nuget restore CSharpRefImpl.sln
-    - cd ..
-    - choco install opencover.portable
-    - choco install codecov
+  - cd Src
+  - nuget restore CSharpRefImpl.sln
+  - cd ..
+  - choco install opencover.portable
+  - choco install codecov
 
 test_script:
   - OpenCover.Console.exe -register:user -target:"%xunit20%/xunit.console.x86.exe" -targetargs:"./Src/CSharpModel.Tests/bin/Debug/CSharpRefImpl.CSharpModel.Tests.dll -noshadow" -filter:"+[CSharpModel*]* -[CSharpModel.Tests*]*" -output:"./CSharpRefImpl.xml"
