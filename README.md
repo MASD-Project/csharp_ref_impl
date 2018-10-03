@@ -32,4 +32,4 @@ of issues with the generated code:
 - it is just wrong, and we've missed it.
 
 Issues can be submitted using [github
-Issues](https://github.com/MASD-Project/dogen/issues).
+Issues](https://github.com/MASD-Project/csharp_ref_impl/issues).
