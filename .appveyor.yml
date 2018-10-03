@@ -1,4 +1,4 @@
-version: 1.0.0.{build}
+version: 1.0.8.{build}
 branches:
   only:
   - master
@@ -17,3 +17,16 @@ before_build:
     cd ..
 
 clone_depth: 1
+
+notifications:
+  - provider: Webhook
+    url: https://webhooks.gitter.im/e/b6954fae540d73da033b
+    on_build_success: true
+    on_build_failure: true
+    on_build_status_changed: true
+  - provider: Email
+    to:
+      - marco.craveiro@gmail.com
+    on_build_success: false
+    on_build_failure: true
+    on_build_status_changed: true
