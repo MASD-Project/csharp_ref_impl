@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.LAMModel
+namespace CSharpRefImpl.LamModel
 {
     /// <summary>
     /// Generates sequences of Builtins.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.LAMModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.LAMModel.Builtins", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.LamModel.Builtins", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

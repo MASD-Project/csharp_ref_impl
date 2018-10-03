@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.LAMModel.Package1
+namespace CSharpRefImpl.LamModel.Package1
 {
     /// <summary>
     /// Generates sequences of ClassInPackage.

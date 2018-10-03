@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.LAMModel.Package1
+namespace CSharpRefImpl.LamModel.Package1
 {
     /// <summary>
     /// Generates sequences of ClassInPackage.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.LAMModel.Package1
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.LAMModel.Package1.ClassInPackage", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.LamModel.Package1.ClassInPackage", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

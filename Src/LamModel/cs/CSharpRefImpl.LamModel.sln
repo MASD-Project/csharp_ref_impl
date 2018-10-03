@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{00000000-0000-0000-0000-000000000000}") = "CSharpRefImpl.LAMModel", "CSharpRefImpl.LAMModel.csproj", "{00000000-0000-0000-0000-000000000000}"
+Project("{00000000-0000-0000-0000-000000000000}") = "CSharpRefImpl.LamModel", "CSharpRefImpl.LamModel.csproj", "{00000000-0000-0000-0000-000000000000}"
 EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution

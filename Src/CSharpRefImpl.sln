@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.CSharpModel",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.CSharpModel.Tests", "CSharpModel.Tests\CSharpRefImpl.CSharpModel.Tests.csproj", "{761188D6-E48E-4795-BE2F-28C020E5BE8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.LAMModel", "LAMModel\cs\CSharpRefImpl.LAMModel.csproj", "{00000000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.LamModel", "LamModel\cs\CSharpRefImpl.LamModel.csproj", "{00000000-0000-0000-0000-000000000000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

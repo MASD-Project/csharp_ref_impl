@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.LAMModel
+namespace CSharpRefImpl.LamModel
 {
     public sealed class Builtins
     {

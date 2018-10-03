@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Specialized;
 
-namespace CSharpRefImpl.LAMModel
+namespace CSharpRefImpl.LamModel
 {
     /// <summary>
     /// Provides helper methods for the sequence generators.

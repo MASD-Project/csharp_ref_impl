@@ -1,7 +1,7 @@
 {
   "tagged_values": {
     "yarn.dia.comment": "true",
-    "yarn.model_modules": "LAMModel",
+    "yarn.model_modules": "LamModel",
     "yarn.external_modules": "CSharpRefImpl",
     "yarn.input_language": "language_agnostic",
     "yarn.output_language": "csharp",
