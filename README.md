@@ -1,1 +1,1 @@
-# MASD's C# Reference Implementation
+# MASD C# Reference Implementation
