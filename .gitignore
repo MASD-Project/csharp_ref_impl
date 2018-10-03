@@ -26,3 +26,6 @@ obj
 bin
 *.suo
 TestResult.xml
+
+# Dogen log files
+log
