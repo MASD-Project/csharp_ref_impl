@@ -22,11 +22,17 @@ dogen_options="-f -d";
 #
 # Code generate from dia models
 #
-${dogen} -t Models/dia/LAMModel.dia ${dogen_options}
-${dogen} -t Models/dia/CSharpModel.dia ${dogen_options}
+dia_models="`'ls' Models/dia/*.dia`";
+for dia_model in ${dia_models}; do
+    echo "Generating ${dia_model}";
+    ${dogen} -t ${dia_model} ${dogen_options}
+done
 
 #
 # Code generate from json models
 #
-# ${dogen} -t Models/json/LAMModel.json ${dogen_options}
-# ${dogen} -t Models/json/CSharpModel.json ${dogen_options}
+# json_models="`'ls' Models/json/*.json`";
+# for json_model in ${json_models}; do
+#     echo "Generating ${json_model}";
+#     ${dogen} -t ${json_model} ${dogen_options}
+# done
