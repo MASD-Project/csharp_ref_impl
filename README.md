@@ -3,6 +3,7 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/MASD-Project/Lobby)
 [![Build Status](https://travis-ci.org/MASD-Project/csharp_ref_impl.svg?branch=master)](https://travis-ci.org/MASD-Project/csharp_ref_impl)
 [![Build Status](https://img.shields.io/appveyor/ci/mcraveiro/csharp-ref-impl.svg?label=windows)](https://ci.appveyor.com/project/mcraveiro/csharp-ref-impl)
+[![codecov](https://codecov.io/gh/MASD-Project/csharp_ref_impl/branch/master/graph/badge.svg)](https://codecov.io/gh/MASD-Project/csharp_ref_impl)
 
 # MASD C# Reference Implementation
 
