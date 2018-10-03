@@ -2,7 +2,7 @@
   "tagged_values": {
     "yarn.dia.comment": "true",
     "yarn.model_modules": "CSharpModel",
-    "yarn.external_modules": "Dogen.TestModels",
+    "yarn.external_modules": "CSharpRefImpl",
     "yarn.input_language": "csharp",
     "quilt.csharp.enabled": "true",
     "quilt.cpp.enabled": "false",
