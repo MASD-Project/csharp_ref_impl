@@ -44,7 +44,7 @@ namespace CSharpRefImpl.LAMModel.Package1
             assistant.AddKey("data");
             assistant.AddPairSeparator();
             assistant.AddStartObject();
-            assistant.Add("Prop_0", value.Prop_0);
+            assistant.Add("Prop0", value.Prop0);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);

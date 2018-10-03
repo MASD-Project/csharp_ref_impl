@@ -24,14 +24,14 @@ namespace CSharpRefImpl.LAMModel.Package1
     public sealed class ClassInPackage
     {
         #region Properties
-        public int Prop_0 { get; set; }
+        public int Prop0 { get; set; }
         #endregion
 
         #region Constructors
         public ClassInPackage() { }
-        public ClassInPackage(int prop_0)
+        public ClassInPackage(int prop0)
         {
-            Prop_0 = prop_0;
+            Prop0 = prop0;
         }
         #endregion
 
@@ -46,7 +46,7 @@ namespace CSharpRefImpl.LAMModel.Package1
             if (value == null) return false;
 
             return
-                Prop_0 == value.Prop_0;
+                Prop0 == value.Prop0;
         }
 
         public static bool operator ==(ClassInPackage lhs, ClassInPackage rhs)
@@ -71,7 +71,7 @@ namespace CSharpRefImpl.LAMModel.Package1
                 const int HashingMultiplier = 16777619;
 
                 int hash = HashingBase;
-                hash = (hash * HashingMultiplier) ^ Prop_0.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop0.GetHashCode();
                 return hash;
             }
         }

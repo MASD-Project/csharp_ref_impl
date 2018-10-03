@@ -30,7 +30,7 @@ namespace CSharpRefImpl.LAMModel.Package1
     {
         static internal void Populate(ClassInPackage value, uint position)
         {
-            value.Prop_0 = AssistantSequenceGenerator.CreateInt(position + 0);
+            value.Prop0 = AssistantSequenceGenerator.CreateInt(position + 0);
         }
 
         static internal ClassInPackage Create(uint position)
