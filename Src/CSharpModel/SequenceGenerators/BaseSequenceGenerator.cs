@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Base.
@@ -36,10 +36,10 @@ namespace Dogen.TestModels.CSharpModel
         static internal Base Create(uint position)
         {
             if ((position % 2) == 0)
-                return Dogen.TestModels.CSharpModel.Descendant3SequenceGenerator.Create(position);
+                return CSharpRefImpl.CSharpModel.Descendant3SequenceGenerator.Create(position);
             if ((position % 2) == 1)
-                return Dogen.TestModels.CSharpModel.NonSealedLeafSequenceGenerator.Create(position);
-            return Dogen.TestModels.CSharpModel.Descendant2SequenceGenerator.Create(position);
+                return CSharpRefImpl.CSharpModel.NonSealedLeafSequenceGenerator.Create(position);
+            return CSharpRefImpl.CSharpModel.Descendant2SequenceGenerator.Create(position);
         }
 
         #region Enumerator

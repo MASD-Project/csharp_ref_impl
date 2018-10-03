@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel.Package3
+namespace CSharpRefImpl.CSharpModel.Package3
 {
     /// <summary>
     /// Generates sequences of Parent.
@@ -36,8 +36,8 @@ namespace Dogen.TestModels.CSharpModel.Package3
         static internal Parent Create(uint position)
         {
             if ((position % 1) == 0)
-                return Dogen.TestModels.CSharpModel.Package4.ChildViaSettingsSequenceGenerator.Create(position);
-            return Dogen.TestModels.CSharpModel.Package4.ChildSequenceGenerator.Create(position);
+                return CSharpRefImpl.CSharpModel.Package4.ChildViaSettingsSequenceGenerator.Create(position);
+            return CSharpRefImpl.CSharpModel.Package4.ChildSequenceGenerator.Create(position);
         }
 
         #region Enumerator

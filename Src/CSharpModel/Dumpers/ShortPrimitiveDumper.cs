@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ShortPrimitive.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.ShortPrimitive", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.ShortPrimitive", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

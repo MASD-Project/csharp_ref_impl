@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ImmutableFour.
@@ -32,8 +32,8 @@ namespace Dogen.TestModels.CSharpModel
         {
             value.Prop0 = AssistantSequenceGenerator.CreateBool(position + 0);
             value.Prop1 = AssistantSequenceGenerator.CreateString(position + 1);
-            value.Prop2 = Dogen.TestModels.CSharpModel.ComplexBuiltinsSequenceGenerator.Create(position + 2);
-            value.Prop3 = Dogen.TestModels.CSharpModel.ImmutableOnePrimitiveSequenceGenerator.Create(position + 3);
+            value.Prop2 = CSharpRefImpl.CSharpModel.ComplexBuiltinsSequenceGenerator.Create(position + 2);
+            value.Prop3 = CSharpRefImpl.CSharpModel.ImmutableOnePrimitiveSequenceGenerator.Create(position + 3);
         }
 
         static internal ImmutableFour Create(uint position)

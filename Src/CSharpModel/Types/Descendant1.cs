@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
-    public abstract class Descendant1 : Dogen.TestModels.CSharpModel.Base
+    public abstract class Descendant1 : CSharpRefImpl.CSharpModel.Base
     {
         #region Constructors
         public Descendant1() { }

@@ -17,7 +17,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 // MA 02110-1301, USA.
 //
-namespace Dogen.TestModels.CSharpModel.Package1
+namespace CSharpRefImpl.CSharpModel.Package1
 {
     /// <summary>
     /// Generates sequences of ShapeTypes.
@@ -31,7 +31,7 @@ namespace Dogen.TestModels.CSharpModel.Package1
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.Package1.ShapeTypes", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.Package1.ShapeTypes", true/*withSeparator*/);
             string valueAsString = "Unsupported Value";
             switch (value)
             {

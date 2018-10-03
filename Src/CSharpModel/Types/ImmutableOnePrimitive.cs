@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Immutable class with a builtin property.

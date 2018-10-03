@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// This is a class made up of just built-in types.

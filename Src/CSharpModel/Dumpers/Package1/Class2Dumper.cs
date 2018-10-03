@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel.Package1
+namespace CSharpRefImpl.CSharpModel.Package1
 {
     /// <summary>
     /// Generates sequences of Class2.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel.Package1
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.Package1.Class2", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.Package1.Class2", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

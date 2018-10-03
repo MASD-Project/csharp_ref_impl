@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     public sealed class Association
     {
@@ -31,8 +31,8 @@ namespace Dogen.TestModels.CSharpModel
         /// <summary>
         /// Association with a class that has no properties.
         /// </summary>
-        public Dogen.TestModels.CSharpModel.NoProperties Prop1 { get; set; }
-        public Dogen.TestModels.CSharpModel.ColourTypes Prop2 { get; set; }
+        public CSharpRefImpl.CSharpModel.NoProperties Prop1 { get; set; }
+        public CSharpRefImpl.CSharpModel.ColourTypes Prop2 { get; set; }
         #endregion
 
         #region Constructors
@@ -40,8 +40,8 @@ namespace Dogen.TestModels.CSharpModel
 
         public Association(
             int prop0,
-            Dogen.TestModels.CSharpModel.NoProperties prop1,
-            Dogen.TestModels.CSharpModel.ColourTypes prop2)
+            CSharpRefImpl.CSharpModel.NoProperties prop1,
+            CSharpRefImpl.CSharpModel.ColourTypes prop2)
         {
             Prop0 = prop0;
             Prop1 = prop1;

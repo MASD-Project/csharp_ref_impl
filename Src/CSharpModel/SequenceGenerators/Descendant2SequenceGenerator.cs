@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Descendant2.
@@ -30,7 +30,7 @@ namespace Dogen.TestModels.CSharpModel
     {
         static internal void Populate(Descendant2 value, uint position)
         {
-            Dogen.TestModels.CSharpModel.BaseSequenceGenerator.Populate(value, position);
+            CSharpRefImpl.CSharpModel.BaseSequenceGenerator.Populate(value, position);
             value.Prop0 = AssistantSequenceGenerator.CreateInt(position + 0);
         }
 

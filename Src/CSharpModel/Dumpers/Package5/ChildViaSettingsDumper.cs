@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel.Package5
+namespace CSharpRefImpl.CSharpModel.Package5
 {
     /// <summary>
     /// Generates sequences of ChildViaSettings.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel.Package5
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.Package5.ChildViaSettings", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.Package5.ChildViaSettings", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -46,7 +46,7 @@ namespace Dogen.TestModels.CSharpModel.Package5
             assistant.AddStartObject();
             assistant.AddKey("__parent_0__");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.ParentOutsideDumper.Dump(assistant, value, true/*withSeparator*/);
+            CSharpRefImpl.CSharpModel.ParentOutsideDumper.Dump(assistant, value, true/*withSeparator*/);
             assistant.Add("Prop1", value.Prop1);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object

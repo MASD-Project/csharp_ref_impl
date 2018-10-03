@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel.Package1
+namespace CSharpRefImpl.CSharpModel.Package1
 {
     /// <summary>
     /// Generates sequences of AssociationInPackage.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel.Package1
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.Package1.AssociationInPackage", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.Package1.AssociationInPackage", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -46,13 +46,13 @@ namespace Dogen.TestModels.CSharpModel.Package1
             assistant.AddStartObject();
             assistant.AddKey("Prop0");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.PrimitiveBuiltinsDumper.Dump(assistant, value.Prop0, true/*withSeparator*/);
+            CSharpRefImpl.CSharpModel.PrimitiveBuiltinsDumper.Dump(assistant, value.Prop0, true/*withSeparator*/);
             assistant.AddKey("Prop1");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.ComplexBuiltinsDumper.Dump(assistant, value.Prop1, true/*withSeparator*/);
+            CSharpRefImpl.CSharpModel.ComplexBuiltinsDumper.Dump(assistant, value.Prop1, true/*withSeparator*/);
             assistant.AddKey("Prop2");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.Package1.Class1Dumper.Dump(assistant, value.Prop2);
+            CSharpRefImpl.CSharpModel.Package1.Class1Dumper.Dump(assistant, value.Prop2);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);

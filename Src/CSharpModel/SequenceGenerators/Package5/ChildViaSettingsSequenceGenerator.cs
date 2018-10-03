@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel.Package5
+namespace CSharpRefImpl.CSharpModel.Package5
 {
     /// <summary>
     /// Generates sequences of ChildViaSettings.
@@ -30,7 +30,7 @@ namespace Dogen.TestModels.CSharpModel.Package5
     {
         static internal void Populate(ChildViaSettings value, uint position)
         {
-            Dogen.TestModels.CSharpModel.ParentOutsideSequenceGenerator.Populate(value, position);
+            CSharpRefImpl.CSharpModel.ParentOutsideSequenceGenerator.Populate(value, position);
             value.Prop1 = AssistantSequenceGenerator.CreateInt(position + 0);
         }
 

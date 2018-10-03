@@ -19,23 +19,23 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel.Package1
+namespace CSharpRefImpl.CSharpModel.Package1
 {
     public sealed class AssociationInPackage
     {
         #region Properties
-        public Dogen.TestModels.CSharpModel.PrimitiveBuiltins Prop0 { get; set; }
-        public Dogen.TestModels.CSharpModel.ComplexBuiltins Prop1 { get; set; }
-        public Dogen.TestModels.CSharpModel.Package1.Class1 Prop2 { get; set; }
+        public CSharpRefImpl.CSharpModel.PrimitiveBuiltins Prop0 { get; set; }
+        public CSharpRefImpl.CSharpModel.ComplexBuiltins Prop1 { get; set; }
+        public CSharpRefImpl.CSharpModel.Package1.Class1 Prop2 { get; set; }
         #endregion
 
         #region Constructors
         public AssociationInPackage() { }
 
         public AssociationInPackage(
-            Dogen.TestModels.CSharpModel.PrimitiveBuiltins prop0,
-            Dogen.TestModels.CSharpModel.ComplexBuiltins prop1,
-            Dogen.TestModels.CSharpModel.Package1.Class1 prop2)
+            CSharpRefImpl.CSharpModel.PrimitiveBuiltins prop0,
+            CSharpRefImpl.CSharpModel.ComplexBuiltins prop1,
+            CSharpRefImpl.CSharpModel.Package1.Class1 prop2)
         {
             Prop0 = prop0;
             Prop1 = prop1;

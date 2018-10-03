@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel.Package1
+namespace CSharpRefImpl.CSharpModel.Package1
 {
     /// <summary>
     /// Generates sequences of AssociationInPackage.
@@ -30,9 +30,9 @@ namespace Dogen.TestModels.CSharpModel.Package1
     {
         static internal void Populate(AssociationInPackage value, uint position)
         {
-            value.Prop0 = Dogen.TestModels.CSharpModel.PrimitiveBuiltinsSequenceGenerator.Create(position + 0);
-            value.Prop1 = Dogen.TestModels.CSharpModel.ComplexBuiltinsSequenceGenerator.Create(position + 1);
-            value.Prop2 = Dogen.TestModels.CSharpModel.Package1.Class1SequenceGenerator.Create(position + 2);
+            value.Prop0 = CSharpRefImpl.CSharpModel.PrimitiveBuiltinsSequenceGenerator.Create(position + 0);
+            value.Prop1 = CSharpRefImpl.CSharpModel.ComplexBuiltinsSequenceGenerator.Create(position + 1);
+            value.Prop2 = CSharpRefImpl.CSharpModel.Package1.Class1SequenceGenerator.Create(position + 2);
         }
 
         static internal AssociationInPackage Create(uint position)

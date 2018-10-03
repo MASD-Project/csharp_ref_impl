@@ -17,7 +17,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 // MA 02110-1301, USA.
 //
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of HexFlags.
@@ -31,7 +31,7 @@ namespace Dogen.TestModels.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.HexFlags", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.HexFlags", true/*withSeparator*/);
             string valueAsString = "Unsupported Value";
             switch (value)
             {

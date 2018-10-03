@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Descendant1.
@@ -30,14 +30,14 @@ namespace Dogen.TestModels.CSharpModel
     {
         static internal void Populate(Descendant1 value, uint position)
         {
-            Dogen.TestModels.CSharpModel.BaseSequenceGenerator.Populate(value, position);
+            CSharpRefImpl.CSharpModel.BaseSequenceGenerator.Populate(value, position);
         }
 
         static internal Descendant1 Create(uint position)
         {
             if ((position % 1) == 0)
-                return Dogen.TestModels.CSharpModel.NonSealedLeafSequenceGenerator.Create(position);
-            return Dogen.TestModels.CSharpModel.Descendant3SequenceGenerator.Create(position);
+                return CSharpRefImpl.CSharpModel.NonSealedLeafSequenceGenerator.Create(position);
+            return CSharpRefImpl.CSharpModel.Descendant3SequenceGenerator.Create(position);
         }
 
         #region Enumerator

@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ChildOfAChild2.
@@ -30,7 +30,7 @@ namespace Dogen.TestModels.CSharpModel
     {
         static internal void Populate(ChildOfAChild2 value, uint position)
         {
-            Dogen.TestModels.CSharpModel.ThirdChildWithMembersSequenceGenerator.Populate(value, position);
+            CSharpRefImpl.CSharpModel.ThirdChildWithMembersSequenceGenerator.Populate(value, position);
             value.Prop2 = AssistantSequenceGenerator.CreateInt(position + 0);
         }
 

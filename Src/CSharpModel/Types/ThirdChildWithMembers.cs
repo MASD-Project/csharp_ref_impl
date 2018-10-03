@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
-    public abstract class ThirdChildWithMembers : Dogen.TestModels.CSharpModel.ParentWithMembers
+    public abstract class ThirdChildWithMembers : CSharpRefImpl.CSharpModel.ParentWithMembers
     {
         #region Properties
         public int Prop1 { get; set; }

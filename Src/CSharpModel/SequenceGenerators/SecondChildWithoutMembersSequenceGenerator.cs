@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of SecondChildWithoutMembers.
@@ -30,7 +30,7 @@ namespace Dogen.TestModels.CSharpModel
     {
         static internal void Populate(SecondChildWithoutMembers value, uint position)
         {
-            Dogen.TestModels.CSharpModel.ParentWithMembersSequenceGenerator.Populate(value, position);
+            CSharpRefImpl.CSharpModel.ParentWithMembersSequenceGenerator.Populate(value, position);
         }
 
         static internal SecondChildWithoutMembers Create(uint position)

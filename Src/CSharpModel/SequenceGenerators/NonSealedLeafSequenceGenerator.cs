@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of NonSealedLeaf.
@@ -30,7 +30,7 @@ namespace Dogen.TestModels.CSharpModel
     {
         static internal void Populate(NonSealedLeaf value, uint position)
         {
-            Dogen.TestModels.CSharpModel.Descendant1SequenceGenerator.Populate(value, position);
+            CSharpRefImpl.CSharpModel.Descendant1SequenceGenerator.Populate(value, position);
             value.Prop0 = AssistantSequenceGenerator.CreateInt(position + 0);
         }
 

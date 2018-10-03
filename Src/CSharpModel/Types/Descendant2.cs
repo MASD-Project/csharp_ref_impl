@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
-    public sealed class Descendant2 : Dogen.TestModels.CSharpModel.Base
+    public sealed class Descendant2 : CSharpRefImpl.CSharpModel.Base
     {
         #region Properties
         public int Prop0 { get; set; }

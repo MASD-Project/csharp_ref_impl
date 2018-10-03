@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ImmutableFour.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.ImmutableFour", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.ImmutableFour", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -48,10 +48,10 @@ namespace Dogen.TestModels.CSharpModel
             assistant.Add("Prop1", value.Prop1, true/*withSeparator*/);
             assistant.AddKey("Prop2");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.ComplexBuiltinsDumper.Dump(assistant, value.Prop2, true/*withSeparator*/);
+            CSharpRefImpl.CSharpModel.ComplexBuiltinsDumper.Dump(assistant, value.Prop2, true/*withSeparator*/);
             assistant.AddKey("Prop3");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.ImmutableOnePrimitiveDumper.Dump(assistant, value.Prop3);
+            CSharpRefImpl.CSharpModel.ImmutableOnePrimitiveDumper.Dump(assistant, value.Prop3);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);

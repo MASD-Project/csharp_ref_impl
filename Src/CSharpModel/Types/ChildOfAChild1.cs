@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
-    public sealed class ChildOfAChild1 : Dogen.TestModels.CSharpModel.ThirdChildWithMembers
+    public sealed class ChildOfAChild1 : CSharpRefImpl.CSharpModel.ThirdChildWithMembers
     {
         #region Properties
         public int Prop2 { get; set; }

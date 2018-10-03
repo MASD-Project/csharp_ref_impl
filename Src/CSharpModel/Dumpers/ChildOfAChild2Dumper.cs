@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ChildOfAChild2.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.ChildOfAChild2", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.ChildOfAChild2", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -46,7 +46,7 @@ namespace Dogen.TestModels.CSharpModel
             assistant.AddStartObject();
             assistant.AddKey("__parent_0__");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.ThirdChildWithMembersDumper.Dump(assistant, value, true/*withSeparator*/);
+            CSharpRefImpl.CSharpModel.ThirdChildWithMembersDumper.Dump(assistant, value, true/*withSeparator*/);
             assistant.Add("Prop2", value.Prop2);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object

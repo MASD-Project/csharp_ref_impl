@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Association.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.Association", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.Association", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -47,10 +47,10 @@ namespace Dogen.TestModels.CSharpModel
             assistant.Add("Prop0", value.Prop0, true/*withSeparator*/);
             assistant.AddKey("Prop1");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.NoPropertiesDumper.Dump(assistant, value.Prop1, true/*withSeparator*/);
+            CSharpRefImpl.CSharpModel.NoPropertiesDumper.Dump(assistant, value.Prop1, true/*withSeparator*/);
             assistant.AddKey("Prop2");
             assistant.AddPairSeparator();
-            Dogen.TestModels.CSharpModel.ColourTypesDumper.Dump(assistant, value.Prop2);
+            CSharpRefImpl.CSharpModel.ColourTypesDumper.Dump(assistant, value.Prop2);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);

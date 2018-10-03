@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
-    public sealed class SecondChildWithoutMembers : Dogen.TestModels.CSharpModel.ParentWithMembers
+    public sealed class SecondChildWithoutMembers : CSharpRefImpl.CSharpModel.ParentWithMembers
     {
         #region Constructors
         public SecondChildWithoutMembers() { }

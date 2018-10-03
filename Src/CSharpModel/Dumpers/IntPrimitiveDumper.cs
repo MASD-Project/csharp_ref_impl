@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of IntPrimitive.
@@ -33,7 +33,7 @@ namespace Dogen.TestModels.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("Dogen.TestModels.CSharpModel.IntPrimitive", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.CSharpModel.IntPrimitive", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

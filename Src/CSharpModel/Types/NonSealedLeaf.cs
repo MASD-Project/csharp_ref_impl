@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
-    public class NonSealedLeaf : Dogen.TestModels.CSharpModel.Descendant1
+    public class NonSealedLeaf : CSharpRefImpl.CSharpModel.Descendant1
     {
         #region Properties
         public int Prop0 { get; set; }

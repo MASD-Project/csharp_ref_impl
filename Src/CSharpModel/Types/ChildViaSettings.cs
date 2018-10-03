@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
-    public sealed class ChildViaSettings : Dogen.TestModels.CSharpModel.ParentWithMembers
+    public sealed class ChildViaSettings : CSharpRefImpl.CSharpModel.ParentWithMembers
     {
         #region Properties
         public int Prop1 { get; set; }

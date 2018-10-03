@@ -21,7 +21,7 @@ using System;
 using System.Text;
 using System.Collections;
 
-namespace Dogen.TestModels.CSharpModel
+namespace CSharpRefImpl.CSharpModel
 {
     class AssistantDumper
     {

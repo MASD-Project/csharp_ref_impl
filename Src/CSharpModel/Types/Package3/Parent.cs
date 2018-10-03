@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace Dogen.TestModels.CSharpModel.Package3
+namespace CSharpRefImpl.CSharpModel.Package3
 {
     public abstract class Parent
     {
