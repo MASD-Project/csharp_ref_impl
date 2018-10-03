@@ -21,7 +21,7 @@ using System;
 using System.Text;
 using System.Collections;
 
-namespace dogen.test_models.lam_model
+namespace dogen.test_models.LAMModel
 {
     class AssistantDumper
     {

@@ -19,19 +19,19 @@
 //
 using System;
 
-namespace dogen.test_models.lam_model.package1
+namespace dogen.test_models.LAMModel.Package1
 {
-    public sealed class class_in_package
+    public sealed class ClassInPackage
     {
         #region Properties
-        public int prop_0 { get; set; }
+        public int Prop_0 { get; set; }
         #endregion
 
         #region Constructors
-        public class_in_package() { }
-        public class_in_package(int prop_0)
+        public ClassInPackage() { }
+        public ClassInPackage(int prop_0)
         {
-            prop_0 = prop_0;
+            Prop_0 = prop_0;
         }
         #endregion
 
@@ -42,14 +42,14 @@ namespace dogen.test_models.lam_model.package1
             if (ReferenceEquals(this, obj)) return true;
             if (obj.GetType() != GetType()) return false;
 
-            var value = obj as class_in_package;
+            var value = obj as ClassInPackage;
             if (value == null) return false;
 
             return
-                prop_0 == value.prop_0;
+                Prop_0 == value.Prop_0;
         }
 
-        public static bool operator ==(class_in_package lhs, class_in_package rhs)
+        public static bool operator ==(ClassInPackage lhs, ClassInPackage rhs)
         {
             if (Object.ReferenceEquals(lhs, rhs))
                 return true;
@@ -57,7 +57,7 @@ namespace dogen.test_models.lam_model.package1
             return !Object.ReferenceEquals(null, lhs) && lhs.Equals(rhs);
         }
 
-        public static bool operator !=(class_in_package lhs, class_in_package rhs)
+        public static bool operator !=(ClassInPackage lhs, ClassInPackage rhs)
         {
             return !(lhs == rhs);
         }
@@ -71,7 +71,7 @@ namespace dogen.test_models.lam_model.package1
                 const int HashingMultiplier = 16777619;
 
                 int hash = HashingBase;
-                hash = (hash * HashingMultiplier) ^ prop_0.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop_0.GetHashCode();
                 return hash;
             }
         }

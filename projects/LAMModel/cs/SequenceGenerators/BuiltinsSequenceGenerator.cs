@@ -21,36 +21,45 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace dogen.test_models.lam_model.package1
+namespace dogen.test_models.LAMModel
 {
     /// <summary>
-    /// Generates sequences of class_in_package.
+    /// Generates sequences of Builtins.
     /// </summary>
-    public static class class_in_packageSequenceGenerator
+    public static class BuiltinsSequenceGenerator
     {
-        static internal void Populate(class_in_package value, uint position)
+        static internal void Populate(Builtins value, uint position)
         {
-            value.prop_0 = AssistantSequenceGenerator.CreateInt(position + 0);
+            value.Prop0 = AssistantSequenceGenerator.CreateChar(position + 0);
+            value.Prop1 = AssistantSequenceGenerator.CreateByte(position + 1);
+            value.Prop2 = AssistantSequenceGenerator.CreateShortByte(position + 2);
+            value.Prop3 = AssistantSequenceGenerator.CreateShort(position + 3);
+            value.Prop4 = AssistantSequenceGenerator.CreateInt(position + 4);
+            value.Prop5 = AssistantSequenceGenerator.CreateLong(position + 5);
+            value.Prop6 = AssistantSequenceGenerator.CreateInt(position + 6);
+            value.Prop7 = AssistantSequenceGenerator.CreateFloat(position + 7);
+            value.Prop8 = AssistantSequenceGenerator.CreateDouble(position + 8);
+            value.Prop9 = AssistantSequenceGenerator.CreateBool(position + 9);
         }
 
-        static internal class_in_package Create(uint position)
+        static internal Builtins Create(uint position)
         {
-            var result = new class_in_package();
+            var result = new Builtins();
             Populate(result, position);
             return result;
         }
 
         #region Enumerator
-        private class class_in_packageEnumerator : IEnumerator, IEnumerator<class_in_package>, IDisposable
+        private class BuiltinsEnumerator : IEnumerator, IEnumerator<Builtins>, IDisposable
         {
             #region Properties
             private uint _position;
-            private class_in_package _current;
+            private Builtins _current;
             #endregion
 
             private void PopulateCurrent()
             {
-                _current = class_in_packageSequenceGenerator.Create(_position);
+                _current = BuiltinsSequenceGenerator.Create(_position);
             }
 
             #region IDisposable
@@ -80,7 +89,7 @@ namespace dogen.test_models.lam_model.package1
                 }
             }
 
-            class_in_package IEnumerator<class_in_package>.Current
+            Builtins IEnumerator<Builtins>.Current
             {
                 get
                 {
@@ -89,7 +98,7 @@ namespace dogen.test_models.lam_model.package1
             }
             #endregion
 
-            public class_in_packageEnumerator()
+            public BuiltinsEnumerator()
             {
                 PopulateCurrent();
             }
@@ -97,25 +106,25 @@ namespace dogen.test_models.lam_model.package1
         #endregion
 
         #region Enumerable
-        private class class_in_packageEnumerable : IEnumerable, IEnumerable<class_in_package>
+        private class BuiltinsEnumerable : IEnumerable, IEnumerable<Builtins>
         {
             #region IEnumerable implementation
             public IEnumerator GetEnumerator()
             {
-                return new class_in_packageEnumerator();
+                return new BuiltinsEnumerator();
             }
 
-            IEnumerator<class_in_package> IEnumerable<class_in_package>.GetEnumerator()
+            IEnumerator<Builtins> IEnumerable<Builtins>.GetEnumerator()
             {
-                return new class_in_packageEnumerator();
+                return new BuiltinsEnumerator();
             }
             #endregion
         }
         #endregion
 
-        static public IEnumerable<class_in_package> Sequence()
+        static public IEnumerable<Builtins> Sequence()
         {
-            return new class_in_packageEnumerable();
+            return new BuiltinsEnumerable();
         }
     }
 }

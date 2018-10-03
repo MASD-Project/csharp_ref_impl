@@ -19,21 +19,21 @@
 //
 using System;
 
-namespace dogen.test_models.lam_model.package1
+namespace dogen.test_models.LAMModel.Package1
 {
     /// <summary>
-    /// Generates sequences of class_in_package.
+    /// Generates sequences of ClassInPackage.
     /// </summary>
-    public static class class_in_packageDumper
+    public static class ClassInPackageDumper
     {
-        static internal void Dump(AssistantDumper assistant, class_in_package value, bool withSeparator = false)
+        static internal void Dump(AssistantDumper assistant, ClassInPackage value, bool withSeparator = false)
         {
             assistant.IncrementDepth();
             if (assistant.MaximumDepthExceeded())
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("dogen.test_models.lam_model.package1.class_in_package", true/*withSeparator*/);
+            assistant.AddType("dogen.test_models.LAMModel.Package1.ClassInPackage", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -44,7 +44,7 @@ namespace dogen.test_models.lam_model.package1
             assistant.AddKey("data");
             assistant.AddPairSeparator();
             assistant.AddStartObject();
-            assistant.Add("prop_0", value.prop_0);
+            assistant.Add("Prop_0", value.Prop_0);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);
@@ -52,7 +52,7 @@ namespace dogen.test_models.lam_model.package1
             assistant.DecrementDepth();
         }
 
-        public static string Dump(class_in_package value)
+        public static string Dump(ClassInPackage value)
         {
             var assistant = new AssistantDumper();
             Dump(assistant, value);

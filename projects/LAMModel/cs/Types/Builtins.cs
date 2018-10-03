@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace dogen.test_models.lam_model
+namespace dogen.test_models.LAMModel
 {
-    public sealed class builtins
+    public sealed class Builtins
     {
         #region Helpers
         /// <summary>
@@ -43,43 +43,43 @@ namespace dogen.test_models.lam_model
         #endregion
 
         #region Properties
-        public char prop_0 { get; set; }
-        public byte prop_1 { get; set; }
-        public sbyte prop_2 { get; set; }
-        public System.Int16 prop_3 { get; set; }
-        public System.Int32 prop_4 { get; set; }
-        public System.Int64 prop_5 { get; set; }
-        public int prop_6 { get; set; }
-        public float prop_7 { get; set; }
-        public double prop_8 { get; set; }
-        public bool prop_9 { get; set; }
+        public char Prop0 { get; set; }
+        public byte Prop1 { get; set; }
+        public sbyte Prop2 { get; set; }
+        public System.Int16 Prop3 { get; set; }
+        public System.Int32 Prop4 { get; set; }
+        public System.Int64 Prop5 { get; set; }
+        public int Prop6 { get; set; }
+        public float Prop7 { get; set; }
+        public double Prop8 { get; set; }
+        public bool Prop9 { get; set; }
         #endregion
 
         #region Constructors
-        public builtins() { }
+        public Builtins() { }
 
-        public builtins(
-            char prop_0,
-            byte prop_1,
-            sbyte prop_2,
-            System.Int16 prop_3,
-            System.Int32 prop_4,
-            System.Int64 prop_5,
-            int prop_6,
-            float prop_7,
-            double prop_8,
-            bool prop_9)
+        public Builtins(
+            char prop0,
+            byte prop1,
+            sbyte prop2,
+            System.Int16 prop3,
+            System.Int32 prop4,
+            System.Int64 prop5,
+            int prop6,
+            float prop7,
+            double prop8,
+            bool prop9)
         {
-            prop_0 = prop_0;
-            prop_1 = prop_1;
-            prop_2 = prop_2;
-            prop_3 = prop_3;
-            prop_4 = prop_4;
-            prop_5 = prop_5;
-            prop_6 = prop_6;
-            prop_7 = prop_7;
-            prop_8 = prop_8;
-            prop_9 = prop_9;
+            Prop0 = prop0;
+            Prop1 = prop1;
+            Prop2 = prop2;
+            Prop3 = prop3;
+            Prop4 = prop4;
+            Prop5 = prop5;
+            Prop6 = prop6;
+            Prop7 = prop7;
+            Prop8 = prop8;
+            Prop9 = prop9;
         }
         #endregion
 
@@ -90,23 +90,23 @@ namespace dogen.test_models.lam_model
             if (ReferenceEquals(this, obj)) return true;
             if (obj.GetType() != GetType()) return false;
 
-            var value = obj as builtins;
+            var value = obj as Builtins;
             if (value == null) return false;
 
             return
-                prop_0 == value.prop_0 &&
-                prop_1 == value.prop_1 &&
-                prop_2 == value.prop_2 &&
-                prop_3 == value.prop_3 &&
-                prop_4 == value.prop_4 &&
-                prop_5 == value.prop_5 &&
-                prop_6 == value.prop_6 &&
-                NearlyEqual(prop_7, value.prop_7) &&
-                NearlyEqual(prop_8, value.prop_8) &&
-                prop_9 == value.prop_9;
+                Prop0 == value.Prop0 &&
+                Prop1 == value.Prop1 &&
+                Prop2 == value.Prop2 &&
+                Prop3 == value.Prop3 &&
+                Prop4 == value.Prop4 &&
+                Prop5 == value.Prop5 &&
+                Prop6 == value.Prop6 &&
+                NearlyEqual(Prop7, value.Prop7) &&
+                NearlyEqual(Prop8, value.Prop8) &&
+                Prop9 == value.Prop9;
         }
 
-        public static bool operator ==(builtins lhs, builtins rhs)
+        public static bool operator ==(Builtins lhs, Builtins rhs)
         {
             if (Object.ReferenceEquals(lhs, rhs))
                 return true;
@@ -114,7 +114,7 @@ namespace dogen.test_models.lam_model
             return !Object.ReferenceEquals(null, lhs) && lhs.Equals(rhs);
         }
 
-        public static bool operator !=(builtins lhs, builtins rhs)
+        public static bool operator !=(Builtins lhs, Builtins rhs)
         {
             return !(lhs == rhs);
         }
@@ -128,16 +128,16 @@ namespace dogen.test_models.lam_model
                 const int HashingMultiplier = 16777619;
 
                 int hash = HashingBase;
-                hash = (hash * HashingMultiplier) ^ prop_0.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_1.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_2.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_3.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_4.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_5.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_6.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_7.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_8.GetHashCode();
-                hash = (hash * HashingMultiplier) ^ prop_9.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop0.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop1.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop2.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop3.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop4.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop5.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop6.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop7.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop8.GetHashCode();
+                hash = (hash * HashingMultiplier) ^ Prop9.GetHashCode();
                 return hash;
             }
         }
