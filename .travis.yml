@@ -7,7 +7,7 @@ install:
 
 script:
   - xbuild ./Src/Dogen.TestModels.sln
-  - mono ./Src/packages/xunit.runner.console*/tools/xunit.console.exe ./Src/CSharpModel.Tests/bin/Debug/Dogen.TestModels.CSharpModel.Tests.dll
+  - mono ./Src/packages/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe CSharpModel.Tests/bin/Debug/Dogen.TestModels.CSharpModel.Tests.dll
 
 notifications:
   email:
