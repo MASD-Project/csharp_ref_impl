@@ -268,7 +268,7 @@
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>##DOGEN yarn.dia.comment=true
-#DOGEN yarn.model_modules=lam_model
+#DOGEN yarn.model_modules=LAMModel
 #DOGEN yarn.external_modules=dogen::test_models
 #DOGEN yarn.input_language=language_agnostic
 #DOGEN yarn.output_language=csharp
