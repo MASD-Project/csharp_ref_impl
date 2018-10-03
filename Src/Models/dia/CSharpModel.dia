@@ -556,7 +556,7 @@ This is a remark.#</dia:string>
           <dia:attribute name="string">
             <dia:string>##DOGEN yarn.dia.comment=true
 #DOGEN yarn.model_modules=CSharpModel
-#DOGEN yarn.external_modules=Dogen.TestModels
+#DOGEN yarn.external_modules=CSharpRefImpl
 #DOGEN yarn.input_language=csharp
 #DOGEN quilt.csharp.enabled=true
 #DOGEN quilt.cpp.enabled=false
@@ -990,13 +990,13 @@ This is a remark.#</dia:string>
         <dia:point val="46,15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.95,14.95;54.635,20.25"/>
+        <dia:rectangle val="45.95,14.95;55.02,20.25"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="46,15"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.5849999999999991"/>
+        <dia:real val="8.9700000000000006"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="5.2000000000000011"/>
@@ -1172,13 +1172,13 @@ this is a long comment#</dia:string>
         <dia:point val="34,15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.95,14.95;42.635,21.05"/>
+        <dia:rectangle val="33.95,14.95;43.02,21.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="34,15"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.5849999999999991"/>
+        <dia:real val="8.9700000000000006"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6.0000000000000009"/>
@@ -2088,13 +2088,13 @@ this is a long comment#</dia:string>
         <dia:point val="75,27"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="74.95,26.95;83.635,33.05"/>
+        <dia:rectangle val="74.95,26.95;84.02,33.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="75,27"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.5849999999999991"/>
+        <dia:real val="8.9700000000000006"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6.0000000000000009"/>
@@ -2292,13 +2292,13 @@ this is a long comment#</dia:string>
         <dia:point val="18,32"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="17.95,31.95;25.865,35.05"/>
+        <dia:rectangle val="17.95,31.95;26.25,35.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="18,32"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -6227,13 +6227,13 @@ this is a long comment#</dia:string>
         <dia:point val="3,96"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="2.95,95.95;10.865,99.05"/>
+        <dia:rectangle val="2.95,95.95;11.25,99.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="3,96"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -6471,13 +6471,13 @@ this is a long comment#</dia:string>
         <dia:point val="3,109"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="2.95,108.95;10.865,113.45"/>
+        <dia:rectangle val="2.95,108.95;11.25,113.45"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="3,109"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.4000000000000004"/>
@@ -7218,13 +7218,13 @@ this is a long comment#</dia:string>
         <dia:point val="34,23"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.95,22.95;42.635,27.45"/>
+        <dia:rectangle val="33.95,22.95;43.02,27.45"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="34,23"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.5849999999999991"/>
+        <dia:real val="8.9700000000000006"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.4000000000000004"/>
@@ -7375,13 +7375,13 @@ this is a long comment#</dia:string>
         <dia:point val="46,23"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.95,22.95;54.635,27.45"/>
+        <dia:rectangle val="45.95,22.95;55.02,27.45"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="46,23"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.5849999999999991"/>
+        <dia:real val="8.9700000000000006"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.4000000000000004"/>
@@ -7534,13 +7534,13 @@ this is a long comment#</dia:string>
         <dia:point val="46,32"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.95,31.95;54.635,38.85"/>
+        <dia:rectangle val="45.95,31.95;55.02,38.85"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="46,32"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.5849999999999991"/>
+        <dia:real val="8.9700000000000006"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6.8000000000000007"/>
@@ -7762,13 +7762,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,113"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,112.95;36.865,116.05"/>
+        <dia:rectangle val="28.95,112.95;37.25,116.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,113"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -7874,13 +7874,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,118"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,117.95;36.865,121.05"/>
+        <dia:rectangle val="28.95,117.95;37.25,121.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,118"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -7986,13 +7986,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,123"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,122.95;36.865,126.05"/>
+        <dia:rectangle val="28.95,122.95;37.25,126.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,123"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8098,13 +8098,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,128"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,127.95;36.865,131.05"/>
+        <dia:rectangle val="28.95,127.95;37.25,131.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,128"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8210,13 +8210,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,118"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,117.95;48.865,121.05"/>
+        <dia:rectangle val="40.95,117.95;49.25,121.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,118"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8322,13 +8322,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,123"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,122.95;48.865,126.05"/>
+        <dia:rectangle val="40.95,122.95;49.25,126.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,123"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8434,13 +8434,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,113"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,112.95;48.865,116.05"/>
+        <dia:rectangle val="40.95,112.95;49.25,116.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,113"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8546,13 +8546,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,133"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,132.95;36.865,136.05"/>
+        <dia:rectangle val="28.95,132.95;37.25,136.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,133"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8658,13 +8658,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,133"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,132.95;48.865,136.05"/>
+        <dia:rectangle val="40.95,132.95;49.25,136.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,133"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8770,13 +8770,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,128"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,127.95;48.865,131.05"/>
+        <dia:rectangle val="40.95,127.95;49.25,131.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,128"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="7.8150000000000004"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
