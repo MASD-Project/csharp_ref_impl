@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace dogen.test_models.LAMModel
+namespace CSharpRefImpl.LAMModel
 {
     /// <summary>
     /// Generates sequences of Builtins.
@@ -33,7 +33,7 @@ namespace dogen.test_models.LAMModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("dogen.test_models.LAMModel.Builtins", true/*withSeparator*/);
+            assistant.AddType("CSharpRefImpl.LAMModel.Builtins", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

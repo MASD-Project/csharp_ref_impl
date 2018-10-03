@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace dogen.test_models.LAMModel
+namespace CSharpRefImpl.LAMModel
 {
     public sealed class Builtins
     {

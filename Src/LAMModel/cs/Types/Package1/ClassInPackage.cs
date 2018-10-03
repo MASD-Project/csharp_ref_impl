@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace dogen.test_models.LAMModel.Package1
+namespace CSharpRefImpl.LAMModel.Package1
 {
     public sealed class ClassInPackage
     {

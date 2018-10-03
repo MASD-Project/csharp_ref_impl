@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace dogen.test_models.LAMModel
+namespace CSharpRefImpl.LAMModel
 {
     /// <summary>
     /// Generates sequences of Builtins.

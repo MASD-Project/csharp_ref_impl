@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace dogen.test_models.LAMModel.Package1
+namespace CSharpRefImpl.LAMModel.Package1
 {
     /// <summary>
     /// Generates sequences of ClassInPackage.

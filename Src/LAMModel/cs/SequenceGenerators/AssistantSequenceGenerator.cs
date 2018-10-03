@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Specialized;
 
-namespace dogen.test_models.LAMModel
+namespace CSharpRefImpl.LAMModel
 {
     /// <summary>
     /// Provides helper methods for the sequence generators.

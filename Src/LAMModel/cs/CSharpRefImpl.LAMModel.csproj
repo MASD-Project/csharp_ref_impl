@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>dogen.test_models.LAMModel</RootNamespace>
-    <AssemblyName>dogen.test_models.LAMModel</AssemblyName>
+    <RootNamespace>CSharpRefImpl.LAMModel</RootNamespace>
+    <AssemblyName>CSharpRefImpl.LAMModel</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
