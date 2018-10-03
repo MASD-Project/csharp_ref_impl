@@ -3,6 +3,10 @@ branches:
   only:
   - master
 
+environment:
+  matrix:
+    - solution_name: Src/Dogen.TestModels.sln
+
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
