@@ -4,7 +4,7 @@ branches:
   - master
 
 build:
-  project: Src/Dogen.TestModels.sln
+  project: Src/CSharpRefImpl.sln
 
 assembly_info:
   patch: true
@@ -17,7 +17,7 @@ before_build:
 - cmd: >-
     cd Src
 
-    nuget restore Dogen.TestModels.sln
+    nuget restore CSharpRefImpl.sln
 
     cd ..
 
