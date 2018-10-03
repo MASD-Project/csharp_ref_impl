@@ -106,13 +106,13 @@
         <dia:point val="-18.9663,-25.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-19.0163,-25.8;-10.3313,-22.9"/>
+        <dia:rectangle val="-19.0163,-25.8;-10.7163,-22.9"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="-18.9663,-25.75"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.5849999999999991"/>
+        <dia:real val="8.1999999999999993"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.7999999999999998"/>
@@ -207,7 +207,7 @@
       <dia:attribute name="attributes">
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
-            <dia:string>#Prop_0#</dia:string>
+            <dia:string>#Prop0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
             <dia:string>#lam::integer#</dia:string>
