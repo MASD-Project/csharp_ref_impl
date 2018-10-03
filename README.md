@@ -20,3 +20,16 @@ formats.
 
 Please note that C# support in MASD still lags behind C++, so some
 functionality is not yet available.
+
+# Reporting Problems
+
+If you have found any issues with the generated C# code, we ask you to
+please report it in order to make the code generator better. Examples
+of issues with the generated code:
+
+- it may be using non-idiomatic C#, or following old idioms;
+- works, but you know of a better way of doing it;
+- it is just wrong, and we've missed it.
+
+Issues can be submitted using [github
+Issues](https://github.com/MASD-Project/dogen/issues).
