@@ -1,16 +1,17 @@
 [![Licence](https://img.shields.io/badge/license-GPL_3-green.svg?dummy)](https://raw.githubusercontent.com/MASD-Project/csharp_ref_impl/master/LICENCE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl?ref=badge_shield)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)](https://github.com/MASD-Project/csharp_ref_impl/pulse/monthly)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/MASD-Project/Lobby)
 [![Build Status](https://travis-ci.org/MASD-Project/csharp_ref_impl.svg?branch=master)](https://travis-ci.org/MASD-Project/csharp_ref_impl)
 [![Build Status](https://img.shields.io/appveyor/ci/mcraveiro/csharp-ref-impl.svg?label=windows)](https://ci.appveyor.com/project/mcraveiro/csharp-ref-impl)
 [![codecov](https://codecov.io/gh/MASD-Project/csharp_ref_impl/branch/master/graph/badge.svg)](https://codecov.io/gh/MASD-Project/csharp_ref_impl)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl?ref=badge_shield)
+
 
 # MASD C# Reference Implementation
 
 This project contains the MASD C# Reference Implementation, generated
 using [Dogen
-v1.0.08](https://github.com/MASD-Project/dogen/releases/tag/v1.0.08). The
+v1.0.09](https://github.com/MASD-Project/dogen/releases/tag/v1.0.09). The
 objective of a MASD reference implementation is to exercise all of the
 available functionality within Dogen and to unit test it to ensure it
 works as specified. The models used to generate the reference
