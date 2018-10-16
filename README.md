@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/MASD-Project/csharp_ref_impl.svg?branch=master)](https://travis-ci.org/MASD-Project/csharp_ref_impl)
 [![Build Status](https://img.shields.io/appveyor/ci/mcraveiro/csharp-ref-impl.svg?label=windows)](https://ci.appveyor.com/project/mcraveiro/csharp-ref-impl)
 [![codecov](https://codecov.io/gh/MASD-Project/csharp_ref_impl/branch/master/graph/badge.svg)](https://codecov.io/gh/MASD-Project/csharp_ref_impl)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl?ref=badge_shield)
 
 # MASD C# Reference Implementation
 
@@ -34,3 +35,7 @@ of issues with the generated code:
 
 Issues can be submitted using [github
 Issues](https://github.com/MASD-Project/csharp_ref_impl/issues).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl?ref=badge_large)
