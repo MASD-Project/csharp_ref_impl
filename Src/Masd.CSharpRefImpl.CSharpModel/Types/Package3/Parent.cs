@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel.Package3
+namespace Masd.CSharpRefImpl.CSharpModel.Package3
 {
     public abstract class Parent
     {

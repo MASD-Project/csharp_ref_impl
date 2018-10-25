@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     public sealed class Association
     {
@@ -31,8 +31,8 @@ namespace CSharpRefImpl.CSharpModel
         /// <summary>
         /// Association with a class that has no properties.
         /// </summary>
-        public CSharpRefImpl.CSharpModel.NoProperties Prop1 { get; set; }
-        public CSharpRefImpl.CSharpModel.ColourTypes Prop2 { get; set; }
+        public Masd.CSharpRefImpl.CSharpModel.NoProperties Prop1 { get; set; }
+        public Masd.CSharpRefImpl.CSharpModel.ColourTypes Prop2 { get; set; }
         #endregion
 
         #region Constructors
@@ -40,8 +40,8 @@ namespace CSharpRefImpl.CSharpModel
 
         public Association(
             int prop0,
-            CSharpRefImpl.CSharpModel.NoProperties prop1,
-            CSharpRefImpl.CSharpModel.ColourTypes prop2)
+            Masd.CSharpRefImpl.CSharpModel.NoProperties prop1,
+            Masd.CSharpRefImpl.CSharpModel.ColourTypes prop2)
         {
             Prop0 = prop0;
             Prop1 = prop1;

@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ComplexBuiltins.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.ComplexBuiltins", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.ComplexBuiltins", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

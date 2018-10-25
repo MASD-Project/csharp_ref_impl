@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ChildViaSettings.
@@ -30,7 +30,7 @@ namespace CSharpRefImpl.CSharpModel
     {
         static internal void Populate(ChildViaSettings value, uint position)
         {
-            CSharpRefImpl.CSharpModel.ParentWithMembersSequenceGenerator.Populate(value, position);
+            Masd.CSharpRefImpl.CSharpModel.ParentWithMembersSequenceGenerator.Populate(value, position);
             value.Prop1 = AssistantSequenceGenerator.CreateInt(position + 0);
         }
 

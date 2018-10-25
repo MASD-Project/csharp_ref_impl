@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
-    public abstract class Descendant1 : CSharpRefImpl.CSharpModel.Base
+    public abstract class Descendant1 : Masd.CSharpRefImpl.CSharpModel.Base
     {
         #region Constructors
         public Descendant1() { }

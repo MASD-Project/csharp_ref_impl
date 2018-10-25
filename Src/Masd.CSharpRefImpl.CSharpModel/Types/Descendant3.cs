@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
-    public sealed class Descendant3 : CSharpRefImpl.CSharpModel.Descendant1
+    public sealed class Descendant3 : Masd.CSharpRefImpl.CSharpModel.Descendant1
     {
         #region Properties
         public bool Prop0 { get; set; }

@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ChildViaSettings.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.ChildViaSettings", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.ChildViaSettings", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -46,7 +46,7 @@ namespace CSharpRefImpl.CSharpModel
             assistant.AddStartObject();
             assistant.AddKey("__parent_0__");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.ParentWithMembersDumper.Dump(assistant, value, true/*withSeparator*/);
+            Masd.CSharpRefImpl.CSharpModel.ParentWithMembersDumper.Dump(assistant, value, true/*withSeparator*/);
             assistant.Add("Prop1", value.Prop1);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object

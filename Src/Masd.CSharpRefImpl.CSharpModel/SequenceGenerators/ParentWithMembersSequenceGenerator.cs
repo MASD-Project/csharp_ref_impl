@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ParentWithMembers.
@@ -36,12 +36,12 @@ namespace CSharpRefImpl.CSharpModel
         static internal ParentWithMembers Create(uint position)
         {
             if ((position % 3) == 0)
-                return CSharpRefImpl.CSharpModel.ChildOfAChild2SequenceGenerator.Create(position);
+                return Masd.CSharpRefImpl.CSharpModel.ChildOfAChild2SequenceGenerator.Create(position);
             if ((position % 3) == 1)
-                return CSharpRefImpl.CSharpModel.ChildViaSettingsSequenceGenerator.Create(position);
+                return Masd.CSharpRefImpl.CSharpModel.ChildViaSettingsSequenceGenerator.Create(position);
             if ((position % 3) == 2)
-                return CSharpRefImpl.CSharpModel.SecondChildWithoutMembersSequenceGenerator.Create(position);
-            return CSharpRefImpl.CSharpModel.ChildOfAChild1SequenceGenerator.Create(position);
+                return Masd.CSharpRefImpl.CSharpModel.SecondChildWithoutMembersSequenceGenerator.Create(position);
+            return Masd.CSharpRefImpl.CSharpModel.ChildOfAChild1SequenceGenerator.Create(position);
         }
 
         #region Enumerator

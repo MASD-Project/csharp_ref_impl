@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Immutable class with non-immutable and immutable elements as properties.
@@ -29,8 +29,8 @@ namespace CSharpRefImpl.CSharpModel
         #region Properties
         public bool Prop0 { get; internal set; }
         public string Prop1 { get; internal set; }
-        public CSharpRefImpl.CSharpModel.ComplexBuiltins Prop2 { get; internal set; }
-        public CSharpRefImpl.CSharpModel.ImmutableOnePrimitive Prop3 { get; internal set; }
+        public Masd.CSharpRefImpl.CSharpModel.ComplexBuiltins Prop2 { get; internal set; }
+        public Masd.CSharpRefImpl.CSharpModel.ImmutableOnePrimitive Prop3 { get; internal set; }
         #endregion
 
         #region Constructors
@@ -39,8 +39,8 @@ namespace CSharpRefImpl.CSharpModel
         public ImmutableFour(
             bool prop0,
             string prop1,
-            CSharpRefImpl.CSharpModel.ComplexBuiltins prop2,
-            CSharpRefImpl.CSharpModel.ImmutableOnePrimitive prop3)
+            Masd.CSharpRefImpl.CSharpModel.ComplexBuiltins prop2,
+            Masd.CSharpRefImpl.CSharpModel.ImmutableOnePrimitive prop3)
         {
             Prop0 = prop0;
             Prop1 = prop1;

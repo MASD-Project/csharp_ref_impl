@@ -17,7 +17,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 // MA 02110-1301, USA.
 //
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of TestAllKnobs.
@@ -31,7 +31,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.TestAllKnobs", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.TestAllKnobs", true/*withSeparator*/);
             string valueAsString = "Unsupported Value";
             switch (value)
             {

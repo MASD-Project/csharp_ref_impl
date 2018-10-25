@@ -7,8 +7,8 @@
     <ProjectGuid>{761188D6-E48E-4795-BE2F-28C020E5BE8D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharpRefImpl.CSharpModel.Tests</RootNamespace>
-    <AssemblyName>CSharpRefImpl.CSharpModel.Tests</AssemblyName>
+    <RootNamespace>Masd.CSharpRefImpl.CSharpModel.Tests</RootNamespace>
+    <AssemblyName>Masd.CSharpRefImpl.CSharpModel.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -60,13 +60,13 @@
   -->
   <ItemGroup>
     <Compile Include="LogConfigurator.cs" />
-    <Compile Include="equality_tests.cs" />
-    <Compile Include="sequence_generator_tests.cs" />
+    <Compile Include="EqualityTests.cs" />
+    <Compile Include="SequenceGeneratorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CSharpModel\CSharpRefImpl.CSharpModel.csproj">
       <Project>{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}</Project>
-      <Name>CSharpRefImpl.CSharpModel</Name>
+      <Name>Masd.CSharpRefImpl.CSharpModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel.Package3
+namespace Masd.CSharpRefImpl.CSharpModel.Package3
 {
     /// <summary>
     /// Generates sequences of Parent.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel.Package3
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.Package3.Parent", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.Package3.Parent", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

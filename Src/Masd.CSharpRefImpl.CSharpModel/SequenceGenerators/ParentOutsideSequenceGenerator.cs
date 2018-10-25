@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ParentOutside.
@@ -36,8 +36,8 @@ namespace CSharpRefImpl.CSharpModel
         static internal ParentOutside Create(uint position)
         {
             if ((position % 1) == 0)
-                return CSharpRefImpl.CSharpModel.Package5.ChildViaSettingsSequenceGenerator.Create(position);
-            return CSharpRefImpl.CSharpModel.Package5.ChildSequenceGenerator.Create(position);
+                return Masd.CSharpRefImpl.CSharpModel.Package5.ChildViaSettingsSequenceGenerator.Create(position);
+            return Masd.CSharpRefImpl.CSharpModel.Package5.ChildSequenceGenerator.Create(position);
         }
 
         #region Enumerator

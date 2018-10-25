@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Specialized;
 
-namespace CSharpRefImpl.AllPathAndDirectorySettings
+namespace Masd.CSharpRefImpl.AllPathAndDirectorySettings
 {
     /// <summary>
     /// Provides helper methods for the sequence generators.

@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.LamModel.Package1
+namespace Masd.CSharpRefImpl.LamModel.Package1
 {
     public sealed class ClassInPackage
     {

@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
-    public class NonSealedLeaf : CSharpRefImpl.CSharpModel.Descendant1
+    public class NonSealedLeaf : Masd.CSharpRefImpl.CSharpModel.Descendant1
     {
         #region Properties
         public int Prop0 { get; set; }

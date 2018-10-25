@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.AllPathAndDirectorySettings.Package00
+namespace Masd.CSharpRefImpl.AllPathAndDirectorySettings.Package00
 {
     public sealed class Class1
     {

@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Base.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.Base", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.Base", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

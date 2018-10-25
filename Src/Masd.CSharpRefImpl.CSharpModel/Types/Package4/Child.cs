@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel.Package4
+namespace Masd.CSharpRefImpl.CSharpModel.Package4
 {
-    public sealed class Child : CSharpRefImpl.CSharpModel.Package3.Parent
+    public sealed class Child : Masd.CSharpRefImpl.CSharpModel.Package3.Parent
     {
         #region Properties
         public int Prop1 { get; set; }

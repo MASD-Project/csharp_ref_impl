@@ -25,7 +25,7 @@ using log4net.Appender;
 using log4net.Repository.Hierarchy;
 using System.Runtime.CompilerServices;
 
-namespace CSharpRefImpl.CSharpModel.Tests
+namespace Masd.CSharpRefImpl.CSharpModel.Tests
 {
     /// <summary>
     /// Configures the log file for unit tests.

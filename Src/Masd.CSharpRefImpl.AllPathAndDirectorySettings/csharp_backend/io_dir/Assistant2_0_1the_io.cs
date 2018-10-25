@@ -21,7 +21,7 @@ using System;
 using System.Text;
 using System.Collections;
 
-namespace CSharpRefImpl.AllPathAndDirectorySettings
+namespace Masd.CSharpRefImpl.AllPathAndDirectorySettings
 {
     class AssistantDumper
     {

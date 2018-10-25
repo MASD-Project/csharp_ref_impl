@@ -26,11 +26,11 @@ namespace CSharpRefImpl.CSharpModel.Tests
 {
     [TestFixture]
     // Analysis disable once InconsistentNaming
-    public class sequence_generator_tests
+    public class SequenceGeneratorTests
     {
         #region Properties
         private static readonly ILog Log = LogManager.GetLogger(typeof(equality_tests));
-        private static readonly string FixtureName = typeof(sequence_generator_tests).Name;
+        private static readonly string FixtureName = typeof(SequenceGeneratorTests).Name;
         #endregion
 
         #region Helpers
@@ -53,7 +53,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
         #region Tests
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_objects_with_properties_produces_valid_json()
+        public void DumpingObjectsWithPropertiesProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -91,7 +91,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_objects_without_properties_produces_valid_json()
+        public void DumpingObjectsWithoutPropertiesProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -102,7 +102,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_enumerations_produces_valid_json()
+        public void DumpingEnumerationsProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -122,7 +122,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_primitives_produces_valid_json()
+        public void DumpingPrimitivesProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -136,7 +136,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_classes_in_namespaces_produces_valid_json()
+        public void DumpingClassesInNamespacesProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -153,7 +153,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_classes_in_inheritance_relationships_produce_valid_json()
+        public void DumpingClassesInInheritanceRelationshipsProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -182,7 +182,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_null_objects_produces_valid_json()
+        public void DumpingNullObjectsProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -202,7 +202,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void dumping_class_with_object_based_collections_produces_valid_json()
+        public void DumpingClassWithObjectBasedCollectionsProducesValidJson()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {

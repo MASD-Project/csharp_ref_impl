@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Descendant3.
@@ -30,7 +30,7 @@ namespace CSharpRefImpl.CSharpModel
     {
         static internal void Populate(Descendant3 value, uint position)
         {
-            CSharpRefImpl.CSharpModel.Descendant1SequenceGenerator.Populate(value, position);
+            Masd.CSharpRefImpl.CSharpModel.Descendant1SequenceGenerator.Populate(value, position);
             value.Prop0 = AssistantSequenceGenerator.CreateBool(position + 0);
         }
 

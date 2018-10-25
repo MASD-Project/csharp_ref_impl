@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
-    public sealed class SecondChildWithoutMembers : CSharpRefImpl.CSharpModel.ParentWithMembers
+    public sealed class SecondChildWithoutMembers : Masd.CSharpRefImpl.CSharpModel.ParentWithMembers
     {
         #region Constructors
         public SecondChildWithoutMembers() { }

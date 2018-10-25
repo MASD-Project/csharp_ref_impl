@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
-    public sealed class ChildViaSettings : CSharpRefImpl.CSharpModel.ParentWithMembers
+    public sealed class ChildViaSettings : Masd.CSharpRefImpl.CSharpModel.ParentWithMembers
     {
         #region Properties
         public int Prop1 { get; set; }

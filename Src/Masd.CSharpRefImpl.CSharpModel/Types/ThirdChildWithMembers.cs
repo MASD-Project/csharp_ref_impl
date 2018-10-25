@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
-    public abstract class ThirdChildWithMembers : CSharpRefImpl.CSharpModel.ParentWithMembers
+    public abstract class ThirdChildWithMembers : Masd.CSharpRefImpl.CSharpModel.ParentWithMembers
     {
         #region Properties
         public int Prop1 { get; set; }

@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of ImmutableFour.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.ImmutableFour", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.ImmutableFour", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -48,10 +48,10 @@ namespace CSharpRefImpl.CSharpModel
             assistant.Add("Prop1", value.Prop1, true/*withSeparator*/);
             assistant.AddKey("Prop2");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.ComplexBuiltinsDumper.Dump(assistant, value.Prop2, true/*withSeparator*/);
+            Masd.CSharpRefImpl.CSharpModel.ComplexBuiltinsDumper.Dump(assistant, value.Prop2, true/*withSeparator*/);
             assistant.AddKey("Prop3");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.ImmutableOnePrimitiveDumper.Dump(assistant, value.Prop3);
+            Masd.CSharpRefImpl.CSharpModel.ImmutableOnePrimitiveDumper.Dump(assistant, value.Prop3);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);

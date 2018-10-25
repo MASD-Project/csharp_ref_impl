@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel.Package1
+namespace Masd.CSharpRefImpl.CSharpModel.Package1
 {
     public sealed class Class3
     {

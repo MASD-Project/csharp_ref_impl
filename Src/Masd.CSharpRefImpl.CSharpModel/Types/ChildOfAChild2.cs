@@ -19,9 +19,9 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
-    public sealed class ChildOfAChild2 : CSharpRefImpl.CSharpModel.ThirdChildWithMembers
+    public sealed class ChildOfAChild2 : Masd.CSharpRefImpl.CSharpModel.ThirdChildWithMembers
     {
         #region Properties
         public int Prop2 { get; set; }

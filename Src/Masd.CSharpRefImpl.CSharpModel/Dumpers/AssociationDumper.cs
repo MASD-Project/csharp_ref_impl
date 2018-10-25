@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Association.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.Association", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.Association", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -47,10 +47,10 @@ namespace CSharpRefImpl.CSharpModel
             assistant.Add("Prop0", value.Prop0, true/*withSeparator*/);
             assistant.AddKey("Prop1");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.NoPropertiesDumper.Dump(assistant, value.Prop1, true/*withSeparator*/);
+            Masd.CSharpRefImpl.CSharpModel.NoPropertiesDumper.Dump(assistant, value.Prop1, true/*withSeparator*/);
             assistant.AddKey("Prop2");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.ColourTypesDumper.Dump(assistant, value.Prop2);
+            Masd.CSharpRefImpl.CSharpModel.ColourTypesDumper.Dump(assistant, value.Prop2);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);

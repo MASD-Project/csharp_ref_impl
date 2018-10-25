@@ -21,7 +21,7 @@ using System;
 using System.Text;
 using System.Collections;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     class AssistantDumper
     {

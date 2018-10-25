@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.CSharpModel.Package1
+namespace Masd.CSharpRefImpl.CSharpModel.Package1
 {
     /// <summary>
     /// Generates sequences of Class3.

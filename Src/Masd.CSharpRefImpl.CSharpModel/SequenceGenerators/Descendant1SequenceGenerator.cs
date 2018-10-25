@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Descendant1.
@@ -30,14 +30,14 @@ namespace CSharpRefImpl.CSharpModel
     {
         static internal void Populate(Descendant1 value, uint position)
         {
-            CSharpRefImpl.CSharpModel.BaseSequenceGenerator.Populate(value, position);
+            Masd.CSharpRefImpl.CSharpModel.BaseSequenceGenerator.Populate(value, position);
         }
 
         static internal Descendant1 Create(uint position)
         {
             if ((position % 1) == 0)
-                return CSharpRefImpl.CSharpModel.NonSealedLeafSequenceGenerator.Create(position);
-            return CSharpRefImpl.CSharpModel.Descendant3SequenceGenerator.Create(position);
+                return Masd.CSharpRefImpl.CSharpModel.NonSealedLeafSequenceGenerator.Create(position);
+            return Masd.CSharpRefImpl.CSharpModel.Descendant3SequenceGenerator.Create(position);
         }
 
         #region Enumerator

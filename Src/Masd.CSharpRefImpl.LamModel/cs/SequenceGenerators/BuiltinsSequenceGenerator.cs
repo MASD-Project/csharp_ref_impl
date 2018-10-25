@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.LamModel
+namespace Masd.CSharpRefImpl.LamModel
 {
     /// <summary>
     /// Generates sequences of Builtins.

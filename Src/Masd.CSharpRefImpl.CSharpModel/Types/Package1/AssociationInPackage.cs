@@ -19,23 +19,23 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel.Package1
+namespace Masd.CSharpRefImpl.CSharpModel.Package1
 {
     public sealed class AssociationInPackage
     {
         #region Properties
-        public CSharpRefImpl.CSharpModel.PrimitiveBuiltins Prop0 { get; set; }
-        public CSharpRefImpl.CSharpModel.ComplexBuiltins Prop1 { get; set; }
-        public CSharpRefImpl.CSharpModel.Package1.Class1 Prop2 { get; set; }
+        public Masd.CSharpRefImpl.CSharpModel.PrimitiveBuiltins Prop0 { get; set; }
+        public Masd.CSharpRefImpl.CSharpModel.ComplexBuiltins Prop1 { get; set; }
+        public Masd.CSharpRefImpl.CSharpModel.Package1.Class1 Prop2 { get; set; }
         #endregion
 
         #region Constructors
         public AssociationInPackage() { }
 
         public AssociationInPackage(
-            CSharpRefImpl.CSharpModel.PrimitiveBuiltins prop0,
-            CSharpRefImpl.CSharpModel.ComplexBuiltins prop1,
-            CSharpRefImpl.CSharpModel.Package1.Class1 prop2)
+            Masd.CSharpRefImpl.CSharpModel.PrimitiveBuiltins prop0,
+            Masd.CSharpRefImpl.CSharpModel.ComplexBuiltins prop1,
+            Masd.CSharpRefImpl.CSharpModel.Package1.Class1 prop2)
         {
             Prop0 = prop0;
             Prop1 = prop1;

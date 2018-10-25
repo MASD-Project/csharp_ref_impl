@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Descendant2.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.Descendant2", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.Descendant2", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -46,7 +46,7 @@ namespace CSharpRefImpl.CSharpModel
             assistant.AddStartObject();
             assistant.AddKey("__parent_0__");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.BaseDumper.Dump(assistant, value, true/*withSeparator*/);
+            Masd.CSharpRefImpl.CSharpModel.BaseDumper.Dump(assistant, value, true/*withSeparator*/);
             assistant.Add("Prop0", value.Prop0);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object

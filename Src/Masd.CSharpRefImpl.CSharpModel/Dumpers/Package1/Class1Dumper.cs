@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel.Package1
+namespace Masd.CSharpRefImpl.CSharpModel.Package1
 {
     /// <summary>
     /// Generates sequences of Class1.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel.Package1
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.Package1.Class1", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.Package1.Class1", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

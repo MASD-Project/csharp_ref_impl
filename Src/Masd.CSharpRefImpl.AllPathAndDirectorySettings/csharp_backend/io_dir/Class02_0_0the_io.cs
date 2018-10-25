@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.AllPathAndDirectorySettings
+namespace Masd.CSharpRefImpl.AllPathAndDirectorySettings
 {
     /// <summary>
     /// Generates sequences of Class0.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.AllPathAndDirectorySettings
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.AllPathAndDirectorySettings.Class0", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.AllPathAndDirectorySettings.Class0", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");

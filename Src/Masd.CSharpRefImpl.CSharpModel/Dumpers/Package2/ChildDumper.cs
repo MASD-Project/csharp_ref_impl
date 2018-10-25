@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel.Package2
+namespace Masd.CSharpRefImpl.CSharpModel.Package2
 {
     /// <summary>
     /// Generates sequences of Child.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel.Package2
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.Package2.Child", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.Package2.Child", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -46,7 +46,7 @@ namespace CSharpRefImpl.CSharpModel.Package2
             assistant.AddStartObject();
             assistant.AddKey("__parent_0__");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.Package2.ParentDumper.Dump(assistant, value, true/*withSeparator*/);
+            Masd.CSharpRefImpl.CSharpModel.Package2.ParentDumper.Dump(assistant, value, true/*withSeparator*/);
             assistant.Add("Prop1", value.Prop1);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object

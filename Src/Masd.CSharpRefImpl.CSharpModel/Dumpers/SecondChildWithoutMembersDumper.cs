@@ -19,7 +19,7 @@
 //
 using System;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of SecondChildWithoutMembers.
@@ -33,7 +33,7 @@ namespace CSharpRefImpl.CSharpModel
                 return;
 
             assistant.AddStartObject();
-            assistant.AddType("CSharpRefImpl.CSharpModel.SecondChildWithoutMembers", true/*withSeparator*/);
+            assistant.AddType("Masd.CSharpRefImpl.CSharpModel.SecondChildWithoutMembers", true/*withSeparator*/);
             if (value == null)
             {
                 assistant.Add("data", "<null>");
@@ -46,7 +46,7 @@ namespace CSharpRefImpl.CSharpModel
             assistant.AddStartObject();
             assistant.AddKey("__parent_0__");
             assistant.AddPairSeparator();
-            CSharpRefImpl.CSharpModel.ParentWithMembersDumper.Dump(assistant, value);
+            Masd.CSharpRefImpl.CSharpModel.ParentWithMembersDumper.Dump(assistant, value);
             assistant.AddEndObject(); // data
             assistant.AddEndObject(); // main object
             assistant.HandleMemberSeparator(withSeparator);

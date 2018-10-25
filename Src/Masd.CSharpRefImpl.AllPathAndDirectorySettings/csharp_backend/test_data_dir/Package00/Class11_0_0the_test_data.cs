@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.AllPathAndDirectorySettings.Package00
+namespace Masd.CSharpRefImpl.AllPathAndDirectorySettings.Package00
 {
     /// <summary>
     /// Generates sequences of Class1.

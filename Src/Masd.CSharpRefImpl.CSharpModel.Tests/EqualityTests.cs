@@ -20,21 +20,21 @@
 using log4net;
 using NUnit.Framework;
 
-namespace CSharpRefImpl.CSharpModel.Tests
+namespace Masd.CSharpRefImpl.CSharpModel.Tests
 {
     [TestFixture]
     // Analysis disable once InconsistentNaming
-    class equality_tests
+    class EqualityTests
     {
         #region Properties
-        private static readonly ILog Log = LogManager.GetLogger(typeof(equality_tests));
-        private static readonly string FixtureName = typeof(equality_tests).Name;
+        private static readonly ILog Log = LogManager.GetLogger(typeof(EqualityTests));
+        private static readonly string FixtureName = typeof(EqualityTests).Name;
         #endregion
 
         #region Tests
         [Test]
         // Analysis disable once InconsistentNaming
-        public void identical_objects_are_equal()
+        public void IdenticalObjectsAreEqual()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -112,7 +112,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void an_object_is_equal_to_itself()
+        public void AnObjectIsEqualToItself()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -187,7 +187,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void distinct_objects_are_unequal()
+        public void DistinctObjectsAreUnequal()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {
@@ -270,7 +270,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
         [Test]
         // Analysis disable once InconsistentNaming
-        public void equality_in_inheritance_works_correctly()
+        public void EqualityInInheritanceWorksCorrectly()
         {
             using (var lc = new LogConfigurator(FixtureName))
             {

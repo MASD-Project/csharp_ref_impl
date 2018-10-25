@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpRefImpl.CSharpModel
+namespace Masd.CSharpRefImpl.CSharpModel
 {
     /// <summary>
     /// Generates sequences of Association.
@@ -31,8 +31,8 @@ namespace CSharpRefImpl.CSharpModel
         static internal void Populate(Association value, uint position)
         {
             value.Prop0 = AssistantSequenceGenerator.CreateInt(position + 0);
-            value.Prop1 = CSharpRefImpl.CSharpModel.NoPropertiesSequenceGenerator.Create(position + 1);
-            value.Prop2 = CSharpRefImpl.CSharpModel.ColourTypesSequenceGenerator.Create(position + 2);
+            value.Prop1 = Masd.CSharpRefImpl.CSharpModel.NoPropertiesSequenceGenerator.Create(position + 1);
+            value.Prop2 = Masd.CSharpRefImpl.CSharpModel.ColourTypesSequenceGenerator.Create(position + 2);
         }
 
         static internal Association Create(uint position)
