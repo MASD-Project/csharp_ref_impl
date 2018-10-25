@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{00000000-0000-0000-0000-000000000000}") = "Masd.CSharpRefImpl.AllPathAndDirectorySettings", "Masd.CSharpRefImpl.AllPathAndDirectorySettings.csproj", "{00000000-0000-0000-0000-000000000000}"
+Project("{GAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masd.CSharpRefImpl.AllPathAndDirectorySettings", "Masd.CSharpRefImpl.AllPathAndDirectorySettings.csproj", "{0E645ACD-C04A-4734-AB23-C3FCC0F7981B}"
 EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,10 +8,10 @@ Global
         Release|Any CPU = Release|Any CPU
     EndGlobalSection
     GlobalSection(ProjectConfigurationPlatforms) = postSolution
-        {00000000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-        {00000000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
-        {00000000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
-        {00000000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+        {0E645ACD-C04A-4734-AB23-C3FCC0F7981B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {0E645ACD-C04A-4734-AB23-C3FCC0F7981B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {0E645ACD-C04A-4734-AB23-C3FCC0F7981B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {0E645ACD-C04A-4734-AB23-C3FCC0F7981B}.Release|Any CPU.Build.0 = Release|Any CPU
     EndGlobalSection
     GlobalSection(MonoDevelopProperties) = preSolution
         StartupItem = CSharpModel.csproj

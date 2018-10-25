@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{0E645ACD-C04A-4734-AB23-C3FCC0F7981B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Masd.CSharpRefImpl.AllPathAndDirectorySettings</RootNamespace>
     <AssemblyName>Masd.CSharpRefImpl.AllPathAndDirectorySettings</AssemblyName>
