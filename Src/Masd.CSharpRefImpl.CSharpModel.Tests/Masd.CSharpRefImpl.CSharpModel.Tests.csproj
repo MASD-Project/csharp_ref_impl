@@ -68,13 +68,13 @@
       <Project>{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}</Project>
       <Name>Masd.CSharpRefImpl.CSharpModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Masd.CSharpRefImpl.AllPathAndDirectorySettings\csharp_backend\Masd.CSharpRefImpl.AllPathAndDirectorySettings.csproj">
-      <Project>{0E645ACD-C04A-4734-AB23-C3FCC0F7981B}</Project>
-      <Name>Masd.CSharpRefImpl.AllPathAndDirectorySettings</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Masd.CSharpRefImpl.LamModel\cs\Masd.CSharpRefImpl.LamModel.csproj">
       <Project>{1E645ACD-C04A-4734-AB23-C3FCC0F7981B}</Project>
       <Name>Masd.CSharpRefImpl.LamModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Masd.CSharpRefImpl.DirectorySettings\csharp_backend\Masd.CSharpRefImpl.DirectorySettings.csproj">
+      <Project>{0E645ACD-C04A-4734-AB23-C3FCC0F7981B}</Project>
+      <Name>Masd.CSharpRefImpl.DirectorySettings</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

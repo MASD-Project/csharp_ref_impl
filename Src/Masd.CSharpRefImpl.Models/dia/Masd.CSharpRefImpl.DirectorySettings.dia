@@ -238,22 +238,22 @@
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O2">
       <dia:attribute name="obj_pos">
-        <dia:point val="-31,-47"/>
+        <dia:point val="-38,-47"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-31.05,-47.05;-6.18,-24.45"/>
+        <dia:rectangle val="-38.05,-47.05;-1.63,-23.65"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-31,-47"/>
+        <dia:point val="-38,-47"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="24.77"/>
+        <dia:real val="36.32"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="22.500000000000004"/>
+        <dia:real val="23.300000000000004"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -270,7 +270,7 @@
             <dia:string>#This model tests all settings related to paths and file names.
 
 #DOGEN yarn.dia.comment=true
-#DOGEN yarn.model_modules=Masd.CSharpRefImpl.AllPathAndDirectorySettings
+#DOGEN yarn.model_modules=Masd.CSharpRefImpl.DirectorySettings
 #DOGEN annotations.profile=dogen
 #DOGEN yarn.input_language=language_agnostic
 #DOGEN yarn.output_language=csharp
@@ -278,20 +278,20 @@
 #DOGEN quilt.csharp.visual_studio.project_guid=0E645ACD-C04A-4734-AB23-C3FCC0F7981B
 #DOGEN quilt.csharp.visual_studio.project_solution_guid=GAE04EC0-301F-11D3-BF4B-00C04F79EFBC
 #DOGEN quilt.csharp.directory=csharp_backend
-#DOGEN quilt.csharp.test_data.directory=test_data_dir
-#DOGEN quilt.csharp.test_data.postfix=the_test_data
+#DOGEN quilt.csharp.test_data.directory=TestDataDir
+#DOGEN quilt.csharp.test_data.postfix=the_TestData
 #DOGEN quilt.csharp.test_data.class.postfix=1_0_0
 #DOGEN quilt.csharp.test_data.assistant.postfix=1_0_1
 #DOGEN quilt.csharp.test_data.enum.postfix=1_0_2
 #DOGEN quilt.csharp.test_data.primitive.postfix=1_0_3
-#DOGEN quilt.csharp.io.directory=io_dir
-#DOGEN quilt.csharp.io.postfix=the_io
+#DOGEN quilt.csharp.io.directory=IoDir
+#DOGEN quilt.csharp.io.postfix=TheIo
 #DOGEN quilt.csharp.io.class.postfix=2_0_0
 #DOGEN quilt.csharp.io.assistant.postfix=2_0_1
 #DOGEN quilt.csharp.io.enum.postfix=2_0_2
 #DOGEN quilt.csharp.io.primitive.postfix=2_0_3
-#DOGEN quilt.csharp.types.directory=types_dir
-#DOGEN quilt.csharp.types.postfix=the_types
+#DOGEN quilt.csharp.types.directory=TtypesDir
+#DOGEN quilt.csharp.types.postfix=TheTypes
 #DOGEN quilt.csharp.types.class.postfix=1_1_0
 #DOGEN quilt.csharp.types.enum.postfix=1_1_2
 #DOGEN quilt.csharp.types.primitive.postfix=1_1_3#</dia:string>
@@ -303,7 +303,7 @@
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-30.65,-45.755"/>
+            <dia:point val="-37.65,-45.755"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
