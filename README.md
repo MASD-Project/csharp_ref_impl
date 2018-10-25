@@ -2,7 +2,7 @@
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl?ref=badge_shield)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)](https://github.com/MASD-Project/csharp_ref_impl/pulse/monthly)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/MASD-Project/Lobby)
-[![Code Quality: Cpp](https://img.shields.io/lgtm/grade/cpp/g/MASD-Project/csharp_ref_impl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/MASD-Project/csharp_ref_impl/context:cpp)
+[![Code Quality: C#](https://img.shields.io/lgtm/grade/csharp/g/MASD-Project/csharp_ref_impl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/MASD-Project/csharp_ref_impl/context:csharp)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5d998ea32f27479392c2c7b2309bd84a)](https://www.codacy.com/app/marco-craveiro/csharp_ref_impl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MASD-Project/csharp_ref_impl&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/MASD-Project/csharp_ref_impl.svg?branch=master)](https://travis-ci.org/MASD-Project/csharp_ref_impl)
 [![Build Status](https://img.shields.io/appveyor/ci/mcraveiro/csharp-ref-impl.svg?label=windows)](https://ci.appveyor.com/project/mcraveiro/csharp-ref-impl)
