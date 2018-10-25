@@ -555,8 +555,7 @@ This is a remark.#</dia:string>
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>##DOGEN yarn.dia.comment=true
-#DOGEN yarn.model_modules=CSharpModel
-#DOGEN yarn.external_modules=CSharpRefImpl
+#DOGEN yarn.model_modules=Masd.CSharpRefImpl.CSharpModel
 #DOGEN yarn.input_language=csharp
 #DOGEN quilt.csharp.enabled=true
 #DOGEN quilt.cpp.enabled=false

@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>CSharpRefImpl.AllPathAndDirectorySettings</RootNamespace>
-    <AssemblyName>CSharpRefImpl.AllPathAndDirectorySettings</AssemblyName>
+    <RootNamespace>Masd.CSharpRefImpl.AllPathAndDirectorySettings</RootNamespace>
+    <AssemblyName>Masd.CSharpRefImpl.AllPathAndDirectorySettings</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

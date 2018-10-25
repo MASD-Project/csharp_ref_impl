@@ -50,13 +50,14 @@ dogen_log_dir="${script_dir}/log";
 dogen_general_options="--delete-extra-files";
 dogen_general_options="${dogen_options} --force-write";
 dogen_general_options="${dogen_options} --log-level trace";
+dogen_general_options="${dogen_options} --delete-extra-files";
 dogen_general_options="${dogen_options} --output-directory ${dogen_output_dir}";
 dogen_general_options="${dogen_options} --log-directory ${dogen_log_dir}";
 
 #
 # Code generate all models
 #
-models="`'ls' Models/${frontend}/*.${frontend}`";
+models="`'ls' Masd.CSharpRefImpl.Models/${frontend}/*.${frontend}`";
 for model in ${models}; do
     echo "Generating ${model}";
     dogen_target_option="--target ${model}";

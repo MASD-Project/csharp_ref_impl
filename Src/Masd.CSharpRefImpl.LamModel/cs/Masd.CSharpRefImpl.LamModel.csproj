@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>CSharpRefImpl.LamModel</RootNamespace>
-    <AssemblyName>CSharpRefImpl.LamModel</AssemblyName>
+    <RootNamespace>Masd.CSharpRefImpl.LamModel</RootNamespace>
+    <AssemblyName>Masd.CSharpRefImpl.LamModel</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
