@@ -64,9 +64,13 @@
     <Compile Include="SequenceGeneratorTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSharpModel\CSharpRefImpl.CSharpModel.csproj">
+    <ProjectReference Include="..\Masd.CSharpRefImpl.CSharpModel\Masd.CSharpRefImpl.CSharpModel.csproj">
       <Project>{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}</Project>
       <Name>Masd.CSharpRefImpl.CSharpModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Masd.CSharpRefImpl.LamModel\cs\Masd.CSharpRefImpl.LamModel.csproj">
+      <Project>{00000000-0000-0000-0000-000000000000}</Project>
+      <Name>Masd.CSharpRefImpl.LamModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

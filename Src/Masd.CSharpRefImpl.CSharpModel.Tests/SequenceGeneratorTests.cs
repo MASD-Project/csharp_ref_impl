@@ -22,14 +22,14 @@ using NUnit.Framework;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
-namespace CSharpRefImpl.CSharpModel.Tests
+namespace Masd.CSharpRefImpl.CSharpModel.Tests
 {
     [TestFixture]
     // Analysis disable once InconsistentNaming
     public class SequenceGeneratorTests
     {
         #region Properties
-        private static readonly ILog Log = LogManager.GetLogger(typeof(equality_tests));
+        private static readonly ILog Log = LogManager.GetLogger(typeof(SequenceGeneratorTests));
         private static readonly string FixtureName = typeof(SequenceGeneratorTests).Name;
         #endregion
 
