@@ -48,11 +48,10 @@ dogen_log_dir="${script_dir}/log";
 # be removed once fixed.
 #
 dogen_general_options="--delete-extra-files";
-dogen_general_options="${dogen_options} --force-write";
-dogen_general_options="${dogen_options} --log-level trace";
-dogen_general_options="${dogen_options} --delete-extra-files";
-dogen_general_options="${dogen_options} --output-directory ${dogen_output_dir}";
-dogen_general_options="${dogen_options} --log-directory ${dogen_log_dir}";
+dogen_general_options="${dogen_general_options} --force-write";
+dogen_general_options="${dogen_general_options} --log-level trace";
+dogen_general_options="${dogen_general_options} --output-directory ${dogen_output_dir}";
+dogen_general_options="${dogen_general_options} --log-directory ${dogen_log_dir}";
 
 #
 # Code generate all models
