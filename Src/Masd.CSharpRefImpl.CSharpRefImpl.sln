@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.CSharpModel", "CSharpModel\CSharpRefImpl.CSharpModel.csproj", "{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masd.CSharpRefImpl.CSharpModel", "Masd.CSharpRefImpl.CSharpModel\Masd.CSharpRefImpl.CSharpModel.csproj", "{9E645ACD-C04A-4734-AB23-C3FCC0F7981B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.CSharpModel.Tests", "CSharpModel.Tests\CSharpRefImpl.CSharpModel.Tests.csproj", "{761188D6-E48E-4795-BE2F-28C020E5BE8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masd.CSharpRefImpl.CSharpModel.Tests", "Masd.CSharpModel.Tests\Masd.CSharpRefImpl.CSharpModel.Tests.csproj", "{761188D6-E48E-4795-BE2F-28C020E5BE8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefImpl.AllPathAndDirectorySettings", "AllPathAndDirectorySettings\csharp_backend\CSharpRefImpl.AllPathAndDirectorySettings.csproj", "{00000000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masd.CSharpRefImpl.AllPathAndDirectorySettings", "Masd.CSharpRefImpl.AllPathAndDirectorySettings\csharp_backend\Masd.CSharpRefImpl.AllPathAndDirectorySettings.csproj", "{00000000-0000-0000-0000-000000000000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
