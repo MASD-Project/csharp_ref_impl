@@ -25,6 +25,17 @@ formats.
 Please note that C# support in MASD still lags behind C++, so some
 functionality is not yet available.
 
+# Test Models
+
+The Reference Implementation is composed of a number of test
+models. These can be summarised as follows:
+
+| Name              | Description                                        |
+|-------------------|----------------------------------------------------|
+| CSharpModel       | Model testing core C# language features.           |
+| DirectorySettings | Exercises all file and directory settings in MASD. |
+| LamModel          | Language Agnostic Model targeting C#.              |
+
 # Reporting Problems
 
 If you have found any issues with the generated C# code, we ask you to
