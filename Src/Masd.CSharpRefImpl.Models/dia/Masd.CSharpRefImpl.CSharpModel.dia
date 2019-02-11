@@ -528,7 +528,7 @@ This is a remark.#</dia:string>
         <dia:point val="4,5"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.95,4.95;40.37,13.15"/>
+        <dia:rectangle val="3.95,4.95;44.22,12.35"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -537,10 +537,10 @@ This is a remark.#</dia:string>
         <dia:point val="4,5"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="36.32"/>
+        <dia:real val="40.169999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="8.0999999999999996"/>
+        <dia:real val="7.2999999999999998"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -554,14 +554,14 @@ This is a remark.#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>##DOGEN yarn.dia.comment=true
-#DOGEN yarn.model_modules=Masd.CSharpRefImpl.CSharpModel
-#DOGEN yarn.input_language=csharp
-#DOGEN quilt.csharp.enabled=true
-#DOGEN quilt.cpp.enabled=false
-#DOGEN quilt.csharp.visual_studio.project_guid=9E645ACD-C04A-4734-AB23-C3FCC0F7981B
-#DOGEN quilt.csharp.visual_studio.project_solution_guid=FAE04EC0-301F-11D3-BF4B-00C04F79EFBC
-#DOGEN annotations.profile=dogen#</dia:string>
+            <dia:string>##DOGEN masd.injection.dia.comment=true
+#DOGEN masd.injection.model_modules=Masd.CSharpRefImpl.CSharpModel
+#DOGEN masd.injection.input_language=csharp
+#DOGEN masd.extraction.csharp.enabled=true
+#DOGEN masd.extraction.cpp.enabled=false
+#DOGEN masd.extraction.csharp.visual_studio.project_guid=9E645ACD-C04A-4734-AB23-C3FCC0F7981B
+#DOGEN masd.extraction.csharp.visual_studio.project_solution_guid=FAE04EC0-301F-11D3-BF4B-00C04F79EFBC
+#DOGEN masd.annotations.profile=dogen#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="0" name="Courier"/>
@@ -989,13 +989,13 @@ This is a remark.#</dia:string>
         <dia:point val="46,15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.95,14.95;55.02,20.25"/>
+        <dia:rectangle val="45.95,14.95;54.635,20.25"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="46,15"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.9700000000000006"/>
+        <dia:real val="8.5849999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="5.2000000000000011"/>
@@ -1004,7 +1004,7 @@ This is a remark.#</dia:string>
         <dia:string>#BookTypes#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::enumeration#</dia:string>
+        <dia:string>#masd::enumeration#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#this is a brief comment
@@ -1171,13 +1171,13 @@ this is a long comment#</dia:string>
         <dia:point val="34,15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.95,14.95;43.02,21.05"/>
+        <dia:rectangle val="33.95,14.95;42.635,21.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="34,15"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.9700000000000006"/>
+        <dia:real val="8.5849999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6.0000000000000009"/>
@@ -1186,7 +1186,7 @@ this is a long comment#</dia:string>
         <dia:string>#ColourTypes#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::enumeration#</dia:string>
+        <dia:string>#masd::enumeration#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>##</dia:string>
@@ -2084,16 +2084,16 @@ this is a long comment#</dia:string>
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O13">
       <dia:attribute name="obj_pos">
-        <dia:point val="75,27"/>
+        <dia:point val="73.3571,25.7143"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="74.95,26.95;84.02,33.05"/>
+        <dia:rectangle val="73.3071,25.6643;81.9921,31.7643"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="75,27"/>
+        <dia:point val="73.3571,25.7143"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.9700000000000006"/>
+        <dia:real val="8.5849999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6.0000000000000009"/>
@@ -2102,7 +2102,7 @@ this is a long comment#</dia:string>
         <dia:string>#ShapeTypes#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::enumeration#</dia:string>
+        <dia:string>#masd::enumeration#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>##</dia:string>
@@ -2291,13 +2291,13 @@ this is a long comment#</dia:string>
         <dia:point val="18,32"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="17.95,31.95;26.25,35.05"/>
+        <dia:rectangle val="17.95,31.95;25.865,35.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="18,32"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -2306,7 +2306,7 @@ this is a long comment#</dia:string>
         <dia:string>#MyException#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::exception#</dia:string>
+        <dia:string>#masd::exception#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#this is an exception#</dia:string>
@@ -2416,7 +2416,7 @@ this is a long comment#</dia:string>
         <dia:string>#CatastrophicException#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::exception#</dia:string>
+        <dia:string>#masd::exception#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>##</dia:string>
@@ -3502,7 +3502,7 @@ this is a long comment#</dia:string>
         <dia:string>##</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.generalization.is_final=false#</dia:string>
+        <dia:string>##DOGEN masd.generalization.is_final=false#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -3677,7 +3677,7 @@ this is a long comment#</dia:string>
         <dia:string>##</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.generalization.is_final=false#</dia:string>
+        <dia:string>##DOGEN masd.generalization.is_final=false#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -4621,7 +4621,7 @@ this is a long comment#</dia:string>
         <dia:string>##</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.generalization.parent=ParentWithMembers#</dia:string>
+        <dia:string>##DOGEN masd.generalization.parent=ParentWithMembers#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -5104,7 +5104,7 @@ this is a long comment#</dia:string>
         <dia:string>##</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.generalization.parent=Package2.Parent#</dia:string>
+        <dia:string>##DOGEN masd.generalization.parent=Package2.Parent#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -5626,7 +5626,7 @@ this is a long comment#</dia:string>
         <dia:string>##</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.generalization.parent=Package3.Parent#</dia:string>
+        <dia:string>##DOGEN masd.generalization.parent=Package3.Parent#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -6109,7 +6109,7 @@ this is a long comment#</dia:string>
         <dia:string>##</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.generalization.parent=ParentOutside#</dia:string>
+        <dia:string>##DOGEN masd.generalization.parent=ParentOutside#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -6226,13 +6226,13 @@ this is a long comment#</dia:string>
         <dia:point val="3,96"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="2.95,95.95;11.25,99.05"/>
+        <dia:rectangle val="2.95,95.95;10.865,99.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="3,96"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -6241,7 +6241,7 @@ this is a long comment#</dia:string>
         <dia:string>#ImmutableZero#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::immutable#</dia:string>
+        <dia:string>#masd::immutable#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Immutable class with no properties.#</dia:string>
@@ -6351,7 +6351,7 @@ this is a long comment#</dia:string>
         <dia:string>#ImmutableOnePrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::immutable#</dia:string>
+        <dia:string>#masd::immutable#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Immutable class with a builtin property.#</dia:string>
@@ -6470,13 +6470,13 @@ this is a long comment#</dia:string>
         <dia:point val="3,109"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="2.95,108.95;11.25,113.45"/>
+        <dia:rectangle val="2.95,108.95;10.865,113.45"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="3,109"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.4000000000000004"/>
@@ -6485,7 +6485,7 @@ this is a long comment#</dia:string>
         <dia:string>#ImmutableTwo#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::immutable#</dia:string>
+        <dia:string>#masd::immutable#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>##</dia:string>
@@ -6642,7 +6642,7 @@ this is a long comment#</dia:string>
         <dia:string>#ImmutableFour#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::immutable#</dia:string>
+        <dia:string>#masd::immutable#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Immutable class with non-immutable and immutable elements as properties.#</dia:string>
@@ -7217,13 +7217,13 @@ this is a long comment#</dia:string>
         <dia:point val="34,23"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.95,22.95;43.02,27.45"/>
+        <dia:rectangle val="33.95,22.95;42.635,27.45"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="34,23"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.9700000000000006"/>
+        <dia:real val="8.5849999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.4000000000000004"/>
@@ -7232,10 +7232,10 @@ this is a long comment#</dia:string>
         <dia:string>#ShortEnum#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::enumeration#</dia:string>
+        <dia:string>#masd::enumeration#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.enumeration.underlying_element=short#</dia:string>
+        <dia:string>##DOGEN masd.enumeration.underlying_element=short#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -7374,13 +7374,13 @@ this is a long comment#</dia:string>
         <dia:point val="46,23"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.95,22.95;55.02,27.45"/>
+        <dia:rectangle val="45.95,22.95;54.635,27.45"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="46,23"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.9700000000000006"/>
+        <dia:real val="8.5849999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="4.4000000000000004"/>
@@ -7389,12 +7389,12 @@ this is a long comment#</dia:string>
         <dia:string>#TestAllKnobs#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::enumeration#</dia:string>
+        <dia:string>#masd::enumeration#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
-        <dia:string>##DOGEN yarn.enumeration.use_implementation_defined_underlying_element=true
-#DOGEN yarn.enumeration.use_implementation_defined_enumerator_values=true
-#DOGEN yarn.enumeration.add_invalid_enumerator=false#</dia:string>
+        <dia:string>##DOGEN masd.enumeration.use_implementation_defined_underlying_element=true
+#DOGEN masd.enumeration.use_implementation_defined_enumerator_values=true
+#DOGEN masd.enumeration.add_invalid_enumerator=false#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -7533,13 +7533,13 @@ this is a long comment#</dia:string>
         <dia:point val="46,32"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.95,31.95;55.02,38.85"/>
+        <dia:rectangle val="45.95,31.95;54.635,38.85"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="46,32"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.9700000000000006"/>
+        <dia:real val="8.5849999999999991"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6.8000000000000007"/>
@@ -7548,12 +7548,12 @@ this is a long comment#</dia:string>
         <dia:string>#HexFlags#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::enumeration#</dia:string>
+        <dia:string>#masd::enumeration#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#This is an example of an enumeration using hex flags.
 
-#DOGEN yarn.enumeration.add_invalid_enumerator=false#</dia:string>
+#DOGEN masd.enumeration.add_invalid_enumerator=false#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -7645,7 +7645,7 @@ this is a long comment#</dia:string>
             <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN yarn.enumerator.value=0x00#</dia:string>
+            <dia:string>##DOGEN masd.enumerator.value=0x00#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -7668,7 +7668,7 @@ this is a long comment#</dia:string>
             <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN yarn.enumerator.value=0x01#</dia:string>
+            <dia:string>##DOGEN masd.enumerator.value=0x01#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -7691,7 +7691,7 @@ this is a long comment#</dia:string>
             <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN yarn.enumerator.value=0x02#</dia:string>
+            <dia:string>##DOGEN masd.enumerator.value=0x02#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -7714,7 +7714,7 @@ this is a long comment#</dia:string>
             <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN yarn.enumerator.value=0x04#</dia:string>
+            <dia:string>##DOGEN masd.enumerator.value=0x04#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -7737,7 +7737,7 @@ this is a long comment#</dia:string>
             <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN yarn.enumerator.value=0x08#</dia:string>
+            <dia:string>##DOGEN masd.enumerator.value=0x08#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -7761,13 +7761,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,113"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,112.95;37.25,116.05"/>
+        <dia:rectangle val="28.95,112.95;36.865,116.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,113"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -7776,12 +7776,12 @@ this is a long comment#</dia:string>
         <dia:string>#ShortPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying short.
 
-#DOGEN yarn.primitive.underlying_element=short#</dia:string>
+#DOGEN masd.primitive.underlying_element=short#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -7873,13 +7873,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,118"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,117.95;37.25,121.05"/>
+        <dia:rectangle val="28.95,117.95;36.865,121.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,118"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -7888,12 +7888,12 @@ this is a long comment#</dia:string>
         <dia:string>#LongPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying long.
 
-#DOGEN yarn.primitive.underlying_element=long#</dia:string>
+#DOGEN masd.primitive.underlying_element=long#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -7985,13 +7985,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,123"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,122.95;37.25,126.05"/>
+        <dia:rectangle val="28.95,122.95;36.865,126.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,123"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8000,12 +8000,12 @@ this is a long comment#</dia:string>
         <dia:string>#IntPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying int.
 
-#DOGEN yarn.primitive.underlying_element=int#</dia:string>
+#DOGEN masd.primitive.underlying_element=int#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -8097,13 +8097,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,128"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,127.95;37.25,131.05"/>
+        <dia:rectangle val="28.95,127.95;36.865,131.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,128"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8112,12 +8112,12 @@ this is a long comment#</dia:string>
         <dia:string>#CharPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying char.
 
-#DOGEN yarn.primitive.underlying_element=char#</dia:string>
+#DOGEN masd.primitive.underlying_element=char#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -8209,13 +8209,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,118"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,117.95;49.25,121.05"/>
+        <dia:rectangle val="40.95,117.95;48.865,121.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,118"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8224,12 +8224,12 @@ this is a long comment#</dia:string>
         <dia:string>#ULongPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying unsigned long.
 
-#DOGEN yarn.primitive.underlying_element=ulong#</dia:string>
+#DOGEN masd.primitive.underlying_element=ulong#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -8321,13 +8321,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,123"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,122.95;49.25,126.05"/>
+        <dia:rectangle val="40.95,122.95;48.865,126.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,123"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8336,12 +8336,12 @@ this is a long comment#</dia:string>
         <dia:string>#UIntPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying unsigned int.
 
-#DOGEN yarn.primitive.underlying_element=uint#</dia:string>
+#DOGEN masd.primitive.underlying_element=uint#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -8433,13 +8433,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,113"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,112.95;49.25,116.05"/>
+        <dia:rectangle val="40.95,112.95;48.865,116.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,113"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8448,12 +8448,12 @@ this is a long comment#</dia:string>
         <dia:string>#UShortPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying unsgined short.
 
-#DOGEN yarn.primitive.underlying_element=ushort#</dia:string>
+#DOGEN masd.primitive.underlying_element=ushort#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -8545,13 +8545,13 @@ this is a long comment#</dia:string>
         <dia:point val="29,133"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,132.95;37.25,136.05"/>
+        <dia:rectangle val="28.95,132.95;36.865,136.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="29,133"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8560,12 +8560,12 @@ this is a long comment#</dia:string>
         <dia:string>#DoublePrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying double.
 
-#DOGEN yarn.primitive.underlying_element=double#</dia:string>
+#DOGEN masd.primitive.underlying_element=double#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -8657,13 +8657,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,133"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,132.95;49.25,136.05"/>
+        <dia:rectangle val="40.95,132.95;48.865,136.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,133"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8672,12 +8672,12 @@ this is a long comment#</dia:string>
         <dia:string>#FloatPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying float.
 
-#DOGEN yarn.primitive.underlying_element=float#</dia:string>
+#DOGEN masd.primitive.underlying_element=float#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -8769,13 +8769,13 @@ this is a long comment#</dia:string>
         <dia:point val="41,128"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40.95,127.95;49.25,131.05"/>
+        <dia:rectangle val="40.95,127.95;48.865,131.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="41,128"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="7.8150000000000004"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -8784,12 +8784,12 @@ this is a long comment#</dia:string>
         <dia:string>#BoolPrimitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#dogen::primitive#</dia:string>
+        <dia:string>#masd::primitive#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Test a primitive with an underlying bool.
 
-#DOGEN yarn.primitive.underlying_element=bool#</dia:string>
+#DOGEN masd.primitive.underlying_element=bool#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
