@@ -41,6 +41,7 @@ fi
 #
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )";
 dogen_output_dir="${script_dir}/../";
+model_dir="${script_dir}/../Masd.CSharpRefImpl.Models";
 dogen_log_dir="${script_dir}/log";
 
 #
@@ -56,7 +57,7 @@ dogen_general_options="${dogen_general_options} --log-directory ${dogen_log_dir}
 #
 # Code generate all models
 #
-models="`'ls' Masd.CSharpRefImpl.Models/${frontend}/*.${frontend}`";
+models="`'ls' ${model_dir}/${frontend}/*.${frontend}`";
 for model in ${models}; do
     echo "Generating ${model}";
     dogen_target_option="--target ${model}";
