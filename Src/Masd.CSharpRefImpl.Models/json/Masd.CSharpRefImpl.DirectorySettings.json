@@ -1,0 +1,71 @@
+{
+  "documentation": "This model tests all settings related to paths and file names.\n",
+  "tagged_values": {
+    "masd.injection.dia.comment": "true",
+    "masd.injection.model_modules": "Masd.CSharpRefImpl.DirectorySettings",
+    "masd.annotations.profile": "dogen",
+    "masd.injection.input_language": "language_agnostic",
+    "masd.extraction.output_language": "csharp",
+    "masd.extraction.csharp.enabled": "true",
+    "masd.extraction.csharp.visual_studio.project_guid": "0E645ACD-C04A-4734-AB23-C3FCC0F7981B",
+    "masd.extraction.csharp.visual_studio.project_solution_guid": "GAE04EC0-301F-11D3-BF4B-00C04F79EFBC",
+    "masd.extraction.csharp.directory": "csharp_backend",
+    "masd.extraction.csharp.test_data.directory": "TestDataDir",
+    "masd.extraction.csharp.test_data.postfix": "the_TestData",
+    "masd.extraction.csharp.test_data.class.postfix": "1_0_0",
+    "masd.extraction.csharp.test_data.assistant.postfix": "1_0_1",
+    "masd.extraction.csharp.test_data.enum.postfix": "1_0_2",
+    "masd.extraction.csharp.test_data.primitive.postfix": "1_0_3",
+    "masd.extraction.csharp.io.directory": "IoDir",
+    "masd.extraction.csharp.io.postfix": "TheIo",
+    "masd.extraction.csharp.io.class.postfix": "2_0_0",
+    "masd.extraction.csharp.io.assistant.postfix": "2_0_1",
+    "masd.extraction.csharp.io.enum.postfix": "2_0_2",
+    "masd.extraction.csharp.io.primitive.postfix": "2_0_3",
+    "masd.extraction.csharp.types.directory": "TtypesDir",
+    "masd.extraction.csharp.types.postfix": "TheTypes",
+    "masd.extraction.csharp.types.class.postfix": "1_1_0",
+    "masd.extraction.csharp.types.enum.postfix": "1_1_2",
+    "masd.extraction.csharp.types.primitive.postfix": "1_1_3"
+  },
+  "elements": [
+    {
+      "name": "Package00",
+      "fallback_element_type": "masd::module"
+    },
+    {
+      "name": "Package00::Class1",
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "Prop0",
+          "type": "lam::integer"
+        }
+      ]
+    },
+    {
+      "name": "Class0",
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "Prop0",
+          "type": "lam::integer"
+        }
+      ]
+    },
+    {
+      "name": "Package00::Package01",
+      "fallback_element_type": "masd::module"
+    },
+    {
+      "name": "Package00::Package01::Class2",
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "Prop0",
+          "type": "lam::integer"
+        }
+      ]
+    }
+  ]
+}

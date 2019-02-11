@@ -1,21 +1,22 @@
 {
   "tagged_values": {
-    "yarn.dia.comment": "true",
-    "yarn.model_modules": "LamModel",
-    "yarn.external_modules": "CSharpRefImpl",
-    "yarn.input_language": "language_agnostic",
-    "yarn.output_language": "csharp",
-    "quilt.csharp.enabled": "true",
-    "annotations.profile": "dogen"
+    "masd.injection.dia.comment": "true",
+    "masd.injection.model_modules": "Masd.CSharpRefImpl.LamModel",
+    "masd.injection.input_language": "language_agnostic",
+    "masd.extraction.output_language": "csharp",
+    "masd.extraction.csharp.enabled": "true",
+    "masd.extraction.csharp.visual_studio.project_guid" : "1E645ACD-C04A-4734-AB23-C3FCC0F7981B",
+    "masd.extraction.csharp.visual_studio.project_solution_guid" : "HAE04EC0-301F-11D3-BF4B-00C04F79EFBC",
+    "masd.annotations.profile": "dogen"
   },
   "elements": [
     {
       "name": "Package1",
-      "fallback_element_type": "dogen::module"
+      "fallback_element_type": "masd::module"
     },
     {
       "name": "Package1::ClassInPackage",
-      "fallback_element_type": "dogen::object",
+      "fallback_element_type": "masd::object",
       "attributes": [
         {
           "name": "Prop0",
@@ -25,7 +26,7 @@
     },
     {
       "name": "Builtins",
-      "fallback_element_type": "dogen::object",
+      "fallback_element_type": "masd::object",
       "attributes": [
         {
           "name": "Prop0",
