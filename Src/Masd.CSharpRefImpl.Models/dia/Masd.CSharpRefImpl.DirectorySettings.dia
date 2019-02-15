@@ -273,6 +273,7 @@
 #DOGEN masd.injection.model_modules=Masd.CSharpRefImpl.DirectorySettings
 #DOGEN masd.annotations.profile=dogen
 #DOGEN masd.injection.input_language=language_agnostic
+#DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.extraction.output_language=csharp
 #DOGEN masd.extraction.csharp.enabled=true
 #DOGEN masd.extraction.csharp.visual_studio.project_guid=0E645ACD-C04A-4734-AB23-C3FCC0F7981B

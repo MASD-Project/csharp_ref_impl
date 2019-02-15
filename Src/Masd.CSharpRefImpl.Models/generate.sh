@@ -48,9 +48,7 @@ dogen_log_dir="${script_dir}/log";
 # Dogen options. Using --force-write due to a bug at present, needs to
 # be removed once fixed.
 #
-dogen_general_options="--delete-extra-files";
-dogen_general_options="${dogen_general_options} --force-write";
-dogen_general_options="${dogen_general_options} --log-level trace";
+dogen_general_options="--log-level trace";
 dogen_general_options="${dogen_general_options} --output-directory ${dogen_output_dir}";
 dogen_general_options="${dogen_general_options} --log-directory ${dogen_log_dir}";
 
