@@ -48,7 +48,7 @@ dogen_log_dir="${script_dir}/log";
 # Dogen options. Using --force-write due to a bug at present, needs to
 # be removed once fixed.
 #
-dogen_general_options="--log-level trace";
+dogen_general_options="--log-enabled --log-level trace";
 dogen_general_options="${dogen_general_options} --output-directory ${dogen_output_dir}";
 dogen_general_options="${dogen_general_options} --log-directory ${dogen_log_dir}";
 
@@ -59,5 +59,5 @@ models="`'ls' ${model_dir}/${frontend}/*.${frontend}`";
 for model in ${models}; do
     echo "Generating ${model}";
     dogen_target_option="--target ${model}";
-    ${dogen_binary} ${dogen_target_option} ${dogen_general_options}
+    ${dogen_binary} generate ${dogen_target_option} ${dogen_general_options}
 done
