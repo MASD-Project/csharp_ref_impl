@@ -5,6 +5,7 @@
     "masd.injection.model_modules": "Masd.CSharpRefImpl.DirectorySettings",
     "masd.annotations.profile": "dogen",
     "masd.injection.input_language": "language_agnostic",
+    "masd.extraction.force_write": "true",
     "masd.extraction.delete_extra_files": "true",
     "masd.extraction.output_language": "csharp",
     "masd.extraction.csharp.enabled": "true",

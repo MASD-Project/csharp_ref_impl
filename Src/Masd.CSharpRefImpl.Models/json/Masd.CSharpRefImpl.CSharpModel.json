@@ -3,6 +3,7 @@
     "masd.injection.dia.comment": "true",
     "masd.injection.model_modules": "Masd.CSharpRefImpl.CSharpModel",
     "masd.injection.input_language": "csharp",
+    "masd.extraction.force_write": "true",
     "masd.extraction.delete_extra_files": "true",
     "masd.extraction.csharp.enabled": "true",
     "masd.extraction.cpp.enabled": "false",
