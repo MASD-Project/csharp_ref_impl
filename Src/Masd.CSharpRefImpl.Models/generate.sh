@@ -45,8 +45,7 @@ model_dir="${script_dir}/../Masd.CSharpRefImpl.Models";
 dogen_log_dir="${script_dir}/log";
 
 #
-# Dogen options. Using --force-write due to a bug at present, needs to
-# be removed once fixed.
+# Dogen options.
 #
 dogen_general_options="--log-enabled --log-level trace";
 dogen_general_options="${dogen_general_options} --output-directory ${dogen_output_dir}";
