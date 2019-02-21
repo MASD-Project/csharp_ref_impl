@@ -44,5 +44,6 @@ for model in ${models}; do
     echo "Converting ${model}";
     dogen_source_option="--source ${model}";
     dogen_destination_option="--destination ${model}.json";
-    ${dogen_binary} convert ${dogen_source_option} ${dogen_general_options}
+    ${dogen_binary} convert ${dogen_general_options} ${dogen_source_option} ${dogen_destination_option}
+    mv ${model_dir}/dia/*.json ${model_dir}/json/
 done
