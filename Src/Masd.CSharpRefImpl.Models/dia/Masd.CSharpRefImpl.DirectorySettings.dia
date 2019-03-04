@@ -271,6 +271,10 @@
 
 #DOGEN masd.injection.dia.comment=true
 #DOGEN masd.injection.model_modules=Masd.CSharpRefImpl.DirectorySettings
+#DOGEN masd.injection.reference=csharp.builtins
+#DOGEN masd.injection.reference=csharp.system.collections.generic
+#DOGEN masd.injection.reference=csharp.system.collections
+#DOGEN masd.injection.reference=csharp.system
 #DOGEN masd.annotations.profile=dogen
 #DOGEN masd.injection.input_language=language_agnostic
 #DOGEN masd.extraction.force_write=true
