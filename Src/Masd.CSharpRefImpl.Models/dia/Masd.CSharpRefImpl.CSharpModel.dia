@@ -563,10 +563,10 @@ This is a remark.#</dia:string>
 #DOGEN masd.injection.reference=csharp.system
 #DOGEN masd.extraction.force_write=true
 #DOGEN masd.extraction.delete_extra_files=true
-#DOGEN masd.extraction.csharp.enabled=true
+#DOGEN masd.generation.csharp.enabled=true
 #DOGEN masd.generation.cpp.enabled=false
-#DOGEN masd.extraction.csharp.visual_studio.project_guid=9E645ACD-C04A-4734-AB23-C3FCC0F7981B
-#DOGEN masd.extraction.csharp.visual_studio.project_solution_guid=FAE04EC0-301F-11D3-BF4B-00C04F79EFBC
+#DOGEN masd.generation.csharp.visual_studio.project_guid=9E645ACD-C04A-4734-AB23-C3FCC0F7981B
+#DOGEN masd.generation.csharp.visual_studio.project_solution_guid=FAE04EC0-301F-11D3-BF4B-00C04F79EFBC
 #DOGEN masd.annotations.profile=dogen#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
