@@ -42,14 +42,14 @@ fi
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )";
 dogen_output_dir="${script_dir}/../";
 model_dir="${script_dir}/../Masd.CSharpRefImpl.Models";
-dogen_log_dir="${script_dir}/log";
+dogen_log_dir="${script_dir}/log/";
 
 #
 # Dogen options.
 #
+dogen_general_options=""
 dogen_general_options="--log-enabled --log-level trace";
 dogen_general_options="${dogen_general_options} --output-directory ${dogen_output_dir}";
-dogen_general_options="${dogen_general_options} --log-directory ${dogen_log_dir}";
 
 #
 # Code generate all models
