@@ -276,7 +276,7 @@
 #DOGEN masd.injection.reference=csharp.system.collections
 #DOGEN masd.injection.reference=csharp.system
 #DOGEN masd.annotations.profile=dogen
-#DOGEN masd.injection.input_language=language_agnostic
+#DOGEN masd.injection.input_technical_space=language_agnostic
 #DOGEN masd.extraction.force_write=true
 #DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.extraction.output_language=csharp

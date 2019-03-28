@@ -269,7 +269,7 @@
           <dia:attribute name="string">
             <dia:string>##DOGEN masd.injection.dia.comment=true
 #DOGEN masd.injection.model_modules=Masd.CSharpRefImpl.LamModel
-#DOGEN masd.injection.input_language=language_agnostic
+#DOGEN masd.injection.input_technical_space=language_agnostic
 #DOGEN masd.injection.reference=csharp.builtins
 #DOGEN masd.injection.reference=csharp.system.collections.generic
 #DOGEN masd.injection.reference=csharp.system.collections
