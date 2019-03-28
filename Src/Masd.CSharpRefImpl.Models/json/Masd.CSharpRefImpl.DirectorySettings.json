@@ -11,7 +11,7 @@
     "masd.injection.reference": "csharp.system",
     "masd.extraction.force_write": "true",
     "masd.extraction.delete_extra_files": "true",
-    "masd.extraction.output_language": "csharp",
+    "masd.extraction.output_technical_space": "csharp",
     "masd.generation.csharp.enabled": "true",
     "masd.generation.csharp.visual_studio.project_guid": "0E645ACD-C04A-4734-AB23-C3FCC0F7981B",
     "masd.generation.csharp.visual_studio.project_solution_guid": "GAE04EC0-301F-11D3-BF4B-00C04F79EFBC",
