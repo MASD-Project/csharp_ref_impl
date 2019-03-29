@@ -2,7 +2,7 @@
   "tagged_values": {
     "masd.injection.dia.comment": "true",
     "masd.injection.model_modules": "Masd.CSharpRefImpl.LamModel",
-    "masd.injection.input_technical_space": "language_agnostic",
+    "masd.injection.input_technical_space": "agnostic",
     "masd.injection.reference": "csharp.builtins",
     "masd.injection.reference": "csharp.system.collections.generic",
     "masd.injection.reference": "csharp.system.collections",
