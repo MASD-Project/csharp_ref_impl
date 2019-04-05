@@ -274,6 +274,7 @@
 #DOGEN masd.injection.reference=csharp.system.collections.generic
 #DOGEN masd.injection.reference=csharp.system.collections
 #DOGEN masd.injection.reference=csharp.system
+#DOGEN masd.injection.reference=masd
 #DOGEN masd.extraction.force_write=true
 #DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.extraction.output_technical_space=csharp

@@ -7,6 +7,7 @@
     "masd.injection.reference": "csharp.system.collections.generic",
     "masd.injection.reference": "csharp.system.collections",
     "masd.injection.reference": "csharp.system",
+    "masd.injection.reference": "masd",
     "masd.extraction.force_write": "true",
     "masd.extraction.delete_extra_files": "true",
     "masd.extraction.output_technical_space": "csharp",
