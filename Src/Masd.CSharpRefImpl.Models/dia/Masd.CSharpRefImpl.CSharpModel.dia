@@ -525,22 +525,22 @@ This is a remark.#</dia:string>
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="4,2"/>
+        <dia:point val="4,-1"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.95,1.95;44.22,10.95"/>
+        <dia:rectangle val="3.95,-1.05;44.22,11.15"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="4,2"/>
+        <dia:point val="4,-1"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="40.169999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="8.9000000000000004"/>
+        <dia:real val="12.100000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -562,7 +562,6 @@ This is a remark.#</dia:string>
 #DOGEN masd.injection.reference=csharp.system.collections
 #DOGEN masd.injection.reference=csharp.system
 #DOGEN masd.injection.reference=masd
-#DOGEN masd.extraction.force_write=true
 #DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.generation.csharp.enabled=true
 #DOGEN masd.generation.cpp.enabled=false
@@ -577,7 +576,7 @@ This is a remark.#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="4.35,3.245"/>
+            <dia:point val="4.35,0.245"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>

@@ -241,7 +241,7 @@
         <dia:point val="-31,-49"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-31.05,-49.05;9.22,-24.05"/>
+        <dia:rectangle val="-31.05,-49.05;9.22,-20.85"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -253,7 +253,7 @@
         <dia:real val="40.169999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="24.900000000000002"/>
+        <dia:real val="28.100000000000005"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -278,7 +278,6 @@
 #DOGEN masd.injection.reference=masd
 #DOGEN masd.annotations.profile=dogen
 #DOGEN masd.injection.input_technical_space=agnostic
-#DOGEN masd.extraction.force_write=true
 #DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.extraction.output_technical_space=csharp
 #DOGEN masd.generation.csharp.enabled=true
