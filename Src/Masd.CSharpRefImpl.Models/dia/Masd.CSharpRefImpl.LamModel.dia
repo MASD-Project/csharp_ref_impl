@@ -65,16 +65,16 @@
   <dia:layer name="Background" visible="true" active="true">
     <dia:object type="UML - LargePackage" version="0" id="O0">
       <dia:attribute name="obj_pos">
-        <dia:point val="-26,-31"/>
+        <dia:point val="16,-48"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-26.05,-32.05;3.7375,-14.45"/>
+        <dia:rectangle val="15.95,-49.05;45.7375,-31.45"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-26,-31"/>
+        <dia:point val="16,-48"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="29.6875"/>
@@ -103,13 +103,13 @@
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="-16.9663,-26.75"/>
+        <dia:point val="25.0337,-43.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-17.0163,-26.8;-8.7163,-23.9"/>
+        <dia:rectangle val="24.9837,-43.8;33.2837,-40.9"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="-16.9663,-26.75"/>
+        <dia:point val="25.0337,-43.75"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="8.1999999999999993"/>
@@ -241,7 +241,7 @@
         <dia:point val="-26,-48"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-26.05,-48.05;14.22,-35.85"/>
+        <dia:rectangle val="-26.05,-48.05;14.22,-35.05"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -253,7 +253,7 @@
         <dia:real val="40.169999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="12.100000000000001"/>
+        <dia:real val="12.9"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -280,7 +280,8 @@
 #DOGEN masd.generation.csharp.enabled=true
 #DOGEN masd.generation.csharp.visual_studio.project_guid=1E645ACD-C04A-4734-AB23-C3FCC0F7981B
 #DOGEN masd.generation.csharp.visual_studio.project_solution_guid=HAE04EC0-301F-11D3-BF4B-00C04F79EFBC
-#DOGEN masd.annotations.profile=dogen#</dia:string>
+#DOGEN masd.annotations.profile=dogen
+#DOGEN masd.generation.decoration.marker_name=masd.basic#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="0" name="Courier"/>
@@ -302,13 +303,13 @@
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O3">
       <dia:attribute name="obj_pos">
-        <dia:point val="8,-29"/>
+        <dia:point val="48,-46"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="7.95,-29.05;19.33,-18.95"/>
+        <dia:rectangle val="47.95,-46.05;59.33,-35.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="8,-29"/>
+        <dia:point val="48,-46"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.279999999999999"/>
