@@ -25,6 +25,7 @@ elif [ $frontend = "dia" ]; then
     echo "Using Dia frontend."
 else
     echo "Invalid frontend: '${frontend}'." >&2
+    exit 1
 fi
 
 #
@@ -54,9 +55,9 @@ dogen_general_options="${dogen_general_options} --output-directory ${dogen_outpu
 #
 # Code generate all models
 #
-models="`'ls' ${model_dir}/${frontend}/*.${frontend}`";
+models="Masd.CSharpRefImpl.CSharpModel Masd.CSharpRefImpl.DirectorySettings Masd.CSharpRefImpl.LamModel";
 for model in ${models}; do
-    echo "Generating ${model}";
-    dogen_target_option="--target ${model}";
+    echo "Generating ${model}.${frontend}";
+    dogen_target_option="--target ${script_dir}/${frontend}/${model}.${frontend}";
     ${dogen_binary} generate ${dogen_target_option} ${dogen_general_options}
 done
