@@ -33,17 +33,18 @@ dogen_log_dir="${script_dir}/log";
 # Dogen options.
 #
 dogen_general_options="--log-enabled --log-level trace";
-dogen_general_options="${dogen_general_options} --log-directory ${dogen_log_dir}";
+dogen_general_options="${dogen_general_options} --byproduct-directory ${dogen_log_dir}";
 
 #
 # Convert all models
 #
 frontend="dia"
-models="`'ls' ${model_dir}/${frontend}/*.${frontend}`";
+models="Masd.CSharpRefImpl.CSharpModel Masd.CSharpRefImpl.DirectorySettings Masd.CSharpRefImpl.LamModel";
 for model in ${models}; do
     echo "Converting ${model}";
-    dogen_source_option="--source ${model}";
-    dogen_destination_option="--destination ${model}.json";
+    dogen_source_option="--source ${script_dir}/dia/${model}.${frontend}";
+    dogen_destination_option="--destination ${script_dir}/json/${model}.tmp.json";
     ${dogen_binary} convert ${dogen_general_options} ${dogen_source_option} ${dogen_destination_option}
-    mv ${model_dir}/dia/*.json ${model_dir}/json/
+    jq . ${script_dir}/json/${model}.tmp.json > ${script_dir}/json/${model}.json
+    rm ${script_dir}/json/${model}.tmp.json
 done
