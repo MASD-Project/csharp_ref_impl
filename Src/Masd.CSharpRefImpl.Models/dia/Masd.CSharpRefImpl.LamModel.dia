@@ -280,7 +280,7 @@
 #DOGEN masd.generation.csharp.enabled=true
 #DOGEN masd.generation.csharp.visual_studio.project_guid=1E645ACD-C04A-4734-AB23-C3FCC0F7981B
 #DOGEN masd.generation.csharp.visual_studio.project_solution_guid=HAE04EC0-301F-11D3-BF4B-00C04F79EFBC
-#DOGEN masd.variability.profile=dogen
+#DOGEN masd.variability.profile=masd.dogen2
 #DOGEN masd.generation.decoration.marker_name=masd.basic#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
