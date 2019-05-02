@@ -528,7 +528,7 @@ This is a remark.#</dia:string>
         <dia:point val="4,-1"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.95,-1.05;44.22,11.15"/>
+        <dia:rectangle val="3.95,-1.05;44.22,11.95"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -540,7 +540,7 @@ This is a remark.#</dia:string>
         <dia:real val="40.169999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="12.100000000000001"/>
+        <dia:real val="12.9"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -562,12 +562,13 @@ This is a remark.#</dia:string>
 #DOGEN masd.injection.reference=csharp.system.collections
 #DOGEN masd.injection.reference=csharp.system
 #DOGEN masd.injection.reference=masd
+#DOGEN masd.injection.reference=Masd.CSharpRefImpl.Profiles
 #DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.generation.csharp.enabled=true
 #DOGEN masd.generation.cpp.enabled=false
 #DOGEN masd.generation.csharp.visual_studio.project_guid=9E645ACD-C04A-4734-AB23-C3FCC0F7981B
 #DOGEN masd.generation.csharp.visual_studio.project_solution_guid=FAE04EC0-301F-11D3-BF4B-00C04F79EFBC
-#DOGEN masd.variability.profile=masd.dogen2#</dia:string>
+#DOGEN masd.variability.profile=Masd.CSharpRefImpl.Profiles.Base.DefaultProfile#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="0" name="Courier"/>

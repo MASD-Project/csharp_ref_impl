@@ -39,7 +39,7 @@ dogen_general_options="${dogen_general_options} --byproduct-directory ${dogen_lo
 # Convert all models
 #
 frontend="dia"
-models="Masd.CSharpRefImpl.CSharpModel Masd.CSharpRefImpl.DirectorySettings Masd.CSharpRefImpl.LamModel";
+models="Masd.CSharpRefImpl.CSharpModel Masd.CSharpRefImpl.DirectorySettings Masd.CSharpRefImpl.LamModel Masd.CSharpRefImpl.Profiles";
 for model in ${models}; do
     echo "Converting ${model}";
     dogen_source_option="--source ${script_dir}/dia/${model}.${frontend}";

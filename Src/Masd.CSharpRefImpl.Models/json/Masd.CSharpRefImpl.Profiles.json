@@ -1,0 +1,153 @@
+{
+  "documentation": "Top-level model in C# Reference implementation that contains \nall of the shared types at the meta-model level.\n\nThis model is not intended to be generated. If generated,\nshould not produce any output.\n\nYou should be able to reference this model from any technical\nspace; keep it technical space agnostic.\n",
+  "tagged_values": {
+    "masd.injection.dia.comment": "true",
+    "masd.injection.model_modules": "Masd.CSharpRefImpl.Profiles",
+    "masd.injection.input_technical_space": "agnostic",
+    "masd.injection.is_proxy_model": "true",
+    "masd.generation.cpp.enabled": "false",
+    "masd.generation.csharp.enabled": "false"
+  },
+  "elements": [
+    {
+      "name": "Base",
+      "fallback_element_type": "masd::module"
+    },
+    {
+      "name": "Base::Decoration",
+      "documentation": "Top-level configuration for C# Reference Model.\n",
+      "stereotypes": [
+        "masd::variability::profile_template"
+      ],
+      "tagged_values": {
+        "masd.variability.binding_point": "global"
+      },
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "masd.generation.decoration.enabled",
+          "type": "",
+          "value": "true",
+          "tagged_values": {
+            "masd.variability.archetype_location.kernel": "formatters",
+            "masd.variability.template_kind": "instance"
+          }
+        },
+        {
+          "name": "masd.generation.decoration.licence_name",
+          "type": "",
+          "value": "masd.gpl_v3",
+          "tagged_values": {
+            "masd.variability.archetype_location.kernel": "formatters",
+            "masd.variability.template_kind": "instance"
+          }
+        },
+        {
+          "name": "masd.generation.decoration.modeline_group_name",
+          "type": "",
+          "value": "masd.emacs",
+          "tagged_values": {
+            "masd.variability.archetype_location.kernel": "formatters",
+            "masd.variability.template_kind": "instance"
+          }
+        },
+        {
+          "name": "masd.generation.decoration.copyright_notice",
+          "type": "",
+          "tagged_values": {
+            "masd.variability.archetype_location.kernel": "formatters",
+            "masd.variability.template_kind": "instance",
+            "masd.variability.value": "Copyright (C) 2012-2015 Marco Craveiro <marco.craveiro@gmail.com>"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Base::DefaultProfile",
+      "parents": [
+        "Base::Decoration"
+      ],
+      "documentation": "Variability profile for a typical C# reference model.\n",
+      "stereotypes": [
+        "masd::variability::profile_template"
+      ],
+      "tagged_values": {
+        "masd.variability.binding_point": "global"
+      },
+      "fallback_element_type": "masd::object"
+    },
+    {
+      "name": "Composable",
+      "fallback_element_type": "masd::module"
+    },
+    {
+      "name": "Base::DisableAllFacets",
+      "parents": [
+        "Base::Decoration"
+      ],
+      "stereotypes": [
+        "masd::variability::profile_template"
+      ],
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "enabled",
+          "type": "",
+          "value": "false",
+          "tagged_values": {
+            "masd.variability.template_kind": "facet_template",
+            "masd.variability.archetype_location.kernel": "masd",
+            "masd.variability.archetype_location.backend": "masd.generation.csharp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Composable::Handcrafted",
+      "parents": [
+        "Base::DisableAllFacets"
+      ],
+      "stereotypes": [
+        "masd::variability::profile_template"
+      ],
+      "fallback_element_type": "masd::object"
+    },
+    {
+      "name": "Composable::HandcraftedTypeable",
+      "parents": [
+        "Composable::Handcrafted"
+      ],
+      "documentation": "Configuration for model elements that are generated manually by the user.\n",
+      "stereotypes": [
+        "masd::variability::profile_template"
+      ],
+      "tagged_values": {
+        "masd.variability.binding_point": "element",
+        "masd.variability.labels": "Masd::Handcrafted::Typeable"
+      },
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "masd.generation.csharp.types.enabled",
+          "type": "",
+          "value": "true",
+          "tagged_values": {
+            "masd.variability.archetype_location.kernel": "masd",
+            "masd.variability.archetype_location.backend": "masd.generation.csharp",
+            "masd.variability.template_kind": "instance"
+          }
+        },
+        {
+          "name": "masd.generation.csharp.types.overwrite",
+          "type": "",
+          "value": "true",
+          "tagged_values": {
+            "masd.variability.archetype_location.kernel": "masd",
+            "masd.variability.archetype_location.backend": "masd.generation.csharp",
+            "masd.variability.template_kind": "instance"
+          }
+        }
+      ]
+    }
+  ]
+}

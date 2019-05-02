@@ -8,12 +8,13 @@
     "masd.injection.reference": "csharp.system.collections",
     "masd.injection.reference": "csharp.system",
     "masd.injection.reference": "masd",
+    "masd.injection.reference": "Masd.CSharpRefImpl.Profiles",
     "masd.extraction.delete_extra_files": "true",
     "masd.generation.csharp.enabled": "true",
     "masd.generation.cpp.enabled": "false",
     "masd.generation.csharp.visual_studio.project_guid": "9E645ACD-C04A-4734-AB23-C3FCC0F7981B",
     "masd.generation.csharp.visual_studio.project_solution_guid": "FAE04EC0-301F-11D3-BF4B-00C04F79EFBC",
-    "masd.variability.profile": "masd.dogen2"
+    "masd.variability.profile": "Masd.CSharpRefImpl.Profiles.Base.DefaultProfile"
   },
   "elements": [
     {
