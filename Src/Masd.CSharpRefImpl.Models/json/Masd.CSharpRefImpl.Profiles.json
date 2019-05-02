@@ -148,6 +148,59 @@
           }
         }
       ]
+    },
+    {
+      "name": "Basic",
+      "stereotypes": [
+        "masd::decoration::generation_marker"
+      ],
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "add_date_time",
+          "type": "",
+          "value": "false"
+        },
+        {
+          "name": "add_warning",
+          "type": "",
+          "value": "true"
+        },
+        {
+          "name": "add_dogen_version",
+          "type": "",
+          "value": "true"
+        },
+        {
+          "name": "message",
+          "type": "",
+          "documentation": "This is a code-generated file.\n"
+        }
+      ]
+    },
+    {
+      "name": "Verbose",
+      "stereotypes": [
+        "masd::decoration::generation_marker"
+      ],
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "add_date_time",
+          "type": "",
+          "value": "true"
+        },
+        {
+          "name": "add_warning",
+          "type": "",
+          "value": "true"
+        },
+        {
+          "name": "message",
+          "type": "",
+          "documentation": "This is a code-generated file.\n"
+        }
+      ]
     }
   ]
 }
