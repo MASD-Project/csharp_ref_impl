@@ -81,36 +81,23 @@
       "fallback_element_type": "masd::module"
     },
     {
-      "name": "Base::DisableAllFacets",
-      "parents": [
-        "Base::Decoration"
-      ],
+      "name": "Composable::Handcrafted",
       "stereotypes": [
         "masd::variability::profile_template"
       ],
       "fallback_element_type": "masd::object",
       "attributes": [
         {
-          "name": "enabled",
+          "name": "masd.variability.profile",
           "type": "",
-          "value": "false",
+          "value": "Masd.CSharpRefImpl.Profiles.Base.DisableAllFacets",
           "tagged_values": {
-            "masd.variability.template_kind": "facet_template",
             "masd.variability.archetype_location.kernel": "masd",
-            "masd.variability.archetype_location.backend": "masd.generation.csharp"
+            "masd.variability.archetype_location.backend": "masd.variability",
+            "masd.variability.template_kind": "instance"
           }
         }
       ]
-    },
-    {
-      "name": "Composable::Handcrafted",
-      "parents": [
-        "Base::DisableAllFacets"
-      ],
-      "stereotypes": [
-        "masd::variability::profile_template"
-      ],
-      "fallback_element_type": "masd::object"
     },
     {
       "name": "Composable::HandcraftedTypeable",
@@ -145,6 +132,28 @@
             "masd.variability.archetype_location.kernel": "masd",
             "masd.variability.archetype_location.backend": "masd.generation.csharp",
             "masd.variability.template_kind": "instance"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Base::DisableAllFacets",
+      "parents": [
+        "Base::Decoration"
+      ],
+      "stereotypes": [
+        "masd::variability::profile_template"
+      ],
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "enabled",
+          "type": "",
+          "value": "false",
+          "tagged_values": {
+            "masd.variability.template_kind": "facet_template",
+            "masd.variability.archetype_location.kernel": "masd",
+            "masd.variability.archetype_location.backend": "masd.generation.csharp"
           }
         }
       ]
