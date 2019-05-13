@@ -733,7 +733,7 @@ space; keep it technical space agnostic.
         <dia:string>#Configuration for model elements that are generated manually by the user.
 
 #DOGEN masd.variability.binding_point=element
-#DOGEN masd.variability.labels=Masd::Handcrafted::Typeable#</dia:string>
+#DOGEN masd.variability.labels=CSharpRefImpl::Handcrafted::Typeable#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>

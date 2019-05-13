@@ -110,7 +110,7 @@
       ],
       "tagged_values": {
         "masd.variability.binding_point": "element",
-        "masd.variability.labels": "Masd::Handcrafted::Typeable"
+        "masd.variability.labels": "CSharpRefImpl::Handcrafted::Typeable"
       },
       "fallback_element_type": "masd::object",
       "attributes": [
