@@ -1,13 +1,13 @@
 language: csharp
-solution: Src/Masd.CSharpRefImpl.CSharpRefImpl.sln
+solution: Src/CSharpRefImpl.CSharpRefImpl.sln
 mono: alpha
 
 install:
-  - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./Src/Masd.CSharpRefImpl.CSharpRefImpl.sln
+  - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./Src/CSharpRefImpl.CSharpRefImpl.sln
 
 script:
-  - xbuild ./Src/Masd.CSharpRefImpl.CSharpRefImpl.sln
-  - mono ./Src/packages/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./Src/Masd.CSharpRefImpl.CSharpModel.Tests/bin/Debug/Masd.CSharpRefImpl.CSharpModel.Tests.dll
+  - xbuild ./Src/CSharpRefImpl.CSharpRefImpl.sln
+  - mono ./Src/packages/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./Src/CSharpRefImpl.CSharpModel.Tests/bin/Debug/CSharpRefImpl.CSharpModel.Tests.dll
 
 notifications:
   email:

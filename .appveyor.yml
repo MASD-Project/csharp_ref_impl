@@ -4,7 +4,7 @@ branches:
   - master
 
 build:
-  project: Src/Masd.CSharpRefImpl.CSharpRefImpl.sln
+  project: Src/CSharpRefImpl.CSharpRefImpl.sln
 
 assembly_info:
   patch: true
@@ -15,14 +15,14 @@ assembly_info:
 
 before_build:
   - cd Src
-  - nuget restore Masd.CSharpRefImpl.CSharpRefImpl.sln
+  - nuget restore CSharpRefImpl.CSharpRefImpl.sln
   - cd ..
   - choco install opencover.portable
   - choco install codecov
 
 test_script:
-  - OpenCover.Console.exe -register:user -target:"./Src/packages/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe" -targetargs:"./Src/Masd.CSharpRefImpl.CSharpModel.Tests/bin/Debug/Masd.CSharpRefImpl.CSharpModel.Tests.dll" -filter:"+[CSharpModel*]* -[CSharpModel.Tests*]*" -output:"./CSharpRefImpl.xml"
-  - codecov -f "./Masd.CSharpRefImpl.xml"
+  - OpenCover.Console.exe -register:user -target:"./Src/packages/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe" -targetargs:"./Src/CSharpRefImpl.CSharpModel.Tests/bin/Debug/CSharpRefImpl.CSharpModel.Tests.dll" -filter:"+[CSharpModel*]* -[CSharpModel.Tests*]*" -output:"./CSharpRefImpl.xml"
+  - codecov -f "./CSharpRefImpl.xml"
 
 clone_depth: 1
 
