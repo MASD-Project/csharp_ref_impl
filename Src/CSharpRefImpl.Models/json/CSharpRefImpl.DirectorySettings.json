@@ -10,6 +10,7 @@
     "masd.injection.reference": "csharp.system.collections",
     "masd.injection.reference": "csharp.system",
     "masd.injection.reference": "masd",
+    "masd.injection.reference": "masd.lam",
     "masd.injection.reference": "CSharpRefImpl.Profiles",
     "masd.extraction.delete_extra_files": "true",
     "masd.extraction.output_technical_space": "csharp",
@@ -46,7 +47,7 @@
       "attributes": [
         {
           "name": "Prop0",
-          "type": "lam::integer"
+          "type": "masd::lam::numeric::integer"
         }
       ]
     },
@@ -56,7 +57,7 @@
       "attributes": [
         {
           "name": "Prop0",
-          "type": "lam::integer"
+          "type": "masd::lam::numeric::integer"
         }
       ]
     },
@@ -70,7 +71,7 @@
       "attributes": [
         {
           "name": "Prop0",
-          "type": "lam::integer"
+          "type": "masd::lam::numeric::integer"
         }
       ]
     }

@@ -106,13 +106,13 @@
         <dia:point val="30.0337,-44.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.9837,-44.8;38.2837,-41.9"/>
+        <dia:rectangle val="29.9837,-44.8;44.0587,-41.9"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="30.0337,-44.75"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="13.975"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.7999999999999998"/>
@@ -210,7 +210,7 @@
             <dia:string>#Prop0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer#</dia:string>
+            <dia:string>#masd::lam::numeric::integer#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -241,7 +241,7 @@
         <dia:point val="-22,-49"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-22.05,-49.05;18.22,-35.25"/>
+        <dia:rectangle val="-22.05,-49.05;18.22,-34.45"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -253,7 +253,7 @@
         <dia:real val="40.169999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="13.700000000000001"/>
+        <dia:real val="14.500000000000002"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -275,6 +275,7 @@
 #DOGEN masd.injection.reference=csharp.system.collections
 #DOGEN masd.injection.reference=csharp.system
 #DOGEN masd.injection.reference=masd
+#DOGEN masd.injection.reference=masd.lam
 #DOGEN masd.injection.reference=CSharpRefImpl.Profiles
 #DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.extraction.output_technical_space=csharp
@@ -307,13 +308,13 @@
         <dia:point val="54,-47"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="53.95,-47.05;65.33,-36.95"/>
+        <dia:rectangle val="53.95,-47.05;69.95,-36.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="54,-47"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="11.279999999999999"/>
+        <dia:real val="15.9"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="10"/>
@@ -411,7 +412,7 @@
             <dia:string>#Prop0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::character#</dia:string>
+            <dia:string>#masd::lam::text::character#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -434,7 +435,7 @@
             <dia:string>#Prop1#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::byte#</dia:string>
+            <dia:string>#masd::lam::core::byte#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -457,7 +458,7 @@
             <dia:string>#Prop2#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer8#</dia:string>
+            <dia:string>#masd::lam::numeric::integer8#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -480,7 +481,7 @@
             <dia:string>#Prop3#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer16#</dia:string>
+            <dia:string>#masd::lam::numeric::integer16#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -503,7 +504,7 @@
             <dia:string>#Prop4#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer32#</dia:string>
+            <dia:string>#masd::lam::numeric::integer32#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -526,7 +527,7 @@
             <dia:string>#Prop5#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer64#</dia:string>
+            <dia:string>#masd::lam::numeric::integer64#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -549,7 +550,7 @@
             <dia:string>#Prop6#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer#</dia:string>
+            <dia:string>#masd::lam::numeric::integer#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -572,7 +573,7 @@
             <dia:string>#Prop7#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::single_floating#</dia:string>
+            <dia:string>#masd::lam::numeric::single_float#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -595,7 +596,7 @@
             <dia:string>#Prop8#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::double_floating#</dia:string>
+            <dia:string>#masd::lam::numeric::double_float#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -618,7 +619,7 @@
             <dia:string>#Prop9#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::boolean#</dia:string>
+            <dia:string>#masd::lam::core::boolean#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>

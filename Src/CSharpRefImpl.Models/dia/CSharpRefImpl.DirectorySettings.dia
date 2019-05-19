@@ -106,13 +106,13 @@
         <dia:point val="16,-40"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="15.95,-40.05;24.25,-37.15"/>
+        <dia:rectangle val="15.95,-40.05;30.025,-37.15"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="16,-40"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="13.975"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.7999999999999998"/>
@@ -210,7 +210,7 @@
             <dia:string>#Prop0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer#</dia:string>
+            <dia:string>#masd::lam::numeric::integer#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -241,7 +241,7 @@
         <dia:point val="-31,-49"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-31.05,-49.05;9.22,-20.05"/>
+        <dia:rectangle val="-31.05,-49.05;9.22,-19.25"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -253,7 +253,7 @@
         <dia:real val="40.169999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="28.900000000000002"/>
+        <dia:real val="29.700000000000003"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -276,6 +276,7 @@
 #DOGEN masd.injection.reference=csharp.system.collections
 #DOGEN masd.injection.reference=csharp.system
 #DOGEN masd.injection.reference=masd
+#DOGEN masd.injection.reference=masd.lam
 #DOGEN masd.injection.reference=CSharpRefImpl.Profiles
 #DOGEN masd.variability.profile=CSharpRefImpl.Profiles.Base.DefaultProfile
 #DOGEN masd.injection.input_technical_space=agnostic
@@ -326,13 +327,13 @@
         <dia:point val="14,-48"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="13.95,-48.05;22.25,-45.15"/>
+        <dia:rectangle val="13.95,-48.05;28.025,-45.15"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="14,-48"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="13.975"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.7999999999999998"/>
@@ -430,7 +431,7 @@
             <dia:string>#Prop0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer#</dia:string>
+            <dia:string>#masd::lam::numeric::integer#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
@@ -499,13 +500,13 @@
         <dia:point val="18,-32"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="17.95,-32.05;26.25,-29.15"/>
+        <dia:rectangle val="17.95,-32.05;32.025,-29.15"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="18,-32"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="8.1999999999999993"/>
+        <dia:real val="13.975"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.7999999999999998"/>
@@ -603,7 +604,7 @@
             <dia:string>#Prop0#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
-            <dia:string>#lam::integer#</dia:string>
+            <dia:string>#masd::lam::numeric::integer#</dia:string>
           </dia:attribute>
           <dia:attribute name="value">
             <dia:string>##</dia:string>
