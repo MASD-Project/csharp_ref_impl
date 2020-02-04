@@ -74,6 +74,40 @@
           "type": "masd::lam::numeric::integer"
         }
       ]
+    },
+    {
+      "name": "project",
+      "stereotypes": [
+        "masd::build::visual_studio::project"
+      ],
+      "tagged_values": {
+        "masd.injection.is_simple_name_internal": "true"
+      },
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "guid",
+          "type": "",
+          "value": "0E645ACD-C04A-4734-AB23-C3FCC0F7981B"
+        }
+      ]
+    },
+    {
+      "name": "solution",
+      "stereotypes": [
+        "masd::build::visual_studio::solution"
+      ],
+      "tagged_values": {
+        "masd.injection.is_simple_name_internal": "true"
+      },
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "guid",
+          "type": "",
+          "value": "GAE04EC0-301F-11D3-BF4B-00C04F79EFBC"
+        }
+      ]
     }
   ]
 }
