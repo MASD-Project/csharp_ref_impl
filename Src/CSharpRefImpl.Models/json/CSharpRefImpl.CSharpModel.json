@@ -887,9 +887,6 @@
       "stereotypes": [
         "masd::build::visual_studio::project"
       ],
-      "tagged_values": {
-        "masd.injection.is_simple_name_internal": "true"
-      },
       "fallback_element_type": "masd::object",
       "attributes": [
         {
@@ -904,9 +901,6 @@
       "stereotypes": [
         "masd::build::visual_studio::solution"
       ],
-      "tagged_values": {
-        "masd.injection.is_simple_name_internal": "true"
-      },
       "fallback_element_type": "masd::object",
       "attributes": [
         {
