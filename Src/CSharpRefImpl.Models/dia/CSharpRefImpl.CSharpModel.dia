@@ -566,8 +566,6 @@ This is a remark.#</dia:string>
 #DOGEN masd.extraction.delete_extra_files=true
 #DOGEN masd.generation.csharp.enabled=true
 #DOGEN masd.generation.cpp.enabled=false
-#DOGEN masd.generation.csharp.visual_studio.project_guid=9E645ACD-C04A-4734-AB23-C3FCC0F7981B
-#DOGEN masd.generation.csharp.visual_studio.project_solution_guid=FAE04EC0-301F-11D3-BF4B-00C04F79EFBC
 #DOGEN masd.variability.profile=CSharpRefImpl.Profiles.Base.DefaultProfile#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
@@ -2091,13 +2089,13 @@ this is a long comment#</dia:string>
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O13">
       <dia:attribute name="obj_pos">
-        <dia:point val="73.3571,25.7143"/>
+        <dia:point val="75,27"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="73.3071,25.6643;81.9921,31.7643"/>
+        <dia:rectangle val="74.95,26.95;83.635,33.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="73.3571,25.7143"/>
+        <dia:point val="75,27"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="8.5849999999999991"/>
