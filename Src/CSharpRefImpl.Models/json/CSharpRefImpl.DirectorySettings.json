@@ -76,7 +76,7 @@
     {
       "name": "project",
       "stereotypes": [
-        "masd::build::visual_studio::project"
+        "masd::visual_studio::project"
       ],
       "fallback_element_type": "masd::object",
       "attributes": [
@@ -90,7 +90,7 @@
     {
       "name": "solution",
       "stereotypes": [
-        "masd::build::visual_studio::solution"
+        "masd::visual_studio::solution"
       ],
       "fallback_element_type": "masd::object",
       "attributes": [
