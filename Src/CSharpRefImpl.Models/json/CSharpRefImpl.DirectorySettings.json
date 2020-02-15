@@ -100,6 +100,13 @@
           "value": "GAE04EC0-301F-11D3-BF4B-00C04F79EFBC"
         }
       ]
+    },
+    {
+      "name": "Assistant",
+      "stereotypes": [
+        "masd::assistant"
+      ],
+      "fallback_element_type": "masd::object"
     }
   ]
 }
