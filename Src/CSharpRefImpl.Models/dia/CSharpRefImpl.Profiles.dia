@@ -94,7 +94,7 @@
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Top-level model in C# Reference implementation that contains 
+            <dia:string>#Top-level model in C# Reference implementation that contains
 all of the shared types at the meta-model level.
 
 This model is not intended to be generated. If generated,
@@ -230,7 +230,7 @@ space; keep it technical space agnostic.
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#ede6f2"/>
+        <dia:color val="#b8f1f1"/>
       </dia:attribute>
       <dia:attribute name="text_color">
         <dia:color val="#000000"/>
@@ -441,7 +441,7 @@ space; keep it technical space agnostic.
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#ede6f2"/>
+        <dia:color val="#b8f1f1"/>
       </dia:attribute>
       <dia:attribute name="text_color">
         <dia:color val="#000000"/>
@@ -632,7 +632,7 @@ space; keep it technical space agnostic.
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#ede6f2"/>
+        <dia:color val="#b8f1f1"/>
       </dia:attribute>
       <dia:attribute name="text_color">
         <dia:color val="#000000"/>
@@ -733,7 +733,7 @@ space; keep it technical space agnostic.
         <dia:string>#Configuration for model elements that are generated manually by the user.
 
 #DOGEN masd.variability.binding_point=element
-#DOGEN masd.variability.labels=CSharpRefImpl::Handcrafted::Typeable#</dia:string>
+#DOGEN masd.variability.stereotype=CSharpRefImpl::Handcrafted::Typeable#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>
@@ -772,7 +772,7 @@ space; keep it technical space agnostic.
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#ede6f2"/>
+        <dia:color val="#b8f1f1"/>
       </dia:attribute>
       <dia:attribute name="text_color">
         <dia:color val="#000000"/>
@@ -934,7 +934,7 @@ space; keep it technical space agnostic.
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="fill_color">
-        <dia:color val="#ede6f2"/>
+        <dia:color val="#dbeeee"/>
       </dia:attribute>
       <dia:attribute name="text_color">
         <dia:color val="#000000"/>
