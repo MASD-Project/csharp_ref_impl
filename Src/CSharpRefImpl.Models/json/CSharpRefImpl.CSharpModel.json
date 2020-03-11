@@ -916,6 +916,19 @@
         "masd::assistant"
       ],
       "fallback_element_type": "masd::object"
+    },
+    {
+      "name": "Handcrafted",
+      "stereotypes": [
+        "CSharpRefImpl::Handcrafted::Typeable"
+      ],
+      "fallback_element_type": "masd::object",
+      "attributes": [
+        {
+          "name": "Prop0",
+          "type": "int"
+        }
+      ]
     }
   ]
 }

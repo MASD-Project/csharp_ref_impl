@@ -127,7 +127,7 @@
         {
           "name": "masd.generation.csharp.types.overwrite",
           "type": "",
-          "value": "true",
+          "value": "false",
           "tagged_values": {
             "masd.variability.archetype_location.kernel": "masd",
             "masd.variability.archetype_location.backend": "masd.generation.csharp",
