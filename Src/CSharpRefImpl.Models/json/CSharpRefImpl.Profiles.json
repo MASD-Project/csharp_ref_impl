@@ -17,7 +17,7 @@
       "name": "Base::Decoration",
       "documentation": "Top-level configuration for C# Reference Model.\n",
       "stereotypes": [
-        "masd::variability::profile_template"
+        "masd::variability::profile"
       ],
       "tagged_values": {
         "masd.variability.binding_point": "global"
@@ -69,7 +69,7 @@
       ],
       "documentation": "Variability profile for a typical C# reference model.\n",
       "stereotypes": [
-        "masd::variability::profile_template"
+        "masd::variability::profile"
       ],
       "tagged_values": {
         "masd.variability.binding_point": "global"
@@ -83,7 +83,7 @@
     {
       "name": "Composable::Handcrafted",
       "stereotypes": [
-        "masd::variability::profile_template"
+        "masd::variability::profile"
       ],
       "fallback_element_type": "masd::object",
       "attributes": [
@@ -106,7 +106,7 @@
       ],
       "documentation": "Configuration for model elements that are generated manually by the user.\n",
       "stereotypes": [
-        "masd::variability::profile_template"
+        "masd::variability::profile"
       ],
       "tagged_values": {
         "masd.variability.binding_point": "element",

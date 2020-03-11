@@ -186,7 +186,7 @@ space; keep it technical space agnostic.
         <dia:string>#Decoration#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#masd::variability::profile_template#</dia:string>
+        <dia:string>#masd::variability::profile#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Top-level configuration for C# Reference Model.
@@ -382,13 +382,13 @@ space; keep it technical space agnostic.
         <dia:point val="43,3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="42.95,2.95;58.565,6.05"/>
+        <dia:rectangle val="42.95,2.95;55.1,6.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="43,3"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="15.515000000000001"/>
+        <dia:real val="12.050000000000001"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="3"/>
@@ -397,7 +397,7 @@ space; keep it technical space agnostic.
         <dia:string>#DefaultProfile#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#masd::variability::profile_template#</dia:string>
+        <dia:string>#masd::variability::profile#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Variability profile for a typical C# reference model.
@@ -495,7 +495,7 @@ space; keep it technical space agnostic.
         <dia:point val="61.8,-0.950073"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="50.7075,-1.00007;62.65,3.00081"/>
+        <dia:rectangle val="48.975,-1.00007;62.65,3.00081"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -503,8 +503,8 @@ space; keep it technical space agnostic.
       <dia:attribute name="orth_points">
         <dia:point val="61.8,-0.950073"/>
         <dia:point val="61.8,1"/>
-        <dia:point val="50.7575,1"/>
-        <dia:point val="50.7575,2.95081"/>
+        <dia:point val="49.025,1"/>
+        <dia:point val="49.025,2.95081"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
         <dia:enum val="1"/>
@@ -590,7 +590,7 @@ space; keep it technical space agnostic.
         <dia:string>#Handcrafted#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#masd::variability::profile_template#</dia:string>
+        <dia:string>#masd::variability::profile#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>##</dia:string>
@@ -727,7 +727,7 @@ space; keep it technical space agnostic.
         <dia:string>#HandcraftedTypeable#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
-        <dia:string>#masd::variability::profile_template#</dia:string>
+        <dia:string>#masd::variability::profile#</dia:string>
       </dia:attribute>
       <dia:attribute name="comment">
         <dia:string>#Configuration for model elements that are generated manually by the user.
@@ -1053,17 +1053,17 @@ space; keep it technical space agnostic.
     </dia:object>
     <dia:object type="UML - Generalization" version="1" id="O10">
       <dia:attribute name="obj_pos">
-        <dia:point val="63.0725,19.6"/>
+        <dia:point val="62.11,19.6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="52.055,19.55;63.9225,23.9998"/>
+        <dia:rectangle val="52.055,19.55;62.96,23.9998"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
-        <dia:point val="63.0725,19.6"/>
-        <dia:point val="63.0725,22"/>
+        <dia:point val="62.11,19.6"/>
+        <dia:point val="62.11,22"/>
         <dia:point val="52.105,22"/>
         <dia:point val="52.105,23.9498"/>
       </dia:attribute>
