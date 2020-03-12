@@ -283,8 +283,7 @@ space; keep it technical space agnostic.
             <dia:string>#true#</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.archetype_location.kernel=formatters
-#DOGEN masd.variability.template_kind=instance#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -307,8 +306,7 @@ space; keep it technical space agnostic.
             <dia:string>#masd.gpl_v3#</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.archetype_location.kernel=formatters
-#DOGEN masd.variability.template_kind=instance#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -331,8 +329,7 @@ space; keep it technical space agnostic.
             <dia:string>#masd.emacs#</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.archetype_location.kernel=formatters
-#DOGEN masd.variability.template_kind=instance#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -355,9 +352,7 @@ space; keep it technical space agnostic.
             <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.archetype_location.kernel=formatters
-#DOGEN masd.variability.template_kind=instance
-#DOGEN masd.variability.value=Copyright (C) 2012-2015 Marco Craveiro &lt;marco.craveiro@gmail.com&gt;#</dia:string>
+            <dia:string>##DOGEN masd.variability.value=Copyright (C) 2012-2015 Marco Craveiro &lt;marco.craveiro@gmail.com&gt;#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -685,9 +680,7 @@ space; keep it technical space agnostic.
             <dia:string>#CSharpRefImpl.Profiles.Base.DisableAllFacets#</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.archetype_location.kernel=masd
-#DOGEN masd.variability.archetype_location.backend=masd.variability
-#DOGEN masd.variability.template_kind=instance#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -825,9 +818,7 @@ space; keep it technical space agnostic.
             <dia:string>#true#</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.archetype_location.kernel=masd
-#DOGEN masd.variability.archetype_location.backend=masd.generation.csharp
-#DOGEN masd.variability.template_kind=instance#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -850,9 +841,7 @@ space; keep it technical space agnostic.
             <dia:string>#false#</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.archetype_location.kernel=masd
-#DOGEN masd.variability.archetype_location.backend=masd.generation.csharp
-#DOGEN masd.variability.template_kind=instance#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -987,10 +976,7 @@ space; keep it technical space agnostic.
             <dia:string>#false#</dia:string>
           </dia:attribute>
           <dia:attribute name="comment">
-            <dia:string>##DOGEN masd.variability.template_kind=facet_template
-#DOGEN masd.variability.instantiation_domain_name=masd.facet
-#DOGEN masd.variability.archetype_location.kernel=masd
-#DOGEN masd.variability.archetype_location.backend=masd.generation.csharp#</dia:string>
+            <dia:string>##DOGEN masd.variability.instantiation_domain_name=masd.facet#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
