@@ -20,27 +20,28 @@
         "masd::variability::profile"
       ],
       "tagged_values": {
-        "masd.variability.binding_point": "global"
+        "masd.variability.binding_point": "global",
+        "masd.variability.key_prefix": "masd.generation.decoration"
       },
       "fallback_element_type": "masd::object",
       "attributes": [
         {
-          "name": "masd.generation.decoration.enabled",
+          "name": "enabled",
           "type": "",
           "value": "true"
         },
         {
-          "name": "masd.generation.decoration.licence_name",
+          "name": "licence_name",
           "type": "",
           "value": "masd.gpl_v3"
         },
         {
-          "name": "masd.generation.decoration.modeline_group_name",
+          "name": "modeline_group_name",
           "type": "",
           "value": "masd.emacs"
         },
         {
-          "name": "masd.generation.decoration.copyright_notice",
+          "name": "copyright_notice",
           "type": "",
           "tagged_values": {
             "masd.variability.value": "Copyright (C) 2012-2015 Marco Craveiro <marco.craveiro@gmail.com>"
@@ -91,17 +92,18 @@
       ],
       "tagged_values": {
         "masd.variability.binding_point": "element",
-        "masd.variability.stereotype": "CSharpRefImpl::Handcrafted::Typeable"
+        "masd.variability.stereotype": "CSharpRefImpl::Handcrafted::Typeable",
+        "masd.variability.key_prefix": "masd.generation.csharp.types"
       },
       "fallback_element_type": "masd::object",
       "attributes": [
         {
-          "name": "masd.generation.csharp.types.enabled",
+          "name": "enabled",
           "type": "",
           "value": "true"
         },
         {
-          "name": "masd.generation.csharp.types.overwrite",
+          "name": "overwrite",
           "type": "",
           "value": "false"
         }
