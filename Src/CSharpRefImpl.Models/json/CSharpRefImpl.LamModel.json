@@ -10,8 +10,8 @@
     "masd.injection.reference": "masd",
     "masd.injection.reference": "masd.lam",
     "masd.injection.reference": "CSharpRefImpl.Profiles",
-    "masd.extraction.delete_extra_files": "true",
-    "masd.extraction.output_technical_space": "csharp",
+    "masd.physical.delete_extra_files": "true",
+    "masd.physical.output_technical_space": "csharp",
     "masd.generation.csharp.enabled": "true",
     "masd.variability.profile": "CSharpRefImpl.Profiles.Base.DefaultProfile",
     "masd.generation.decoration.marker_name": "CSharpRefImpl.Profiles.Basic"

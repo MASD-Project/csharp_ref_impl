@@ -280,8 +280,8 @@
 #DOGEN masd.injection.reference=CSharpRefImpl.Profiles
 #DOGEN masd.variability.profile=CSharpRefImpl.Profiles.Base.DefaultProfile
 #DOGEN masd.injection.input_technical_space=agnostic
-#DOGEN masd.extraction.delete_extra_files=true
-#DOGEN masd.extraction.output_technical_space=csharp
+#DOGEN masd.physical.delete_extra_files=true
+#DOGEN masd.physical.output_technical_space=csharp
 #DOGEN masd.generation.csharp.enabled=true
 #DOGEN masd.generation.csharp.directory=csharp_backend
 #DOGEN masd.generation.csharp.test_data.directory=TestDataDir
