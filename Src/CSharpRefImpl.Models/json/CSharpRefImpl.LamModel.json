@@ -14,7 +14,7 @@
     "masd.physical.output_technical_space": "csharp",
     "masd.csharp.enabled": "true",
     "masd.variability.profile": "CSharpRefImpl.Profiles.Base.DefaultProfile",
-    "masd.generation.decoration.marker_name": "CSharpRefImpl.Profiles.Basic"
+    "masd.decoration.marker_name": "CSharpRefImpl.Profiles.Basic"
   },
   "elements": [
     {

@@ -21,7 +21,7 @@
       ],
       "tagged_values": {
         "masd.variability.binding_point": "global",
-        "masd.variability.key_prefix": "masd.generation.decoration"
+        "masd.variability.key_prefix": "masd.decoration"
       },
       "fallback_element_type": "masd::object",
       "attributes": [

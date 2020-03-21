@@ -192,7 +192,7 @@ space; keep it technical space agnostic.
         <dia:string>#Top-level configuration for C# Reference Model.
 
 #DOGEN masd.variability.binding_point=global
-#DOGEN masd.variability.key_prefix=masd.generation.decoration#</dia:string>
+#DOGEN masd.variability.key_prefix=masd.decoration#</dia:string>
       </dia:attribute>
       <dia:attribute name="abstract">
         <dia:boolean val="false"/>

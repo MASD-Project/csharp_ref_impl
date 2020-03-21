@@ -281,7 +281,7 @@
 #DOGEN masd.physical.output_technical_space=csharp
 #DOGEN masd.csharp.enabled=true
 #DOGEN masd.variability.profile=CSharpRefImpl.Profiles.Base.DefaultProfile
-#DOGEN masd.generation.decoration.marker_name=CSharpRefImpl.Profiles.Basic#</dia:string>
+#DOGEN masd.decoration.marker_name=CSharpRefImpl.Profiles.Basic#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="0" name="Courier"/>
