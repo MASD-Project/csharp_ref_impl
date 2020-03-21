@@ -10,8 +10,8 @@
     "masd.injection.reference": "masd",
     "masd.injection.reference": "CSharpRefImpl.Profiles",
     "masd.physical.delete_extra_files": "true",
-    "masd.generation.csharp.enabled": "true",
-    "masd.generation.cpp.enabled": "false",
+    "masd.csharp.enabled": "true",
+    "masd.cpp.enabled": "false",
     "masd.variability.profile": "CSharpRefImpl.Profiles.Base.DefaultProfile"
   },
   "elements": [

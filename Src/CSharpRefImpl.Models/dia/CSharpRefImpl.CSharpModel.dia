@@ -564,8 +564,8 @@ This is a remark.#</dia:string>
 #DOGEN masd.injection.reference=masd
 #DOGEN masd.injection.reference=CSharpRefImpl.Profiles
 #DOGEN masd.physical.delete_extra_files=true
-#DOGEN masd.generation.csharp.enabled=true
-#DOGEN masd.generation.cpp.enabled=false
+#DOGEN masd.csharp.enabled=true
+#DOGEN masd.cpp.enabled=false
 #DOGEN masd.variability.profile=CSharpRefImpl.Profiles.Base.DefaultProfile#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">

@@ -12,7 +12,7 @@
     "masd.injection.reference": "CSharpRefImpl.Profiles",
     "masd.physical.delete_extra_files": "true",
     "masd.physical.output_technical_space": "csharp",
-    "masd.generation.csharp.enabled": "true",
+    "masd.csharp.enabled": "true",
     "masd.variability.profile": "CSharpRefImpl.Profiles.Base.DefaultProfile",
     "masd.generation.decoration.marker_name": "CSharpRefImpl.Profiles.Basic"
   },

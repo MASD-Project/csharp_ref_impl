@@ -5,8 +5,8 @@
     "masd.injection.model_modules": "CSharpRefImpl.Profiles",
     "masd.injection.input_technical_space": "agnostic",
     "masd.injection.is_proxy_model": "true",
-    "masd.generation.cpp.enabled": "false",
-    "masd.generation.csharp.enabled": "false"
+    "masd.cpp.enabled": "false",
+    "masd.csharp.enabled": "false"
   },
   "elements": [
     {
@@ -93,7 +93,7 @@
       "tagged_values": {
         "masd.variability.binding_point": "element",
         "masd.variability.stereotype": "CSharpRefImpl::Handcrafted::Typeable",
-        "masd.variability.key_prefix": "masd.generation.csharp.types"
+        "masd.variability.key_prefix": "masd.csharp.types"
       },
       "fallback_element_type": "masd::object",
       "attributes": [

@@ -279,7 +279,7 @@
 #DOGEN masd.injection.reference=CSharpRefImpl.Profiles
 #DOGEN masd.physical.delete_extra_files=true
 #DOGEN masd.physical.output_technical_space=csharp
-#DOGEN masd.generation.csharp.enabled=true
+#DOGEN masd.csharp.enabled=true
 #DOGEN masd.variability.profile=CSharpRefImpl.Profiles.Base.DefaultProfile
 #DOGEN masd.generation.decoration.marker_name=CSharpRefImpl.Profiles.Basic#</dia:string>
           </dia:attribute>
