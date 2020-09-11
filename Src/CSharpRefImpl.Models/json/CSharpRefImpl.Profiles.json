@@ -1,10 +1,10 @@
 {
   "documentation": "Top-level model in C# Reference implementation that contains\nall of the shared types at the meta-model level.\n\nThis model is not intended to be generated. If generated,\nshould not produce any output.\n\nYou should be able to reference this model from any technical\nspace; keep it technical space agnostic.\n",
   "tagged_values": {
-    "masd.injection.dia.comment": "true",
-    "masd.injection.model_modules": "CSharpRefImpl.Profiles",
-    "masd.injection.input_technical_space": "agnostic",
-    "masd.injection.is_proxy_model": "true",
+    "masd.codec.dia.comment": "true",
+    "masd.codec.model_modules": "CSharpRefImpl.Profiles",
+    "masd.codec.input_technical_space": "agnostic",
+    "masd.codec.is_proxy_model": "true",
     "masd.cpp.enabled": "false",
     "masd.csharp.enabled": "false"
   },

@@ -269,17 +269,17 @@
           <dia:attribute name="string">
             <dia:string>#This model tests all settings related to paths and file names.
 
-#DOGEN masd.injection.dia.comment=true
-#DOGEN masd.injection.model_modules=CSharpRefImpl.DirectorySettings
-#DOGEN masd.injection.reference=csharp.builtins
-#DOGEN masd.injection.reference=csharp.system.collections.generic
-#DOGEN masd.injection.reference=csharp.system.collections
-#DOGEN masd.injection.reference=csharp.system
-#DOGEN masd.injection.reference=masd
-#DOGEN masd.injection.reference=masd.lam
-#DOGEN masd.injection.reference=CSharpRefImpl.Profiles
+#DOGEN masd.codec.dia.comment=true
+#DOGEN masd.codec.model_modules=CSharpRefImpl.DirectorySettings
+#DOGEN masd.codec.reference=csharp.builtins
+#DOGEN masd.codec.reference=csharp.system.collections.generic
+#DOGEN masd.codec.reference=csharp.system.collections
+#DOGEN masd.codec.reference=csharp.system
+#DOGEN masd.codec.reference=masd
+#DOGEN masd.codec.reference=masd.lam
+#DOGEN masd.codec.reference=CSharpRefImpl.Profiles
 #DOGEN masd.variability.profile=CSharpRefImpl.Profiles.Base.DefaultProfile
-#DOGEN masd.injection.input_technical_space=agnostic
+#DOGEN masd.codec.input_technical_space=agnostic
 #DOGEN masd.physical.delete_extra_files=true
 #DOGEN masd.physical.output_technical_space=csharp
 #DOGEN masd.csharp.enabled=true
