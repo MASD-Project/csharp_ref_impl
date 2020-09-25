@@ -15,7 +15,7 @@
     "masd.physical.delete_extra_files": "true",
     "masd.physical.output_technical_space": "csharp",
     "masd.csharp.enabled": "true",
-    "masd.csharp.directory": "csharp_backend",
+    "masd.csharp.directory_name": "csharp_backend",
     "masd.csharp.test_data.directory_name": "TestDataDir",
     "masd.csharp.test_data.postfix": "the_TestData",
     "masd.csharp.test_data.class.postfix": "1_0_0",

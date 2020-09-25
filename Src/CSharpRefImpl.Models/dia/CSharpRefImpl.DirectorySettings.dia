@@ -283,7 +283,7 @@
 #DOGEN masd.physical.delete_extra_files=true
 #DOGEN masd.physical.output_technical_space=csharp
 #DOGEN masd.csharp.enabled=true
-#DOGEN masd.csharp.directory=csharp_backend
+#DOGEN masd.csharp.directory_name=csharp_backend
 #DOGEN masd.csharp.test_data.directory_name=TestDataDir
 #DOGEN masd.csharp.test_data.postfix=the_TestData
 #DOGEN masd.csharp.test_data.class.postfix=1_0_0
