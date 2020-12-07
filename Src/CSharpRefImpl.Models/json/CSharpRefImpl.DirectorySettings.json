@@ -14,6 +14,8 @@
     "masd.codec.reference": "CSharpRefImpl.Profiles",
     "masd.physical.delete_extra_files": "true",
     "masd.physical.output_technical_space": "csharp",
+    "masd.physical.enable_backend_directories": "true",
+    "masd.cpp.enabled": "false",
     "masd.csharp.enabled": "true",
     "masd.csharp.directory_name": "csharp_backend",
     "masd.csharp.test_data.directory_name": "TestDataDir",
