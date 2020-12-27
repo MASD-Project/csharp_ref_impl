@@ -1,0 +1,127 @@
+#+title: CSharpRefImpl.Profiles
+#+options: <:nil c:nil todo:nil ^:nil d:nil date:nil author:nil
+:PROPERTIES:
+:masd.codec.dia.comment: true
+:masd.codec.model_modules: CSharpRefImpl.Profiles
+:masd.codec.input_technical_space: agnostic
+:masd.codec.is_proxy_model: true
+:masd.cpp.enabled: false
+:masd.csharp.enabled: false
+:END:
+
+Top-level model in C# Reference implementation that contains
+all of the shared types at the meta-model level.
+
+This model is not intended to be generated. If generated,
+should not produce any output.
+
+You should be able to reference this model from any technical
+space; keep it technical space agnostic.
+
+* Base                                                          :masd_module:
+** Decoration                                                  :masd_element:
+   :PROPERTIES:
+   :masd.variability.binding_point: global
+   :masd.variability.key_prefix: masd.decoration
+   :masd.codec.stereotypes: masd::variability::profile
+   :END:
+
+Top-level configuration for C# Reference Model.
+
+*** enabled                                                  :masd_attribute:
+    :PROPERTIES:
+    :masd.codec.value: true
+    :END:
+*** licence_name                                             :masd_attribute:
+    :PROPERTIES:
+    :masd.codec.value: masd.gpl_v3
+    :END:
+*** modeline_group_name                                      :masd_attribute:
+    :PROPERTIES:
+    :masd.codec.value: masd.emacs
+    :END:
+*** copyright_notice                                         :masd_attribute:
+    :PROPERTIES:
+    :masd.variability.value: Copyright (C) 2012-2015 Marco Craveiro <marco.craveiro@gmail.com>
+    :END:
+** DefaultProfile                                              :masd_element:
+   :PROPERTIES:
+   :masd.variability.binding_point: global
+   :masd.codec.parent: Base::Decoration
+   :masd.codec.stereotypes: masd::variability::profile
+   :END:
+
+Variability profile for a typical C# reference model.
+
+** DisableAllFacets                                            :masd_element:
+   :PROPERTIES:
+   :masd.codec.parent: Base::Decoration
+   :masd.codec.stereotypes: masd::variability::profile_template
+   :END:
+*** enabled                                                  :masd_attribute:
+    :PROPERTIES:
+    :masd.variability.instantiation_domain_name: masd.facet
+    :masd.codec.value: false
+    :END:
+* Composable                                                    :masd_module:
+** Handcrafted                                                 :masd_element:
+   :PROPERTIES:
+   :masd.codec.stereotypes: masd::variability::profile
+   :END:
+*** masd.variability.profile                                 :masd_attribute:
+    :PROPERTIES:
+    :masd.codec.value: CSharpRefImpl.Profiles.Base.DisableAllFacets
+    :END:
+** HandcraftedTypeable                                         :masd_element:
+   :PROPERTIES:
+   :masd.variability.binding_point: element
+   :masd.variability.stereotype: CSharpRefImpl::Handcrafted::Typeable
+   :masd.variability.key_prefix: masd.csharp.types
+   :masd.codec.parent: Composable::Handcrafted
+   :masd.codec.stereotypes: masd::variability::profile
+   :END:
+
+Configuration for model elements that are generated manually by the user.
+
+*** enabled                                                  :masd_attribute:
+    :PROPERTIES:
+    :masd.codec.value: true
+    :END:
+*** overwrite                                                :masd_attribute:
+    :PROPERTIES:
+    :masd.codec.value: false
+    :END:
+* Basic                                                        :masd_element:
+  :PROPERTIES:
+  :masd.codec.stereotypes: masd::decoration::generation_marker
+  :END:
+** add_date_time                                             :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.value: false
+   :END:
+** add_warning                                               :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.value: true
+   :END:
+** add_dogen_version                                         :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.value: true
+   :END:
+** message                                                   :masd_attribute:
+This is a code-generated file.
+
+* Verbose                                                      :masd_element:
+  :PROPERTIES:
+  :masd.codec.stereotypes: masd::decoration::generation_marker
+  :END:
+** add_date_time                                             :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.value: true
+   :END:
+** add_warning                                               :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.value: true
+   :END:
+** message                                                   :masd_attribute:
+This is a code-generated file.
+

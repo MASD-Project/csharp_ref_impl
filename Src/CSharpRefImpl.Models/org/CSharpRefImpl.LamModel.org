@@ -1,0 +1,88 @@
+#+title: CSharpRefImpl.LamModel
+#+options: <:nil c:nil todo:nil ^:nil d:nil date:nil author:nil
+:PROPERTIES:
+:masd.codec.dia.comment: true
+:masd.codec.model_modules: CSharpRefImpl.LamModel
+:masd.codec.input_technical_space: agnostic
+:masd.codec.reference: csharp.builtins
+:masd.codec.reference: csharp.system.collections.generic
+:masd.codec.reference: csharp.system.collections
+:masd.codec.reference: csharp.system
+:masd.codec.reference: masd
+:masd.codec.reference: masd.lam
+:masd.codec.reference: CSharpRefImpl.Profiles
+:masd.physical.delete_extra_files: true
+:masd.physical.output_technical_space: csharp
+:masd.physical.enable_backend_directories: true
+:masd.csharp.enabled: true
+:masd.cpp.enabled: false
+:masd.variability.profile: CSharpRefImpl.Profiles.Base.DefaultProfile
+:masd.decoration.marker_name: CSharpRefImpl.Profiles.Basic
+:END:
+* Package1                                                      :masd_module:
+** ClassInPackage                                              :masd_element:
+*** Prop0                                                    :masd_attribute:
+    :PROPERTIES:
+    :masd.codec.type: masd::lam::numeric::integer
+    :END:
+* Builtins                                                     :masd_element:
+** Prop0                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::text::character
+   :END:
+** Prop1                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::core::byte
+   :END:
+** Prop2                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::numeric::integer8
+   :END:
+** Prop3                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::numeric::integer16
+   :END:
+** Prop4                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::numeric::integer32
+   :END:
+** Prop5                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::numeric::integer64
+   :END:
+** Prop6                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::numeric::integer
+   :END:
+** Prop7                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::numeric::single_float
+   :END:
+** Prop8                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::numeric::double_float
+   :END:
+** Prop9                                                     :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.type: masd::lam::core::boolean
+   :END:
+* project                                                      :masd_element:
+  :PROPERTIES:
+  :masd.codec.stereotypes: masd::visual_studio::project
+  :END:
+** guid                                                      :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.value: 1E645ACD-C04A-4734-AB23-C3FCC0F7981B
+   :END:
+* solution                                                     :masd_element:
+  :PROPERTIES:
+  :masd.codec.stereotypes: masd::visual_studio::solution
+  :END:
+** guid                                                      :masd_attribute:
+   :PROPERTIES:
+   :masd.codec.value: HAE04EC0-301F-11D3-BF4B-00C04F79EFBC
+   :END:
+* Assistant                                                    :masd_element:
+  :PROPERTIES:
+  :masd.codec.stereotypes: masd::assistant
+  :END:
