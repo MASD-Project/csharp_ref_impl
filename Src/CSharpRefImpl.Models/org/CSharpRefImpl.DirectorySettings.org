@@ -1,5 +1,6 @@
 #+title: CSharpRefImpl.DirectorySettings
 #+options: <:nil c:nil todo:nil ^:nil d:nil date:nil author:nil
+#+tags: { element(e) attribute(a) module(m) }
 :PROPERTIES:
 :masd.codec.dia.comment: true
 :masd.codec.model_modules: CSharpRefImpl.DirectorySettings
@@ -39,40 +40,40 @@
 
 This model tests all settings related to paths and file names.
 
-* Package00                                                     :masd_module:
-** Class1                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+* Package00                                                          :module:
+** Class1                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: masd::lam::numeric::integer
     :END:
-** Package01                                                    :masd_module:
-*** Class2                                                     :masd_element:
-**** Prop0                                                   :masd_attribute:
+** Package01                                                         :module:
+*** Class2                                                          :element:
+**** Prop0                                                        :attribute:
      :PROPERTIES:
      :masd.codec.type: masd::lam::numeric::integer
      :END:
-* Class0                                                       :masd_element:
-** Prop0                                                     :masd_attribute:
+* Class0                                                            :element:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::integer
    :END:
-* project                                                      :masd_element:
+* project                                                           :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::visual_studio::project
   :END:
-** guid                                                      :masd_attribute:
+** guid                                                           :attribute:
    :PROPERTIES:
    :masd.codec.value: 0E645ACD-C04A-4734-AB23-C3FCC0F7981B
    :END:
-* solution                                                     :masd_element:
+* solution                                                          :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::visual_studio::solution
   :END:
-** guid                                                      :masd_attribute:
+** guid                                                           :attribute:
    :PROPERTIES:
    :masd.codec.value: GAE04EC0-301F-11D3-BF4B-00C04F79EFBC
    :END:
-* Assistant                                                    :masd_element:
+* Assistant                                                         :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::assistant
   :END:

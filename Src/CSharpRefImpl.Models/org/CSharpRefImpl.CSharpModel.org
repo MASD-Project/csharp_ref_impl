@@ -1,5 +1,6 @@
 #+title: CSharpRefImpl.CSharpModel
 #+options: <:nil c:nil todo:nil ^:nil d:nil date:nil author:nil
+#+tags: { element(e) attribute(a) module(m) }
 :PROPERTIES:
 :masd.codec.dia.comment: true
 :masd.codec.model_modules: CSharpRefImpl.CSharpModel
@@ -15,20 +16,20 @@
 :masd.cpp.enabled: false
 :masd.variability.profile: CSharpRefImpl.Profiles.Base.DefaultProfile
 :END:
-* PrimitiveBuiltins                                            :masd_element:
+* PrimitiveBuiltins                                                 :element:
 
 This is a class made up of just built-in types.
 
 This is a remark.
 
-** ByteProperty                                              :masd_attribute:
+** ByteProperty                                                   :attribute:
    :PROPERTIES:
    :masd.codec.type: byte
    :END:
 
 A comment at property level.
 
-** ShortByteProperty                                         :masd_attribute:
+** ShortByteProperty                                              :attribute:
    :PROPERTIES:
    :masd.codec.type: sbyte
    :END:
@@ -37,94 +38,94 @@ A comment at property level.
 
 This is a remark.
 
-** IntProperty                                               :masd_attribute:
+** IntProperty                                                    :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-** UIntProperty                                              :masd_attribute:
+** UIntProperty                                                   :attribute:
    :PROPERTIES:
    :masd.codec.type: uint
    :END:
-** ShortProperty                                             :masd_attribute:
+** ShortProperty                                                  :attribute:
    :PROPERTIES:
    :masd.codec.type: short
    :END:
-** UShortProperty                                            :masd_attribute:
+** UShortProperty                                                 :attribute:
    :PROPERTIES:
    :masd.codec.type: ushort
    :END:
-** LongProperty                                              :masd_attribute:
+** LongProperty                                                   :attribute:
    :PROPERTIES:
    :masd.codec.type: long
    :END:
-** ULongProperty                                             :masd_attribute:
+** ULongProperty                                                  :attribute:
    :PROPERTIES:
    :masd.codec.type: ulong
    :END:
-** FloatPropertyOne                                          :masd_attribute:
+** FloatPropertyOne                                               :attribute:
    :PROPERTIES:
    :masd.codec.type: float
    :END:
-** FloatPropertyTwo                                          :masd_attribute:
+** FloatPropertyTwo                                               :attribute:
    :PROPERTIES:
    :masd.codec.type: float
    :END:
 
 Second float to ensure helpers are generated correctly.
 
-** DoublePropertyOne                                         :masd_attribute:
+** DoublePropertyOne                                              :attribute:
    :PROPERTIES:
    :masd.codec.type: double
    :END:
-** DoublePropertyTwo                                         :masd_attribute:
+** DoublePropertyTwo                                              :attribute:
    :PROPERTIES:
    :masd.codec.type: double
    :END:
 
 Second double to ensure helpers are generated correctly.
 
-** CharProperty                                              :masd_attribute:
+** CharProperty                                                   :attribute:
    :PROPERTIES:
    :masd.codec.type: char
    :END:
-** BoolProperty                                              :masd_attribute:
+** BoolProperty                                                   :attribute:
    :PROPERTIES:
    :masd.codec.type: bool
    :END:
-** DecimalProperty                                           :masd_attribute:
+** DecimalProperty                                                :attribute:
    :PROPERTIES:
    :masd.codec.type: decimal
    :END:
-* NoProperties                                                 :masd_element:
+* NoProperties                                                      :element:
 
 This class tests the use case of no properties
 
-* OneProperty                                                  :masd_element:
+* OneProperty                                                       :element:
 
 This class tests the use case of one property.
 
-** Property                                                  :masd_attribute:
+** Property                                                       :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
 
 Just the one property.
 
-* ComplexBuiltins                                              :masd_element:
+* ComplexBuiltins                                                   :element:
 
 This is a class made up of just complex builtin types.
 
 This is a remark.
 
-** ObjectProperty                                            :masd_attribute:
+** ObjectProperty                                                 :attribute:
    :PROPERTIES:
    :masd.codec.type: object
    :END:
-** StringProperty                                            :masd_attribute:
+** StringProperty                                                 :attribute:
    :PROPERTIES:
    :masd.codec.type: string
    :END:
-* BookTypes                                                    :masd_element:
+* BookTypes                                                         :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::enumeration
   :END:
@@ -133,373 +134,380 @@ this is a brief comment
 
 this is a long comment
 
-** Great                                                     :masd_attribute:
-** NotSoGreat                                                :masd_attribute:
-** Bad                                                       :masd_attribute:
-* ColourTypes                                                  :masd_element:
+** Great                                                          :attribute:
+** NotSoGreat                                                     :attribute:
+** Bad                                                            :attribute:
+* ColourTypes                                                       :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::enumeration
   :END:
-** Red                                                       :masd_attribute:
+** Red                                                            :attribute:
+
 this is colour red
 
-** Blue                                                      :masd_attribute:
+** Blue                                                           :attribute:
+
 this is blue
 
-** Green                                                     :masd_attribute:
-** Gray                                                      :masd_attribute:
+** Green                                                          :attribute:
+** Gray                                                           :attribute:
+
 another comment
 
-* Package1                                                      :masd_module:
-** Class1                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+* Package1                                                           :module:
+** Class1                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** Class2                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+** Class2                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** Class3                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+** Class3                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** Class4                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+** Class4                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** Class5                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+** Class5                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** ShapeTypes                                                  :masd_element:
+** ShapeTypes                                                       :element:
    :PROPERTIES:
    :masd.codec.stereotypes: masd::enumeration
    :END:
-*** Triangle                                                 :masd_attribute:
+*** Triangle                                                      :attribute:
+
 some comment
 
-*** Square                                                   :masd_attribute:
+*** Square                                                        :attribute:
+
 other comment
 
-*** Rectangle                                                :masd_attribute:
-*** Cube                                                     :masd_attribute:
+*** Rectangle                                                     :attribute:
+*** Cube                                                          :attribute:
+
 some comment
 
-** CatastrophicException                                       :masd_element:
+** CatastrophicException                                            :element:
    :PROPERTIES:
    :masd.codec.stereotypes: masd::exception
    :END:
-** AssociationInPackage                                        :masd_element:
-*** Prop0                                                    :masd_attribute:
+** AssociationInPackage                                             :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: PrimitiveBuiltins
     :END:
-*** Prop1                                                    :masd_attribute:
+*** Prop1                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: ComplexBuiltins
     :END:
-*** Prop2                                                    :masd_attribute:
+*** Prop2                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: Package1.Class1
     :END:
-* MyException                                                  :masd_element:
+* MyException                                                       :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::exception
   :END:
 
 this is an exception
 
-* Association                                                  :masd_element:
-** Prop0                                                     :masd_attribute:
+* Association                                                       :element:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
 
 Simple builtin association.
 
-** Prop1                                                     :masd_attribute:
+** Prop1                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: NoProperties
    :END:
 
 Association with a class that has no properties.
 
-** Prop2                                                     :masd_attribute:
+** Prop2                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: ColourTypes
    :END:
-* Base                                                         :masd_element:
-* Descendant2                                                  :masd_element:
+* Base                                                              :element:
+* Descendant2                                                       :element:
   :PROPERTIES:
   :masd.codec.parent: Base
   :END:
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* Descendant1                                                  :masd_element:
+* Descendant1                                                       :element:
   :PROPERTIES:
   :masd.codec.parent: Base
   :END:
-* Descendant3                                                  :masd_element:
+* Descendant3                                                       :element:
   :PROPERTIES:
   :masd.codec.parent: Descendant1
   :END:
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: bool
    :END:
-* NonSealedLeaf                                                :masd_element:
+* NonSealedLeaf                                                     :element:
   :PROPERTIES:
   :masd.generalization.is_final: false
   :masd.codec.parent: Descendant1
   :END:
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* NonFinalOrphan                                               :masd_element:
+* NonFinalOrphan                                                    :element:
   :PROPERTIES:
   :masd.generalization.is_final: false
   :END:
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* ParentWithMembers                                            :masd_element:
-** Prop0                                                     :masd_attribute:
+* ParentWithMembers                                                 :element:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* SecondChildWithoutMembers                                    :masd_element:
+* SecondChildWithoutMembers                                         :element:
   :PROPERTIES:
   :masd.codec.parent: ParentWithMembers
   :END:
-* ThirdChildWithMembers                                        :masd_element:
+* ThirdChildWithMembers                                             :element:
   :PROPERTIES:
   :masd.codec.parent: ParentWithMembers
   :END:
-** Prop1                                                     :masd_attribute:
+** Prop1                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* ChildOfAChild1                                               :masd_element:
+* ChildOfAChild1                                                    :element:
   :PROPERTIES:
   :masd.codec.parent: ThirdChildWithMembers
   :END:
-** Prop2                                                     :masd_attribute:
+** Prop2                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* ChildOfAChild2                                               :masd_element:
+* ChildOfAChild2                                                    :element:
   :PROPERTIES:
   :masd.codec.parent: ThirdChildWithMembers
   :END:
-** Prop2                                                     :masd_attribute:
+** Prop2                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* ChildViaSettings                                             :masd_element:
+* ChildViaSettings                                                  :element:
   :PROPERTIES:
   :masd.generalization.parent: ParentWithMembers
   :END:
-** Prop1                                                     :masd_attribute:
+** Prop1                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* Package2                                                      :masd_module:
-** Parent                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+* Package2                                                           :module:
+** Parent                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** Child                                                       :masd_element:
+** Child                                                            :element:
    :PROPERTIES:
    :masd.codec.parent: Package2::Parent
    :END:
-*** Prop1                                                    :masd_attribute:
+*** Prop1                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** ChildViaSettings                                            :masd_element:
+** ChildViaSettings                                                 :element:
    :PROPERTIES:
    :masd.generalization.parent: Package2.Parent
    :END:
-*** Prop1                                                    :masd_attribute:
+*** Prop1                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-* Package3                                                      :masd_module:
-** Parent                                                      :masd_element:
-*** Prop0                                                    :masd_attribute:
+* Package3                                                           :module:
+** Parent                                                           :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-* Package4                                                      :masd_module:
-** Child                                                       :masd_element:
+* Package4                                                           :module:
+** Child                                                            :element:
    :PROPERTIES:
    :masd.codec.parent: Package3::Parent
    :END:
-*** Prop1                                                    :masd_attribute:
+*** Prop1                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** ChildViaSettings                                            :masd_element:
+** ChildViaSettings                                                 :element:
    :PROPERTIES:
    :masd.generalization.parent: Package3.Parent
    :END:
-*** Prop1                                                    :masd_attribute:
+*** Prop1                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-* ParentOutside                                                :masd_element:
-** Prop0                                                     :masd_attribute:
+* ParentOutside                                                     :element:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
-* Package5                                                      :masd_module:
-** Child                                                       :masd_element:
+* Package5                                                           :module:
+** Child                                                            :element:
    :PROPERTIES:
    :masd.codec.parent: ParentOutside
    :END:
-*** Prop1                                                    :masd_attribute:
+*** Prop1                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-** ChildViaSettings                                            :masd_element:
+** ChildViaSettings                                                 :element:
    :PROPERTIES:
    :masd.generalization.parent: ParentOutside
    :END:
-*** Prop1                                                    :masd_attribute:
+*** Prop1                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
-* ImmutableZero                                                :masd_element:
+* ImmutableZero                                                     :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::immutable
   :END:
 
 Immutable class with no properties.
 
-* ImmutableOnePrimitive                                        :masd_element:
+* ImmutableOnePrimitive                                             :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::immutable
   :END:
 
 Immutable class with a builtin property.
 
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: bool
    :END:
-* ImmutableTwo                                                 :masd_element:
+* ImmutableTwo                                                      :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::immutable
   :END:
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: bool
    :END:
-** Prop1                                                     :masd_attribute:
+** Prop1                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: string
    :END:
-* ImmutableFour                                                :masd_element:
+* ImmutableFour                                                     :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::immutable
   :END:
 
 Immutable class with non-immutable and immutable elements as properties.
 
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: bool
    :END:
-** Prop1                                                     :masd_attribute:
+** Prop1                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: string
    :END:
-** Prop2                                                     :masd_attribute:
+** Prop2                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: ComplexBuiltins
    :END:
-** Prop3                                                     :masd_attribute:
+** Prop3                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: ImmutableOnePrimitive
    :END:
-* AllObjectCollections                                         :masd_element:
-** Prop0                                                     :masd_attribute:
+* AllObjectCollections                                              :element:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.ArrayList
    :END:
-** Prop1                                                     :masd_attribute:
+** Prop1                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.IEnumerable
    :END:
-** Prop2                                                     :masd_attribute:
+** Prop2                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.ICollection
    :END:
-** Prop3                                                     :masd_attribute:
+** Prop3                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.IList
    :END:
-** Prop4                                                     :masd_attribute:
+** Prop4                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.Hashtable
    :END:
-** Prop5                                                     :masd_attribute:
+** Prop5                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.IDictionary
    :END:
-** Prop6                                                     :masd_attribute:
+** Prop6                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.Specialized.HybridDictionary
    :END:
-** Prop7                                                     :masd_attribute:
+** Prop7                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.Specialized.NameValueCollection
    :END:
-** Prop8                                                     :masd_attribute:
+** Prop8                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.BitArray
    :END:
-** Prop9                                                     :masd_attribute:
+** Prop9                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.Queue
    :END:
-** Prop10                                                    :masd_attribute:
+** Prop10                                                         :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.Stack
    :END:
-** Prop11                                                    :masd_attribute:
+** Prop11                                                         :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.SortedList
    :END:
-* ShortEnum                                                    :masd_element:
+* ShortEnum                                                         :element:
   :PROPERTIES:
   :masd.enumeration.underlying_element: short
   :masd.codec.stereotypes: masd::enumeration
   :END:
-** AnEnumerator                                              :masd_attribute:
-** AnotherEnumerator                                         :masd_attribute:
-* TestAllKnobs                                                 :masd_element:
+** AnEnumerator                                                   :attribute:
+** AnotherEnumerator                                              :attribute:
+* TestAllKnobs                                                      :element:
   :PROPERTIES:
   :masd.enumeration.use_implementation_defined_underlying_element: true
   :masd.enumeration.use_implementation_defined_enumerator_values: true
   :masd.enumeration.add_invalid_enumerator: false
   :masd.codec.stereotypes: masd::enumeration
   :END:
-** AnEnumerator                                              :masd_attribute:
-** AnotherEnumerator                                         :masd_attribute:
+** AnEnumerator                                                   :attribute:
+** AnotherEnumerator                                              :attribute:
+
 A comment.
 
-* HexFlags                                                     :masd_element:
+* HexFlags                                                          :element:
   :PROPERTIES:
   :masd.enumeration.add_invalid_enumerator: false
   :masd.codec.stereotypes: masd::enumeration
@@ -507,27 +515,27 @@ A comment.
 
 This is an example of an enumeration using hex flags.
 
-** None                                                      :masd_attribute:
+** None                                                           :attribute:
    :PROPERTIES:
    :masd.enumerator.value: 0x00
    :END:
-** Top                                                       :masd_attribute:
+** Top                                                            :attribute:
    :PROPERTIES:
    :masd.enumerator.value: 0x01
    :END:
-** Bottom                                                    :masd_attribute:
+** Bottom                                                         :attribute:
    :PROPERTIES:
    :masd.enumerator.value: 0x02
    :END:
-** Left                                                      :masd_attribute:
+** Left                                                           :attribute:
    :PROPERTIES:
    :masd.enumerator.value: 0x04
    :END:
-** Right                                                     :masd_attribute:
+** Right                                                          :attribute:
    :PROPERTIES:
    :masd.enumerator.value: 0x08
    :END:
-* ShortPrimitive                                               :masd_element:
+* ShortPrimitive                                                    :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: short
   :masd.codec.stereotypes: masd::primitive
@@ -535,7 +543,7 @@ This is an example of an enumeration using hex flags.
 
 Test a primitive with an underlying short.
 
-* LongPrimitive                                                :masd_element:
+* LongPrimitive                                                     :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: long
   :masd.codec.stereotypes: masd::primitive
@@ -543,7 +551,7 @@ Test a primitive with an underlying short.
 
 Test a primitive with an underlying long.
 
-* IntPrimitive                                                 :masd_element:
+* IntPrimitive                                                      :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: int
   :masd.codec.stereotypes: masd::primitive
@@ -551,7 +559,7 @@ Test a primitive with an underlying long.
 
 Test a primitive with an underlying int.
 
-* CharPrimitive                                                :masd_element:
+* CharPrimitive                                                     :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: char
   :masd.codec.stereotypes: masd::primitive
@@ -559,7 +567,7 @@ Test a primitive with an underlying int.
 
 Test a primitive with an underlying char.
 
-* ULongPrimitive                                               :masd_element:
+* ULongPrimitive                                                    :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: ulong
   :masd.codec.stereotypes: masd::primitive
@@ -567,7 +575,7 @@ Test a primitive with an underlying char.
 
 Test a primitive with an underlying unsigned long.
 
-* UIntPrimitive                                                :masd_element:
+* UIntPrimitive                                                     :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: uint
   :masd.codec.stereotypes: masd::primitive
@@ -575,7 +583,7 @@ Test a primitive with an underlying unsigned long.
 
 Test a primitive with an underlying unsigned int.
 
-* UShortPrimitive                                              :masd_element:
+* UShortPrimitive                                                   :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: ushort
   :masd.codec.stereotypes: masd::primitive
@@ -583,7 +591,7 @@ Test a primitive with an underlying unsigned int.
 
 Test a primitive with an underlying unsgined short.
 
-* DoublePrimitive                                              :masd_element:
+* DoublePrimitive                                                   :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: double
   :masd.codec.stereotypes: masd::primitive
@@ -591,7 +599,7 @@ Test a primitive with an underlying unsgined short.
 
 Test a primitive with an underlying double.
 
-* FloatPrimitive                                               :masd_element:
+* FloatPrimitive                                                    :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: float
   :masd.codec.stereotypes: masd::primitive
@@ -599,7 +607,7 @@ Test a primitive with an underlying double.
 
 Test a primitive with an underlying float.
 
-* BoolPrimitive                                                :masd_element:
+* BoolPrimitive                                                     :element:
   :PROPERTIES:
   :masd.primitive.underlying_element: bool
   :masd.codec.stereotypes: masd::primitive
@@ -607,31 +615,31 @@ Test a primitive with an underlying float.
 
 Test a primitive with an underlying bool.
 
-* project                                                      :masd_element:
+* project                                                           :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::visual_studio::project
   :END:
-** guid                                                      :masd_attribute:
+** guid                                                           :attribute:
    :PROPERTIES:
    :masd.codec.value: 9E645ACD-C04A-4734-AB23-C3FCC0F7981B
    :END:
-* solution                                                     :masd_element:
+* solution                                                          :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::visual_studio::solution
   :END:
-** guid                                                      :masd_attribute:
+** guid                                                           :attribute:
    :PROPERTIES:
    :masd.codec.value: FAE04EC0-301F-11D3-BF4B-00C04F79EFBC
    :END:
-* Assistant                                                    :masd_element:
+* Assistant                                                         :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::assistant
   :END:
-* Handcrafted                                                  :masd_element:
+* Handcrafted                                                       :element:
   :PROPERTIES:
   :masd.codec.stereotypes: CSharpRefImpl::Handcrafted::Typeable
   :END:
-** Prop0                                                     :masd_attribute:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:

@@ -1,5 +1,6 @@
 #+title: CSharpRefImpl.LamModel
 #+options: <:nil c:nil todo:nil ^:nil d:nil date:nil author:nil
+#+tags: { element(e) attribute(a) module(m) }
 :PROPERTIES:
 :masd.codec.dia.comment: true
 :masd.codec.model_modules: CSharpRefImpl.LamModel
@@ -19,70 +20,70 @@
 :masd.variability.profile: CSharpRefImpl.Profiles.Base.DefaultProfile
 :masd.decoration.marker_name: CSharpRefImpl.Profiles.Basic
 :END:
-* Package1                                                      :masd_module:
-** ClassInPackage                                              :masd_element:
-*** Prop0                                                    :masd_attribute:
+* Package1                                                           :module:
+** ClassInPackage                                                   :element:
+*** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: masd::lam::numeric::integer
     :END:
-* Builtins                                                     :masd_element:
-** Prop0                                                     :masd_attribute:
+* Builtins                                                          :element:
+** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::text::character
    :END:
-** Prop1                                                     :masd_attribute:
+** Prop1                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::core::byte
    :END:
-** Prop2                                                     :masd_attribute:
+** Prop2                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::integer8
    :END:
-** Prop3                                                     :masd_attribute:
+** Prop3                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::integer16
    :END:
-** Prop4                                                     :masd_attribute:
+** Prop4                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::integer32
    :END:
-** Prop5                                                     :masd_attribute:
+** Prop5                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::integer64
    :END:
-** Prop6                                                     :masd_attribute:
+** Prop6                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::integer
    :END:
-** Prop7                                                     :masd_attribute:
+** Prop7                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::single_float
    :END:
-** Prop8                                                     :masd_attribute:
+** Prop8                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::numeric::double_float
    :END:
-** Prop9                                                     :masd_attribute:
+** Prop9                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::core::boolean
    :END:
-* project                                                      :masd_element:
+* project                                                           :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::visual_studio::project
   :END:
-** guid                                                      :masd_attribute:
+** guid                                                           :attribute:
    :PROPERTIES:
    :masd.codec.value: 1E645ACD-C04A-4734-AB23-C3FCC0F7981B
    :END:
-* solution                                                     :masd_element:
+* solution                                                          :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::visual_studio::solution
   :END:
-** guid                                                      :masd_attribute:
+** guid                                                           :attribute:
    :PROPERTIES:
    :masd.codec.value: HAE04EC0-301F-11D3-BF4B-00C04F79EFBC
    :END:
-* Assistant                                                    :masd_element:
+* Assistant                                                         :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::assistant
   :END:

@@ -1,5 +1,6 @@
 #+title: CSharpRefImpl.Profiles
 #+options: <:nil c:nil todo:nil ^:nil d:nil date:nil author:nil
+#+tags: { element(e) attribute(a) module(m) }
 :PROPERTIES:
 :masd.codec.dia.comment: true
 :masd.codec.model_modules: CSharpRefImpl.Profiles
@@ -18,8 +19,8 @@ should not produce any output.
 You should be able to reference this model from any technical
 space; keep it technical space agnostic.
 
-* Base                                                          :masd_module:
-** Decoration                                                  :masd_element:
+* Base                                                               :module:
+** Decoration                                                       :element:
    :PROPERTIES:
    :masd.variability.binding_point: global
    :masd.variability.key_prefix: masd.decoration
@@ -28,23 +29,23 @@ space; keep it technical space agnostic.
 
 Top-level configuration for C# Reference Model.
 
-*** enabled                                                  :masd_attribute:
+*** enabled                                                       :attribute:
     :PROPERTIES:
     :masd.codec.value: true
     :END:
-*** licence_name                                             :masd_attribute:
+*** licence_name                                                  :attribute:
     :PROPERTIES:
     :masd.codec.value: masd.gpl_v3
     :END:
-*** modeline_group_name                                      :masd_attribute:
+*** modeline_group_name                                           :attribute:
     :PROPERTIES:
     :masd.codec.value: masd.emacs
     :END:
-*** copyright_notice                                         :masd_attribute:
+*** copyright_notice                                              :attribute:
     :PROPERTIES:
     :masd.variability.value: Copyright (C) 2012-2015 Marco Craveiro <marco.craveiro@gmail.com>
     :END:
-** DefaultProfile                                              :masd_element:
+** DefaultProfile                                                   :element:
    :PROPERTIES:
    :masd.variability.binding_point: global
    :masd.codec.parent: Base::Decoration
@@ -53,26 +54,26 @@ Top-level configuration for C# Reference Model.
 
 Variability profile for a typical C# reference model.
 
-** DisableAllFacets                                            :masd_element:
+** DisableAllFacets                                                 :element:
    :PROPERTIES:
    :masd.codec.parent: Base::Decoration
    :masd.codec.stereotypes: masd::variability::profile_template
    :END:
-*** enabled                                                  :masd_attribute:
+*** enabled                                                       :attribute:
     :PROPERTIES:
     :masd.variability.instantiation_domain_name: masd.facet
     :masd.codec.value: false
     :END:
-* Composable                                                    :masd_module:
-** Handcrafted                                                 :masd_element:
+* Composable                                                         :module:
+** Handcrafted                                                      :element:
    :PROPERTIES:
    :masd.codec.stereotypes: masd::variability::profile
    :END:
-*** masd.variability.profile                                 :masd_attribute:
+*** masd.variability.profile                                      :attribute:
     :PROPERTIES:
     :masd.codec.value: CSharpRefImpl.Profiles.Base.DisableAllFacets
     :END:
-** HandcraftedTypeable                                         :masd_element:
+** HandcraftedTypeable                                              :element:
    :PROPERTIES:
    :masd.variability.binding_point: element
    :masd.variability.stereotype: CSharpRefImpl::Handcrafted::Typeable
@@ -83,45 +84,47 @@ Variability profile for a typical C# reference model.
 
 Configuration for model elements that are generated manually by the user.
 
-*** enabled                                                  :masd_attribute:
+*** enabled                                                       :attribute:
     :PROPERTIES:
     :masd.codec.value: true
     :END:
-*** overwrite                                                :masd_attribute:
+*** overwrite                                                     :attribute:
     :PROPERTIES:
     :masd.codec.value: false
     :END:
-* Basic                                                        :masd_element:
+* Basic                                                             :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::decoration::generation_marker
   :END:
-** add_date_time                                             :masd_attribute:
+** add_date_time                                                  :attribute:
    :PROPERTIES:
    :masd.codec.value: false
    :END:
-** add_warning                                               :masd_attribute:
+** add_warning                                                    :attribute:
    :PROPERTIES:
    :masd.codec.value: true
    :END:
-** add_dogen_version                                         :masd_attribute:
+** add_dogen_version                                              :attribute:
    :PROPERTIES:
    :masd.codec.value: true
    :END:
-** message                                                   :masd_attribute:
+** message                                                        :attribute:
+
 This is a code-generated file.
 
-* Verbose                                                      :masd_element:
+* Verbose                                                           :element:
   :PROPERTIES:
   :masd.codec.stereotypes: masd::decoration::generation_marker
   :END:
-** add_date_time                                             :masd_attribute:
+** add_date_time                                                  :attribute:
    :PROPERTIES:
    :masd.codec.value: true
    :END:
-** add_warning                                               :masd_attribute:
+** add_warning                                                    :attribute:
    :PROPERTIES:
    :masd.codec.value: true
    :END:
-** message                                                   :masd_attribute:
+** message                                                        :attribute:
+
 This is a code-generated file.
 
