@@ -17,6 +17,9 @@
 :masd.variability.profile: CSharpRefImpl.Profiles.Base.DefaultProfile
 :END:
 * PrimitiveBuiltins                                                 :element:
+  :PROPERTIES:
+  :custom_id: O0
+  :END:
 
 This is a class made up of just built-in types.
 
@@ -97,10 +100,16 @@ Second double to ensure helpers are generated correctly.
    :masd.codec.type: decimal
    :END:
 * NoProperties                                                      :element:
+  :PROPERTIES:
+  :custom_id: O2
+  :END:
 
 This class tests the use case of no properties
 
 * OneProperty                                                       :element:
+  :PROPERTIES:
+  :custom_id: O3
+  :END:
 
 This class tests the use case of one property.
 
@@ -112,6 +121,9 @@ This class tests the use case of one property.
 Just the one property.
 
 * ComplexBuiltins                                                   :element:
+  :PROPERTIES:
+  :custom_id: O4
+  :END:
 
 This is a class made up of just complex builtin types.
 
@@ -127,6 +139,7 @@ This is a remark.
    :END:
 * BookTypes                                                         :element:
   :PROPERTIES:
+  :custom_id: O5
   :masd.codec.stereotypes: masd::enumeration
   :END:
 
@@ -139,6 +152,7 @@ this is a long comment
 ** Bad                                                            :attribute:
 * ColourTypes                                                       :element:
   :PROPERTIES:
+  :custom_id: O6
   :masd.codec.stereotypes: masd::enumeration
   :END:
 ** Red                                                            :attribute:
@@ -155,33 +169,52 @@ this is blue
 another comment
 
 * Package1                                                           :module:
+  :PROPERTIES:
+  :custom_id: O7
+  :END:
 ** Class1                                                           :element:
+   :PROPERTIES:
+   :custom_id: O8
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
 ** Class2                                                           :element:
+   :PROPERTIES:
+   :custom_id: O9
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
 ** Class3                                                           :element:
+   :PROPERTIES:
+   :custom_id: O10
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
 ** Class4                                                           :element:
+   :PROPERTIES:
+   :custom_id: O11
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
 ** Class5                                                           :element:
+   :PROPERTIES:
+   :custom_id: O12
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
 ** ShapeTypes                                                       :element:
    :PROPERTIES:
+   :custom_id: O13
    :masd.codec.stereotypes: masd::enumeration
    :END:
 *** Triangle                                                      :attribute:
@@ -199,9 +232,13 @@ some comment
 
 ** CatastrophicException                                            :element:
    :PROPERTIES:
+   :custom_id: O15
    :masd.codec.stereotypes: masd::exception
    :END:
 ** AssociationInPackage                                             :element:
+   :PROPERTIES:
+   :custom_id: O17
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: PrimitiveBuiltins
@@ -216,12 +253,16 @@ some comment
     :END:
 * MyException                                                       :element:
   :PROPERTIES:
+  :custom_id: O14
   :masd.codec.stereotypes: masd::exception
   :END:
 
 this is an exception
 
 * Association                                                       :element:
+  :PROPERTIES:
+  :custom_id: O16
+  :END:
 ** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
@@ -241,8 +282,12 @@ Association with a class that has no properties.
    :masd.codec.type: ColourTypes
    :END:
 * Base                                                              :element:
+  :PROPERTIES:
+  :custom_id: O18
+  :END:
 * Descendant2                                                       :element:
   :PROPERTIES:
+  :custom_id: O21
   :masd.codec.parent: Base
   :END:
 ** Prop0                                                          :attribute:
@@ -251,10 +296,12 @@ Association with a class that has no properties.
    :END:
 * Descendant1                                                       :element:
   :PROPERTIES:
+  :custom_id: O19
   :masd.codec.parent: Base
   :END:
 * Descendant3                                                       :element:
   :PROPERTIES:
+  :custom_id: O23
   :masd.codec.parent: Descendant1
   :END:
 ** Prop0                                                          :attribute:
@@ -263,6 +310,7 @@ Association with a class that has no properties.
    :END:
 * NonSealedLeaf                                                     :element:
   :PROPERTIES:
+  :custom_id: O25
   :masd.generalization.is_final: false
   :masd.codec.parent: Descendant1
   :END:
@@ -272,6 +320,7 @@ Association with a class that has no properties.
    :END:
 * NonFinalOrphan                                                    :element:
   :PROPERTIES:
+  :custom_id: O27
   :masd.generalization.is_final: false
   :END:
 ** Prop0                                                          :attribute:
@@ -279,16 +328,21 @@ Association with a class that has no properties.
    :masd.codec.type: int
    :END:
 * ParentWithMembers                                                 :element:
+  :PROPERTIES:
+  :custom_id: O28
+  :END:
 ** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
 * SecondChildWithoutMembers                                         :element:
   :PROPERTIES:
+  :custom_id: O29
   :masd.codec.parent: ParentWithMembers
   :END:
 * ThirdChildWithMembers                                             :element:
   :PROPERTIES:
+  :custom_id: O31
   :masd.codec.parent: ParentWithMembers
   :END:
 ** Prop1                                                          :attribute:
@@ -297,6 +351,7 @@ Association with a class that has no properties.
    :END:
 * ChildOfAChild1                                                    :element:
   :PROPERTIES:
+  :custom_id: O33
   :masd.codec.parent: ThirdChildWithMembers
   :END:
 ** Prop2                                                          :attribute:
@@ -305,6 +360,7 @@ Association with a class that has no properties.
    :END:
 * ChildOfAChild2                                                    :element:
   :PROPERTIES:
+  :custom_id: O34
   :masd.codec.parent: ThirdChildWithMembers
   :END:
 ** Prop2                                                          :attribute:
@@ -313,6 +369,7 @@ Association with a class that has no properties.
    :END:
 * ChildViaSettings                                                  :element:
   :PROPERTIES:
+  :custom_id: O37
   :masd.generalization.parent: ParentWithMembers
   :END:
 ** Prop1                                                          :attribute:
@@ -320,13 +377,20 @@ Association with a class that has no properties.
    :masd.codec.type: int
    :END:
 * Package2                                                           :module:
+  :PROPERTIES:
+  :custom_id: O38
+  :END:
 ** Parent                                                           :element:
+   :PROPERTIES:
+   :custom_id: O39
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
 ** Child                                                            :element:
    :PROPERTIES:
+   :custom_id: O41
    :masd.codec.parent: Package2::Parent
    :END:
 *** Prop1                                                         :attribute:
@@ -335,6 +399,7 @@ Association with a class that has no properties.
     :END:
 ** ChildViaSettings                                                 :element:
    :PROPERTIES:
+   :custom_id: O42
    :masd.generalization.parent: Package2.Parent
    :END:
 *** Prop1                                                         :attribute:
@@ -342,14 +407,24 @@ Association with a class that has no properties.
     :masd.codec.type: int
     :END:
 * Package3                                                           :module:
+  :PROPERTIES:
+  :custom_id: O43
+  :END:
 ** Parent                                                           :element:
+   :PROPERTIES:
+   :custom_id: O44
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: int
     :END:
 * Package4                                                           :module:
+  :PROPERTIES:
+  :custom_id: O45
+  :END:
 ** Child                                                            :element:
    :PROPERTIES:
+   :custom_id: O46
    :masd.codec.parent: Package3::Parent
    :END:
 *** Prop1                                                         :attribute:
@@ -358,6 +433,7 @@ Association with a class that has no properties.
     :END:
 ** ChildViaSettings                                                 :element:
    :PROPERTIES:
+   :custom_id: O48
    :masd.generalization.parent: Package3.Parent
    :END:
 *** Prop1                                                         :attribute:
@@ -365,13 +441,20 @@ Association with a class that has no properties.
     :masd.codec.type: int
     :END:
 * ParentOutside                                                     :element:
+  :PROPERTIES:
+  :custom_id: O49
+  :END:
 ** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: int
    :END:
 * Package5                                                           :module:
+  :PROPERTIES:
+  :custom_id: O50
+  :END:
 ** Child                                                            :element:
    :PROPERTIES:
+   :custom_id: O51
    :masd.codec.parent: ParentOutside
    :END:
 *** Prop1                                                         :attribute:
@@ -380,6 +463,7 @@ Association with a class that has no properties.
     :END:
 ** ChildViaSettings                                                 :element:
    :PROPERTIES:
+   :custom_id: O53
    :masd.generalization.parent: ParentOutside
    :END:
 *** Prop1                                                         :attribute:
@@ -388,6 +472,7 @@ Association with a class that has no properties.
     :END:
 * ImmutableZero                                                     :element:
   :PROPERTIES:
+  :custom_id: O54
   :masd.codec.stereotypes: masd::immutable
   :END:
 
@@ -395,6 +480,7 @@ Immutable class with no properties.
 
 * ImmutableOnePrimitive                                             :element:
   :PROPERTIES:
+  :custom_id: O55
   :masd.codec.stereotypes: masd::immutable
   :END:
 
@@ -406,6 +492,7 @@ Immutable class with a builtin property.
    :END:
 * ImmutableTwo                                                      :element:
   :PROPERTIES:
+  :custom_id: O56
   :masd.codec.stereotypes: masd::immutable
   :END:
 ** Prop0                                                          :attribute:
@@ -418,6 +505,7 @@ Immutable class with a builtin property.
    :END:
 * ImmutableFour                                                     :element:
   :PROPERTIES:
+  :custom_id: O57
   :masd.codec.stereotypes: masd::immutable
   :END:
 
@@ -440,6 +528,9 @@ Immutable class with non-immutable and immutable elements as properties.
    :masd.codec.type: ImmutableOnePrimitive
    :END:
 * AllObjectCollections                                              :element:
+  :PROPERTIES:
+  :custom_id: O58
+  :END:
 ** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: System.Collections.ArrayList
@@ -490,6 +581,7 @@ Immutable class with non-immutable and immutable elements as properties.
    :END:
 * ShortEnum                                                         :element:
   :PROPERTIES:
+  :custom_id: O59
   :masd.enumeration.underlying_element: short
   :masd.codec.stereotypes: masd::enumeration
   :END:
@@ -497,6 +589,7 @@ Immutable class with non-immutable and immutable elements as properties.
 ** AnotherEnumerator                                              :attribute:
 * TestAllKnobs                                                      :element:
   :PROPERTIES:
+  :custom_id: O60
   :masd.enumeration.use_implementation_defined_underlying_element: true
   :masd.enumeration.use_implementation_defined_enumerator_values: true
   :masd.enumeration.add_invalid_enumerator: false
@@ -509,6 +602,7 @@ A comment.
 
 * HexFlags                                                          :element:
   :PROPERTIES:
+  :custom_id: O61
   :masd.enumeration.add_invalid_enumerator: false
   :masd.codec.stereotypes: masd::enumeration
   :END:
@@ -537,6 +631,7 @@ This is an example of an enumeration using hex flags.
    :END:
 * ShortPrimitive                                                    :element:
   :PROPERTIES:
+  :custom_id: O62
   :masd.primitive.underlying_element: short
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -545,6 +640,7 @@ Test a primitive with an underlying short.
 
 * LongPrimitive                                                     :element:
   :PROPERTIES:
+  :custom_id: O63
   :masd.primitive.underlying_element: long
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -553,6 +649,7 @@ Test a primitive with an underlying long.
 
 * IntPrimitive                                                      :element:
   :PROPERTIES:
+  :custom_id: O64
   :masd.primitive.underlying_element: int
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -561,6 +658,7 @@ Test a primitive with an underlying int.
 
 * CharPrimitive                                                     :element:
   :PROPERTIES:
+  :custom_id: O65
   :masd.primitive.underlying_element: char
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -569,6 +667,7 @@ Test a primitive with an underlying char.
 
 * ULongPrimitive                                                    :element:
   :PROPERTIES:
+  :custom_id: O66
   :masd.primitive.underlying_element: ulong
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -577,6 +676,7 @@ Test a primitive with an underlying unsigned long.
 
 * UIntPrimitive                                                     :element:
   :PROPERTIES:
+  :custom_id: O67
   :masd.primitive.underlying_element: uint
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -585,6 +685,7 @@ Test a primitive with an underlying unsigned int.
 
 * UShortPrimitive                                                   :element:
   :PROPERTIES:
+  :custom_id: O68
   :masd.primitive.underlying_element: ushort
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -593,6 +694,7 @@ Test a primitive with an underlying unsgined short.
 
 * DoublePrimitive                                                   :element:
   :PROPERTIES:
+  :custom_id: O69
   :masd.primitive.underlying_element: double
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -601,6 +703,7 @@ Test a primitive with an underlying double.
 
 * FloatPrimitive                                                    :element:
   :PROPERTIES:
+  :custom_id: O70
   :masd.primitive.underlying_element: float
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -609,6 +712,7 @@ Test a primitive with an underlying float.
 
 * BoolPrimitive                                                     :element:
   :PROPERTIES:
+  :custom_id: O71
   :masd.primitive.underlying_element: bool
   :masd.codec.stereotypes: masd::primitive
   :END:
@@ -617,6 +721,7 @@ Test a primitive with an underlying bool.
 
 * project                                                           :element:
   :PROPERTIES:
+  :custom_id: O72
   :masd.codec.stereotypes: masd::visual_studio::project
   :END:
 ** guid                                                           :attribute:
@@ -625,6 +730,7 @@ Test a primitive with an underlying bool.
    :END:
 * solution                                                          :element:
   :PROPERTIES:
+  :custom_id: O73
   :masd.codec.stereotypes: masd::visual_studio::solution
   :END:
 ** guid                                                           :attribute:
@@ -633,10 +739,12 @@ Test a primitive with an underlying bool.
    :END:
 * Assistant                                                         :element:
   :PROPERTIES:
+  :custom_id: O74
   :masd.codec.stereotypes: masd::assistant
   :END:
 * Handcrafted                                                       :element:
   :PROPERTIES:
+  :custom_id: O75
   :masd.codec.stereotypes: CSharpRefImpl::Handcrafted::Typeable
   :END:
 ** Prop0                                                          :attribute:

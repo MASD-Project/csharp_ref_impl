@@ -20,8 +20,12 @@ You should be able to reference this model from any technical
 space; keep it technical space agnostic.
 
 * Base                                                               :module:
+  :PROPERTIES:
+  :custom_id: O1
+  :END:
 ** Decoration                                                       :element:
    :PROPERTIES:
+   :custom_id: O2
    :masd.variability.binding_point: global
    :masd.variability.key_prefix: masd.decoration
    :masd.codec.stereotypes: masd::variability::profile
@@ -47,6 +51,7 @@ Top-level configuration for C# Reference Model.
     :END:
 ** DefaultProfile                                                   :element:
    :PROPERTIES:
+   :custom_id: O3
    :masd.variability.binding_point: global
    :masd.codec.parent: Base::Decoration
    :masd.codec.stereotypes: masd::variability::profile
@@ -56,6 +61,7 @@ Variability profile for a typical C# reference model.
 
 ** DisableAllFacets                                                 :element:
    :PROPERTIES:
+   :custom_id: O8
    :masd.codec.parent: Base::Decoration
    :masd.codec.stereotypes: masd::variability::profile_template
    :END:
@@ -65,8 +71,12 @@ Variability profile for a typical C# reference model.
     :masd.codec.value: false
     :END:
 * Composable                                                         :module:
+  :PROPERTIES:
+  :custom_id: O5
+  :END:
 ** Handcrafted                                                      :element:
    :PROPERTIES:
+   :custom_id: O6
    :masd.codec.stereotypes: masd::variability::profile
    :END:
 *** masd.variability.profile                                      :attribute:
@@ -75,6 +85,7 @@ Variability profile for a typical C# reference model.
     :END:
 ** HandcraftedTypeable                                              :element:
    :PROPERTIES:
+   :custom_id: O7
    :masd.variability.binding_point: element
    :masd.variability.stereotype: CSharpRefImpl::Handcrafted::Typeable
    :masd.variability.key_prefix: masd.csharp.types
@@ -94,6 +105,7 @@ Configuration for model elements that are generated manually by the user.
     :END:
 * Basic                                                             :element:
   :PROPERTIES:
+  :custom_id: O11
   :masd.codec.stereotypes: masd::decoration::generation_marker
   :END:
 ** add_date_time                                                  :attribute:
@@ -114,6 +126,7 @@ This is a code-generated file.
 
 * Verbose                                                           :element:
   :PROPERTIES:
+  :custom_id: O12
   :masd.codec.stereotypes: masd::decoration::generation_marker
   :END:
 ** add_date_time                                                  :attribute:

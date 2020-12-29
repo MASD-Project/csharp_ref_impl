@@ -21,12 +21,21 @@
 :masd.decoration.marker_name: CSharpRefImpl.Profiles.Basic
 :END:
 * Package1                                                           :module:
+  :PROPERTIES:
+  :custom_id: O0
+  :END:
 ** ClassInPackage                                                   :element:
+   :PROPERTIES:
+   :custom_id: O1
+   :END:
 *** Prop0                                                         :attribute:
     :PROPERTIES:
     :masd.codec.type: masd::lam::numeric::integer
     :END:
 * Builtins                                                          :element:
+  :PROPERTIES:
+  :custom_id: O3
+  :END:
 ** Prop0                                                          :attribute:
    :PROPERTIES:
    :masd.codec.type: masd::lam::text::character
@@ -69,6 +78,7 @@
    :END:
 * project                                                           :element:
   :PROPERTIES:
+  :custom_id: O4
   :masd.codec.stereotypes: masd::visual_studio::project
   :END:
 ** guid                                                           :attribute:
@@ -77,6 +87,7 @@
    :END:
 * solution                                                          :element:
   :PROPERTIES:
+  :custom_id: O5
   :masd.codec.stereotypes: masd::visual_studio::solution
   :END:
 ** guid                                                           :attribute:
@@ -85,5 +96,6 @@
    :END:
 * Assistant                                                         :element:
   :PROPERTIES:
+  :custom_id: O6
   :masd.codec.stereotypes: masd::assistant
   :END:
