@@ -1,0 +1,35 @@
+name: Continuous Linux
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: ${{matrix.family}}
+    runs-on: ${{matrix.os}}-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        name: linux
+        include:
+          - name: linux
+            family: linux
+            os: ubuntu
+steps:
+  - uses: actions/checkout@v3
+
+  - name: Setup dotnet
+    uses: actions/setup-dotnet@v2
+    with:
+      dotnet-version: '6.0.x'
+  - run:
+      cd Src
+      dotnet build
+      dotnet test
