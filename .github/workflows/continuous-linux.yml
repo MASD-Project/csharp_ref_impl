@@ -12,16 +12,7 @@ on:
 
 jobs:
   build:
-    name: ${{matrix.family}}
-    runs-on: ${{matrix.os}}-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        name: linux
-        include:
-          - name: linux
-            family: linux
-            os: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
@@ -29,6 +20,10 @@ jobs:
         uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '6.0.x'
+
+      - name: Display .NET info
+        run: dotnet --info
+
       - run:
           cd Src
           dotnet build
