@@ -4,12 +4,8 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/MASD-Project/Lobby)
 [![Code Quality: C#](https://img.shields.io/lgtm/grade/csharp/g/MASD-Project/csharp_ref_impl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/MASD-Project/csharp_ref_impl/context:csharp)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5d998ea32f27479392c2c7b2309bd84a)](https://www.codacy.com/app/marco-craveiro/csharp_ref_impl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MASD-Project/csharp_ref_impl&amp;utm_campaign=Badge_Grade)
-[![Continuous Linux](https://github.com/MASD-Project/csharp_ref_impl
-/actions/workflows/continuous-linux.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl
-/actions/workflows/continuous-linux.yml)
-[![Continuous Windows](https://github.com/MASD-Project/csharp_ref_impl
-/actions/workflows/continuous-windows.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl
-/actions/workflows/continuous-windows.yml)
+[![Continuous Linux](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml)
+[![Continuous Windows](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml)
 [![codecov](https://codecov.io/gh/MASD-Project/csharp_ref_impl/branch/master/graph/badge.svg)](https://codecov.io/gh/MASD-Project/csharp_ref_impl)
 
 # MASD C# Reference Implementation
