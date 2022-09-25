@@ -1,46 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E645ACD-C04A-4734-AB23-C3FCC0F7981B}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>CSharpRefImpl.DirectorySettings</RootNamespace>
-    <AssemblyName>CSharpRefImpl.DirectorySettings</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="IoDir\Assistant2_0_1TheIo.cs" />
-    <Compile Include="IoDir\Class02_0_0TheIo.cs" />
-    <Compile Include="IoDir\Package00\Class12_0_0TheIo.cs" />
-    <Compile Include="IoDir\Package00\Package01\Class22_0_0TheIo.cs" />
-    <Compile Include="TestDataDir\Assistant1_0_1the_TestData.cs" />
-    <Compile Include="TestDataDir\Class01_0_0the_TestData.cs" />
-    <Compile Include="TestDataDir\Package00\Class11_0_0the_TestData.cs" />
-    <Compile Include="TestDataDir\Package00\Package01\Class21_0_0the_TestData.cs" />
-    <Compile Include="TtypesDir\Class01_1_0TheTypes.cs" />
-    <Compile Include="TtypesDir\Package00\Class11_1_0TheTypes.cs" />
-    <Compile Include="TtypesDir\Package00\Package01\Class21_1_0TheTypes.cs" />
-  </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -275,7 +275,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
             using (var lc = new LogConfigurator(FixtureName))
             {
                 /*
-                 * Two instances of the same descendant with the same values are equal.  
+                 * Two instances of the same descendant with the same values are equal.
                  */
                 var en = ChildOfAChild1SequenceGenerator.Sequence().GetEnumerator();
                 var a = en.Current;
@@ -289,7 +289,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
                 Assert.That(a != b, Is.False);
 
                 /*
-                 * Two instances of the same descendant with different values are equal.  
+                 * Two instances of the same descendant with different values are equal.
                  */
                 en.MoveNext();
                 var c = en.Current;
@@ -305,7 +305,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
                 /*
                  * Two instances of the same type with only one different property, inherited
-                 * from the base class, are not equal. 
+                 * from the base class, are not equal.
                 */
                 var e = ChildOfAChild1SequenceGenerator.Sequence().GetEnumerator().Current;
                 var f = ChildOfAChild1SequenceGenerator.Sequence().GetEnumerator().Current;
@@ -321,7 +321,7 @@ namespace CSharpRefImpl.CSharpModel.Tests
 
                 /*
                  * Two instances of the same type with only one different property, inherited
-                 * from the direct parent, are not equal. 
+                 * from the direct parent, are not equal.
                 */
                 var g = ChildOfAChild1SequenceGenerator.Sequence().GetEnumerator().Current;
                 var h = ChildOfAChild1SequenceGenerator.Sequence().GetEnumerator().Current;
