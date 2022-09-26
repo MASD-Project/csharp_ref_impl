@@ -4,7 +4,7 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/MASD-Project/Lobby)
 [![Continuous Linux](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml)
 [![Continuous Windows](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml)
-[![Continuous MacOS](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-macos.yml)
+[![Continuous MacOS](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-macos.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-macos.yml)
 
 # MASD C# Reference Implementation
 

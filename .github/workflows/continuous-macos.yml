@@ -1,4 +1,4 @@
-name: Continuous Linux
+name: Continuous MacOS
 
 on:
   push:
