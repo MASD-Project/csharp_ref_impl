@@ -5,6 +5,8 @@
 [![Continuous Linux](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml)
 [![Continuous Windows](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml)
 [![Continuous MacOS](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-macos.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-macos.yml)
+[![.NET Version](https://img.shields.io/badge/dotnet%20version-net6.0-blue)](
+https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.9/6.0.9.md?WT.mc_id=dotnet-35129-website)
 
 # MASD C# Reference Implementation
 
