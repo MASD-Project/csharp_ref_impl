@@ -1,0 +1,71 @@
+@startuml
+set namespaceSeparator ::
+note as N1
+Top-level model in C# Reference implementation that contains
+all of the shared types at the meta-model level.
+
+This model is not intended to be generated. If generated,
+should not produce any output.
+
+You should be able to reference this model from any technical
+space; keep it technical space agnostic.
+end note
+
+namespace Base #F2F2F2 {
+    class Decoration <<masd::variability::profile>> #DDECEC {
+        +{field} enabled
+        +{field} licence_name
+        +{field} modeline_group_name
+        +{field} copyright_notice
+    }
+
+    note top of Decoration
+Top-level configuration for C# Reference Model.
+    end note
+
+    class DefaultProfile <<masd::variability::profile>> #DDECEC {
+    }
+
+    Base::Decoration <|-- Base::DefaultProfile
+    note top of DefaultProfile
+Variability profile for a typical C# reference model.
+    end note
+
+    class DisableAllFacets <<masd::variability::profile_template>> #DDECEC {
+        +{field} enabled
+    }
+
+    Base::Decoration <|-- Base::DisableAllFacets
+}
+
+namespace Composable #F2F2F2 {
+    class Handcrafted <<masd::variability::profile>> #DDECEC {
+        +{field} masd.variability.profile
+    }
+
+    class HandcraftedTypeable <<masd::variability::profile>> #DDECEC {
+        +{field} enabled
+        +{field} overwrite
+    }
+
+    Composable::Handcrafted <|-- Composable::HandcraftedTypeable
+    note top of HandcraftedTypeable
+Configuration for model elements that are generated manually by the user.
+    end note
+
+}
+
+class Basic <<masd::decoration::generation_marker>> #E8D0C5 {
+    +{field} add_date_time
+    +{field} add_warning
+    +{field} add_dogen_version
+    +{field} message
+}
+
+class Verbose <<masd::decoration::generation_marker>> #E8D0C5 {
+    +{field} add_date_time
+    +{field} add_warning
+    +{field} message
+}
+
+@enduml

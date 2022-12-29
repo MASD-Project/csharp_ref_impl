@@ -1,0 +1,381 @@
+@startuml
+set namespaceSeparator ::
+class PrimitiveBuiltins #F7E5FF {
+    +{field} ByteProperty byte
+    +{field} ShortByteProperty sbyte
+    +{field} IntProperty int
+    +{field} UIntProperty uint
+    +{field} ShortProperty short
+    +{field} UShortProperty ushort
+    +{field} LongProperty long
+    +{field} ULongProperty ulong
+    +{field} FloatPropertyOne float
+    +{field} FloatPropertyTwo float
+    +{field} DoublePropertyOne double
+    +{field} DoublePropertyTwo double
+    +{field} CharProperty char
+    +{field} BoolProperty bool
+    +{field} DecimalProperty decimal
+}
+
+note top of PrimitiveBuiltins
+This is a class made up of just built-in types.
+
+This is a remark.
+end note
+
+class NoProperties #F7E5FF {
+}
+
+note top of NoProperties
+This class tests the use case of no properties
+end note
+
+class OneProperty #F7E5FF {
+    +{field} Property int
+}
+
+note top of OneProperty
+This class tests the use case of one property.
+end note
+
+class ComplexBuiltins #F7E5FF {
+    +{field} ObjectProperty object
+    +{field} StringProperty string
+}
+
+note top of ComplexBuiltins
+This is a class made up of just complex builtin types.
+
+This is a remark.
+end note
+
+enum BookTypes <<masd::enumeration>> #F2DAFD {
+    +{field} Great
+    +{field} NotSoGreat
+    +{field} Bad
+}
+
+note top of BookTypes
+this is a brief comment
+
+this is a long comment
+end note
+
+enum ColourTypes <<masd::enumeration>> #F2DAFD {
+    +{field} Red
+    +{field} Blue
+    +{field} Green
+    +{field} Gray
+}
+
+namespace Package1 #F2F2F2 {
+    class Class1 #F7E5FF {
+        +{field} Prop0 int
+    }
+
+    class Class2 #F7E5FF {
+        +{field} Prop0 int
+    }
+
+    class Class3 #F7E5FF {
+        +{field} Prop0 int
+    }
+
+    class Class4 #F7E5FF {
+        +{field} Prop0 int
+    }
+
+    class Class5 #F7E5FF {
+        +{field} Prop0 int
+    }
+
+    enum ShapeTypes <<masd::enumeration>> #F2DAFD {
+        +{field} Triangle
+        +{field} Square
+        +{field} Rectangle
+        +{field} Cube
+    }
+
+    class CatastrophicException <<masd::exception>> #E8C2F8 {
+    }
+
+    class AssociationInPackage #F7E5FF {
+        +{field} Prop0 PrimitiveBuiltins
+        +{field} Prop1 ComplexBuiltins
+        +{field} Prop2 Package1.Class1
+    }
+
+}
+
+class MyException <<masd::exception>> #E8C2F8 {
+}
+
+note top of MyException
+this is an exception
+end note
+
+class Association #F7E5FF {
+    +{field} Prop0 int
+    +{field} Prop1 NoProperties
+    +{field} Prop2 ColourTypes
+}
+
+class Base #F7E5FF {
+}
+
+class Descendant2 #F7E5FF {
+    +{field} Prop0 int
+}
+
+Base <|-- Descendant2
+class Descendant1 #F7E5FF {
+}
+
+Base <|-- Descendant1
+class Descendant3 #F7E5FF {
+    +{field} Prop0 bool
+}
+
+Descendant1 <|-- Descendant3
+class NonSealedLeaf #F7E5FF {
+    +{field} Prop0 int
+}
+
+Descendant1 <|-- NonSealedLeaf
+class NonFinalOrphan #F7E5FF {
+    +{field} Prop0 int
+}
+
+class ParentWithMembers #F7E5FF {
+    +{field} Prop0 int
+}
+
+class SecondChildWithoutMembers #F7E5FF {
+}
+
+ParentWithMembers <|-- SecondChildWithoutMembers
+class ThirdChildWithMembers #F7E5FF {
+    +{field} Prop1 int
+}
+
+ParentWithMembers <|-- ThirdChildWithMembers
+class ChildOfAChild1 #F7E5FF {
+    +{field} Prop2 int
+}
+
+ThirdChildWithMembers <|-- ChildOfAChild1
+class ChildOfAChild2 #F7E5FF {
+    +{field} Prop2 int
+}
+
+ThirdChildWithMembers <|-- ChildOfAChild2
+class ChildViaSettings #F7E5FF {
+    +{field} Prop1 int
+}
+
+namespace Package2 #F2F2F2 {
+    class Parent #F7E5FF {
+        +{field} Prop0 int
+    }
+
+    class Child #F7E5FF {
+        +{field} Prop1 int
+    }
+
+    Package2::Parent <|-- Package2::Child
+    class ChildViaSettings #F7E5FF {
+        +{field} Prop1 int
+    }
+
+}
+
+namespace Package3 #F2F2F2 {
+    class Parent #F7E5FF {
+        +{field} Prop0 int
+    }
+
+}
+
+namespace Package4 #F2F2F2 {
+    class Child #F7E5FF {
+        +{field} Prop1 int
+    }
+
+    Package3::Parent <|-- Package4::Child
+    class ChildViaSettings #F7E5FF {
+        +{field} Prop1 int
+    }
+
+}
+
+class ParentOutside #F7E5FF {
+    +{field} Prop0 int
+}
+
+namespace Package5 #F2F2F2 {
+    class Child #F7E5FF {
+        +{field} Prop1 int
+    }
+
+    ParentOutside <|-- Package5::Child
+    class ChildViaSettings #F7E5FF {
+        +{field} Prop1 int
+    }
+
+}
+
+class ImmutableZero <<masd::immutable>> #F7E5FF {
+}
+
+note top of ImmutableZero
+Immutable class with no properties.
+end note
+
+class ImmutableOnePrimitive <<masd::immutable>> #F7E5FF {
+    +{field} Prop0 bool
+}
+
+note top of ImmutableOnePrimitive
+Immutable class with a builtin property.
+end note
+
+class ImmutableTwo <<masd::immutable>> #F7E5FF {
+    +{field} Prop0 bool
+    +{field} Prop1 string
+}
+
+class ImmutableFour <<masd::immutable>> #F7E5FF {
+    +{field} Prop0 bool
+    +{field} Prop1 string
+    +{field} Prop2 ComplexBuiltins
+    +{field} Prop3 ImmutableOnePrimitive
+}
+
+note top of ImmutableFour
+Immutable class with non-immutable and immutable elements as properties.
+end note
+
+class AllObjectCollections #F7E5FF {
+    +{field} Prop0 System.Collections.ArrayList
+    +{field} Prop1 System.Collections.IEnumerable
+    +{field} Prop2 System.Collections.ICollection
+    +{field} Prop3 System.Collections.IList
+    +{field} Prop4 System.Collections.Hashtable
+    +{field} Prop5 System.Collections.IDictionary
+    +{field} Prop6 System.Collections.Specialized.HybridDictionary
+    +{field} Prop7 System.Collections.Specialized.NameValueCollection
+    +{field} Prop8 System.Collections.BitArray
+    +{field} Prop9 System.Collections.Queue
+    +{field} Prop10 System.Collections.Stack
+    +{field} Prop11 System.Collections.SortedList
+}
+
+enum ShortEnum <<masd::enumeration>> #F2DAFD {
+    +{field} AnEnumerator
+    +{field} AnotherEnumerator
+}
+
+enum TestAllKnobs <<masd::enumeration>> #F2DAFD {
+    +{field} AnEnumerator
+    +{field} AnotherEnumerator
+}
+
+enum HexFlags <<masd::enumeration>> #F2DAFD {
+    +{field} None
+    +{field} Top
+    +{field} Bottom
+    +{field} Left
+    +{field} Right
+}
+
+note top of HexFlags
+This is an example of an enumeration using hex flags.
+end note
+
+class ShortPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of ShortPrimitive
+Test a primitive with an underlying short.
+end note
+
+class LongPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of LongPrimitive
+Test a primitive with an underlying long.
+end note
+
+class IntPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of IntPrimitive
+Test a primitive with an underlying int.
+end note
+
+class CharPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of CharPrimitive
+Test a primitive with an underlying char.
+end note
+
+class ULongPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of ULongPrimitive
+Test a primitive with an underlying unsigned long.
+end note
+
+class UIntPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of UIntPrimitive
+Test a primitive with an underlying unsigned int.
+end note
+
+class UShortPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of UShortPrimitive
+Test a primitive with an underlying unsgined short.
+end note
+
+class DoublePrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of DoublePrimitive
+Test a primitive with an underlying double.
+end note
+
+class FloatPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of FloatPrimitive
+Test a primitive with an underlying float.
+end note
+
+class BoolPrimitive <<masd::primitive>> #EDCEFB {
+}
+
+note top of BoolPrimitive
+Test a primitive with an underlying bool.
+end note
+
+class project <<masd::visual_studio::project>> #CCEECC {
+    +{field} guid
+}
+
+class solution <<masd::visual_studio::solution>> #E5FFE5 {
+    +{field} guid
+}
+
+class Assistant <<masd::assistant>> #D89EF1 {
+}
+
+class Handcrafted <<CSharpRefImpl::Handcrafted::Typeable>> #F7E5FF {
+    +{field} Prop0 int
+}
+
+@enduml

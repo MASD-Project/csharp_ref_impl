@@ -8,25 +8,15 @@
 #
 # Ensure we have the expected number of arguments.
 #
-if [ $# != 2 ]; then
-    echo "USAGE: FRONTEND DOGEN_BINARY" >&2
-    echo "Valid frontends: json, dia." >&2
+if [ $# != 1 ]; then
+    echo "USAGE: DOGEN_BINARY" >&2
     exit 0;
 fi
 
 #
 # Handle frontend argument.
 #
-frontend=$1;
-shift;
-if [ $frontend = "json" ]; then
-    echo "Using JSON frontend."
-elif [ $frontend = "dia" ]; then
-    echo "Using Dia frontend."
-else
-    echo "Invalid frontend: '${frontend}'." >&2
-    exit 1
-fi
+frontend="org";
 
 #
 # Handle dogen binary argument.

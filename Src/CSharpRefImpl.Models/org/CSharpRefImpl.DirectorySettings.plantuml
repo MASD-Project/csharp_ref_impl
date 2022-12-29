@@ -1,0 +1,36 @@
+@startuml
+set namespaceSeparator ::
+note as N1
+This model tests all settings related to paths and file names.
+end note
+
+namespace Package00 #F2F2F2 {
+    class Class1 #F7E5FF {
+        +{field} Prop0 masd::lam::numeric::integer
+    }
+
+    namespace Package00::Package01 #F2F2F2 {
+        class Class2 #F7E5FF {
+            +{field} Prop0 masd::lam::numeric::integer
+        }
+
+    }
+
+}
+
+class Class0 #F7E5FF {
+    +{field} Prop0 masd::lam::numeric::integer
+}
+
+class project <<masd::visual_studio::project>> #CCEECC {
+    +{field} guid
+}
+
+class solution <<masd::visual_studio::solution>> #E5FFE5 {
+    +{field} guid
+}
+
+class Assistant <<masd::assistant>> #D89EF1 {
+}
+
+@enduml
