@@ -10,25 +10,22 @@ https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.9/6.0.9.md?WT.mc_
 
 # MASD C# Reference Implementation
 
-This project contains the MASD C# Reference Implementation, generated
-using the [latest version of
-Dogen](https://github.com/MASD-Project/dogen/releases). The objective
-of a MASD reference implementation is to exercise all of the available
-functionality within Dogen and to unit test it to ensure it works as
-specified. The models used to generate the reference implementation
-are available under
-[Src/Models](https://github.com/MASD-Project/csharp_ref_impl/tree/master/Src/Models). As
-the objective of the reference implementation is to exercise Dogen as
-much as possible, the models are available in both Dia and JSON
-formats.
+This project contains the MASD C# Reference Implementation, generated using the
+[latest version of Dogen](https://github.com/MASD-Project/dogen/releases). The
+objective of a MASD reference implementation is to exercise all of the available
+functionality within Dogen and to unit test it to ensure it works as specified.
+The models used to generate the reference implementation are available under
+[Src/Models](https://github.com/MASD-Project/csharp_ref_impl/tree/master/Src/Models).
+As the objective of the reference implementation is to exercise Dogen as much as
+possible, the models are available in both Dia and JSON formats.
 
-Please note that C# support in MASD still lags behind C++, so some
-functionality is not yet available.
+Please note that C# support in MASD still lags behind C++, so some functionality
+is not yet available.
 
 # Test Models
 
-The Reference Implementation is composed of a number of test
-models. These can be summarised as follows:
+The Reference Implementation is composed of a number of test models. These can
+be summarised as follows:
 
 | Name              | Description                                        |
 |-------------------|----------------------------------------------------|
@@ -38,9 +35,9 @@ models. These can be summarised as follows:
 
 # Reporting Problems
 
-If you have found any issues with the generated C# code, we ask you to
-please report it in order to make the code generator better. Examples
-of issues with the generated code:
+If you have found any issues with the generated C# code, we ask you to please
+report it in order to make the code generator better. Examples of issues with
+the generated code:
 
 - it may be using non-idiomatic C#, or following old idioms;
 - it may work, but you know of a better way of doing it;
