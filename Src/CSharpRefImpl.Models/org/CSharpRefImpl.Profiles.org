@@ -2,7 +2,6 @@
 #+options: <:nil c:nil todo:nil ^:nil d:nil date:nil author:nil
 #+tags: { element(e) attribute(a) module(m) }
 :PROPERTIES:
-:masd.codec.dia.comment: true
 :masd.codec.model_modules: CSharpRefImpl.Profiles
 :masd.codec.input_technical_space: agnostic
 :masd.codec.is_proxy_model: true
@@ -10,14 +9,14 @@
 :masd.csharp.enabled: false
 :END:
 
-Top-level model in C# Reference implementation that contains
-all of the shared types at the meta-model level.
+Top-level model in C# Reference implementation that contains all of the shared
+types at the meta-model level.
 
-This model is not intended to be generated. If generated,
-should not produce any output.
+This model is not intended to be generated. If generated, should not produce any
+output.
 
-You should be able to reference this model from any technical
-space; keep it technical space agnostic.
+You should be able to reference this model from any technical space; keep it
+technical space agnostic.
 
 * Base                                                               :module:
   :PROPERTIES:
@@ -140,4 +139,3 @@ This is a code-generated file.
 ** message                                                        :attribute:
 
 This is a code-generated file.
-
