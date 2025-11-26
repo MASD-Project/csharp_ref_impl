@@ -1,12 +1,23 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![Licence](https://img.shields.io/badge/license-GPL_3-green.svg?dummy)](https://raw.githubusercontent.com/MASD-Project/csharp_ref_impl/master/LICENCE)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMASD-Project%2Fcsharp_ref_impl?ref=badge_shield)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)](https://github.com/MASD-Project/csharp_ref_impl/pulse/monthly)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/MASD-Project/Lobby)
-[![Continuous Linux](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-linux.yml)
-[![Continuous Windows](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-windows.yml)
-[![Continuous MacOS](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-macos.yml/badge.svg)](https://github.com/MASD-Project/csharp_ref_impl/actions/workflows/continuous-macos.yml)
 [![.NET Version](https://img.shields.io/badge/dotnet%20version-net6.0-blue)](
 https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.9/6.0.9.md?WT.mc_id=dotnet-35129-website)
+
+# This project has been abandoned
+
+After many years of working on Dogen, I now feel this architecture has reached a
+dead-end. I am now working on a new architecture that takes forward the lessons
+learned with Dogen but is a significant break in the approach. You can find more
+details here:
+
+- [progen](https://github.com/MASD-Project/progen): The product generator.
+
+The remaining content of the repository is untouched and is left as is from is
+last release. A /memento mori/, if you'd like, for all the many years of joy we
+have spent working in the Dogen codebase.
 
 # MASD C# Reference Implementation
 
